@@ -1,7 +1,7 @@
 class_name StoryMonologues
 extends RefCounted
 
-## 第一关至第三关的全部内心独白。
+## 第一关至第四关的全部内心独白。
 ## 台词按剧情事件集中管理，关卡脚本只负责在正确时机调用 Monologue.play()。
 ## emotion 对应 monologue_overlay.gd 的 EMOTION_PORTRAITS：
 ## question / exclaim / anger / remorse / question_respawn。
@@ -67,4 +67,29 @@ const L3_ENTRY := [
 ## 按下红按钮、抽取机启动。
 const L3_EXTRACTOR := [
 	{"text": "感觉就像我的肌肉记忆。", "emotion": ""},
+]
+
+# ── 第四关：通信航天舱 ─────────────────────────────────────────
+
+## 每次进入第四关：注意到大屏幕上似乎有字。
+const L4_ENTRY := [
+	{"text": "？大屏幕上好像有字？", "emotion": "question"},
+]
+
+## 关闭主控终端界面后：屏幕上反复出现 925，引发头痛。
+const L4_AFTER_SCREEN := [
+	{"text": "925……为什么这么多？？头好疼啊", "emotion": "anger"},
+]
+
+## 头痛独白结束后，来自旧日船员记忆的上方旁白。
+const L4_ETERNAL_RECURRENCE := [
+	"船长，你听说过永恒轮回吗？",
+	"没错，尼采的那个。",
+	"我吗？我一定会说出再来一次！",
+	"能跟着你这样的天才工作这么多年，无限怎么会折磨呢？",
+]
+
+## 上方旁白结束后，主角自己的回应。
+const L4_ETERNAL_RECURRENCE_REPLY := [
+	{"text": "永恒轮回吗？我记得，但我忘记了我会怎么回答", "emotion": "question"},
 ]

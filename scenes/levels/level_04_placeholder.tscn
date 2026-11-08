@@ -1,12 +1,13 @@
-[gd_scene load_steps=8 format=3]
+[gd_scene load_steps=9 format=3]
 
-[ext_resource type="Script" path="res://scripts/levels/level_controller.gd" id="1_main"]
+[ext_resource type="Script" path="res://scripts/levels/level_04_placeholder.gd" id="1_main"]
 [ext_resource type="PackedScene" path="res://scenes/player.tscn" id="2_player"]
 [ext_resource type="Script" path="res://scripts/levels/whitebox_level.gd" id="3_world"]
 [ext_resource type="Script" path="res://scripts/camera_director.gd" id="4_camera"]
 [ext_resource type="PackedScene" path="res://scenes/task_panel.tscn" id="5_tasks"]
 [ext_resource type="PackedScene" path="res://scenes/hud_vitals.tscn" id="6_vitals"]
 [ext_resource type="Script" path="res://scripts/level_exit_trigger.gd" id="7_exit"]
+[ext_resource type="Script" path="res://scripts/levels/level_04_main_screen.gd" id="8_screen"]
 
 [node name="Level04Placeholder" type="Node2D"]
 process_mode = 3
@@ -28,6 +29,11 @@ show_return_marker = false
 exit_marker_y = 1200.0
 exit_label = "EXIT → LEVEL 05"
 return_label = "RETURN → LEVEL 03"
+
+[node name="MainScreen" type="Node2D" parent="Projection/World"]
+process_mode = 3
+position = Vector2(1467.95, 162.3)
+script = ExtResource("8_screen")
 
 [node name="Player" parent="Projection" instance=ExtResource("2_player")]
 process_mode = 1
@@ -52,14 +58,14 @@ trigger_size = Vector2(200, 280)
 
 [node name="CameraRig" type="Camera2D" parent="."]
 process_mode = 1
-zoom = Vector2(1.3, 1.3)
+zoom = Vector2(0.866667, 0.866667)
 limit_left = 0
 limit_top = 0
 limit_right = 4000
 limit_bottom = 1728
 script = ExtResource("4_camera")
 target_path = NodePath("../Projection/Player")
-base_zoom = 1.3
+base_zoom = 0.866667
 framing_offset = Vector2(0, -40)
 
 [node name="HUD" type="CanvasLayer" parent="."]

@@ -321,6 +321,7 @@ func _on_arm_hp_changed(_current: int, _maximum: int) -> void:
 
 func _on_arm_offline() -> void:
 	_arm_offline = true
+	MissionLog.complete_task("tr_arm")
 	player.set_weapon_disabled(false)
 	_emit_enemy_count()
 	_update_status()

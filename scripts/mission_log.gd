@@ -47,6 +47,7 @@ const CHAPTERS: Array = [
 		"title_en": "OVERRIDE",
 		"tasks": [
 			{"id": "tr_inspect", "cn": "去操作台查看机械臂状态", "en": "CHECK ARM STATUS AT THE CONSOLE"},
+			{"id": "tr_arm", "cn": "停止或摧毁机械臂", "en": "STOP OR DESTROY THE ARM"},
 			{"id": "tr_kill", "cn": "消灭所有敌人", "en": "ELIMINATE ALL HOSTILES", "target": 4},
 		],
 	},

@@ -1,0 +1,8 @@
+[gd_resource type="FontVariation" load_steps=2 format=3]
+
+[ext_resource type="SystemFont" path="res://ui/fonts/f_ui_bold.tres" id="1_bold"]
+
+[resource]
+base_font = ExtResource("1_bold")
+variation_transform = Transform2D(1, 0, -0.2, 1, 0, 0)
+spacing_glyph = 10

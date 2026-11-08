@@ -7,6 +7,7 @@ extends Control
 const FONT_MONO: Font = preload("res://ui/fonts/f_mono.tres")
 const FONT_TRACKED: Font = preload("res://ui/fonts/f_label_tracked.tres")
 const PANEL_TEXTURE: Texture2D = preload("res://art_placeholder/scifi_ui/ui_mission_panel_tex.jpg")
+const MIMI_TEXTURE: Texture2D = preload("res://art/characters/mimi_cat.png")
 
 const PANEL_X := 18.0
 const PANEL_Y := 16.0
@@ -14,6 +15,12 @@ const SPINE_W := 20.0
 const PANEL_W := 400.0
 const PANEL_H := 112.0
 const TOTAL_W := SPINE_W + PANEL_W
+
+## 拾取小咪后出现在血条右侧的同伴卡。
+const PET_W := 150.0
+const PET_H := 106.0
+const PET_GAP := 22.0
+const PET_Y := 6.0
 
 const CYAN := Color(0.32, 0.86, 0.94)
 const AMBER := Color(0.98, 0.68, 0.3)
@@ -42,6 +49,11 @@ var _hint_label: Label
 var _value_label: Label
 var _unit_label: Label
 
+var _pet_badge: Control
+var _pet_frame: JamHudFrame
+var _pet_art: TextureRect
+var _pet_seen := false
+
 var _player: CharacterBody2D
 var _health := 3
 var _max_health := 3
@@ -66,6 +78,7 @@ func _ready() -> void:
 	_build()
 	_build_death_overlay()
 	_bind_player()
+	_pet_seen = MissionLog.mimi_collected
 
 	var intro := create_tween()
 	intro.tween_interval(0.16)
@@ -89,6 +102,7 @@ func _process(delta: float) -> void:
 	_value_label.add_theme_color_override(
 		"font_color", RED if (_critical or _dead) else CYAN
 	)
+	_update_pet_badge()
 
 
 func _apply_open() -> void:
@@ -167,6 +181,78 @@ func _build() -> void:
 	_hint_label.position = Vector2(14.0, 84.0)
 	_hint_label.size = Vector2(PANEL_W - 28.0, 16.0)
 	_hint_label.vertical_alignment = VERTICAL_ALIGNMENT_CENTER
+
+	_build_pet_badge()
+
+
+## 血条右侧的小咪同伴卡：只在第一关拾取小咪后出现，跨场景由 MissionLog 保留。
+func _build_pet_badge() -> void:
+	_pet_badge = Control.new()
+	_pet_badge.mouse_filter = Control.MOUSE_FILTER_IGNORE
+	_pet_badge.position = Vector2(TOTAL_W + PET_GAP, PET_Y)
+	_pet_badge.size = Vector2(PET_W, PET_H)
+	_pet_badge.pivot_offset = Vector2(PET_W * 0.5, PET_H * 0.5)
+	_pet_badge.visible = MissionLog.mimi_collected
+	_expanded.add_child(_pet_badge)
+
+	_pet_frame = JamHudFrame.new()
+	_pet_frame.mouse_filter = Control.MOUSE_FILTER_IGNORE
+	_pet_frame.texture = PANEL_TEXTURE
+	_pet_frame.texture_alpha = 0.16
+	_pet_frame.header_h = 20.0
+	_pet_frame.footer_h = 0.0
+	_pet_frame.show_progress = false
+	_pet_frame.position = Vector2.ZERO
+	_pet_frame.size = Vector2(PET_W, PET_H)
+	_pet_badge.add_child(_pet_frame)
+
+	var tick := ColorRect.new()
+	tick.color = Color(0.98, 0.68, 0.3, 0.9)
+	tick.position = Vector2(10.0, 4.0)
+	tick.size = Vector2(2.0, 12.0)
+	tick.mouse_filter = Control.MOUSE_FILTER_IGNORE
+	_pet_frame.add_child(tick)
+
+	var title := Label.new()
+	title.mouse_filter = Control.MOUSE_FILTER_IGNORE
+	title.add_theme_font_override("font", FONT_MONO)
+	title.add_theme_font_size_override("font_size", 8)
+	title.add_theme_color_override("font_color", Color(0.88, 0.94, 0.96, 0.95))
+	title.add_theme_color_override("font_shadow_color", Color(0, 0, 0, 0.7))
+	title.add_theme_constant_override("shadow_offset_x", 1)
+	title.add_theme_constant_override("shadow_offset_y", 1)
+	title.text = "PET // MIMI"
+	title.position = Vector2(16.0, 2.0)
+	title.size = Vector2(PET_W - 24.0, 16.0)
+	title.vertical_alignment = VERTICAL_ALIGNMENT_CENTER
+	_pet_frame.add_child(title)
+
+	_pet_art = TextureRect.new()
+	_pet_art.texture = MIMI_TEXTURE
+	_pet_art.expand_mode = TextureRect.EXPAND_IGNORE_SIZE
+	_pet_art.stretch_mode = TextureRect.STRETCH_KEEP_ASPECT_CENTERED
+	_pet_art.position = Vector2(6.0, 21.0)
+	_pet_art.size = Vector2(PET_W - 12.0, PET_H - 25.0)
+	_pet_art.mouse_filter = Control.MOUSE_FILTER_IGNORE
+	_pet_frame.add_child(_pet_art)
+
+
+func _update_pet_badge() -> void:
+	if _pet_seen or not MissionLog.mimi_collected:
+		return
+	_pet_seen = true
+	_pet_badge.visible = true
+	_pet_badge.modulate.a = 0.0
+	_pet_badge.scale = Vector2(0.78, 0.78)
+	_pet_frame.complete_flash = 1.0
+
+	var tween := create_tween()
+	tween.set_parallel(true)
+	tween.tween_property(_pet_badge, "modulate:a", 1.0, 0.22)
+	tween.tween_property(_pet_badge, "scale", Vector2.ONE, 0.45).set_trans(
+		Tween.TRANS_BACK
+	).set_ease(Tween.EASE_OUT)
+	tween.tween_property(_pet_frame, "complete_flash", 0.0, 0.85).set_delay(0.18)
 
 
 func _build_death_overlay() -> void:
