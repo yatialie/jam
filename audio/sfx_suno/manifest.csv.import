@@ -1,0 +1,19 @@
+[remap]
+
+importer="csv_translation"
+type="Translation"
+uid="uid://dc3jborntke8l"
+
+[deps]
+
+files=["res://audio/sfx_suno/manifest.file.translation", "res://audio/sfx_suno/manifest.category.translation", "res://audio/sfx_suno/manifest.description.translation", "res://audio/sfx_suno/manifest.loop.translation", "res://audio/sfx_suno/manifest.loop.translation", "res://audio/sfx_suno/manifest.loop.translation", "res://audio/sfx_suno/manifest.duration.translation", "res://audio/sfx_suno/manifest.sample.translation", "res://audio/sfx_suno/manifest.channels.translation", "res://audio/sfx_suno/manifest.peak.translation", "res://audio/sfx_suno/manifest.rms.translation", "res://audio/sfx_suno/manifest.source.translation"]
+
+source_file="res://audio/sfx_suno/manifest.csv"
+dest_files=["res://audio/sfx_suno/manifest.file.translation", "res://audio/sfx_suno/manifest.category.translation", "res://audio/sfx_suno/manifest.description.translation", "res://audio/sfx_suno/manifest.loop.translation", "res://audio/sfx_suno/manifest.loop.translation", "res://audio/sfx_suno/manifest.loop.translation", "res://audio/sfx_suno/manifest.duration.translation", "res://audio/sfx_suno/manifest.sample.translation", "res://audio/sfx_suno/manifest.channels.translation", "res://audio/sfx_suno/manifest.peak.translation", "res://audio/sfx_suno/manifest.rms.translation", "res://audio/sfx_suno/manifest.source.translation"]
+
+[params]
+
+compress=1
+delimiter=0
+unescape_keys=false
+unescape_translations=true

@@ -1,0 +1,106 @@
+[gd_scene format=3 uid="uid://bn6akk4qawsw"]
+
+[ext_resource type="Script" uid="uid://wrktxgnbtbqv" path="res://scripts/cockpit_scene.gd" id="1_main"]
+[ext_resource type="PackedScene" path="res://scenes/player.tscn" id="2_player"]
+[ext_resource type="Script" uid="uid://b5qvibbcciwb0" path="res://scripts/cockpit_art.gd" id="3_world"]
+[ext_resource type="Script" uid="uid://dsli7l0uf1r5e" path="res://scripts/camera_director.gd" id="4_camera"]
+[ext_resource type="Script" uid="uid://qb11m7titenx" path="res://scripts/clue_ui.gd" id="5_clue"]
+[ext_resource type="Script" uid="uid://deucy7othh8fw" path="res://scripts/keypad_ui.gd" id="6_keypad"]
+[ext_resource type="PackedScene" path="res://scenes/task_panel.tscn" id="7_tasks"]
+[ext_resource type="PackedScene" path="res://scenes/hud_vitals.tscn" id="8_vitals"]
+
+[node name="Main" type="Node2D" unique_id=1613932395]
+process_mode = 3
+script = ExtResource("1_main")
+
+[node name="Projection" type="Node2D" parent="." unique_id=1220235359]
+process_mode = 1
+scale = Vector2(1, 0.72)
+
+[node name="World" type="Node2D" parent="Projection" unique_id=1078509487]
+script = ExtResource("3_world")
+
+[node name="Player" parent="Projection" unique_id=1513582208 instance=ExtResource("2_player")]
+process_mode = 1
+z_index = 10
+position = Vector2(1000, 1180)
+
+[node name="CameraRig" type="Camera2D" parent="." unique_id=187858376]
+process_mode = 1
+zoom = Vector2(1.25, 1.25)
+limit_left = 0
+limit_top = 0
+limit_right = 2000
+limit_bottom = 1300
+script = ExtResource("4_camera")
+target_path = NodePath("../Projection/Player")
+framing_offset = Vector2(0, -200)
+base_zoom = 1.25
+
+[node name="HUD" type="CanvasLayer" parent="." unique_id=1215499293]
+
+[node name="Vitals" parent="HUD" unique_id=1416079494 instance=ExtResource("8_vitals")]
+location_text = "COMMAND BRIDGE / DECK 00"
+
+[node name="ClueLabel" type="Label" parent="HUD" unique_id=93520058]
+visible = false
+offset_left = 1480.0
+offset_top = 138.0
+offset_right = 1892.0
+offset_bottom = 170.0
+theme_override_colors/font_color = Color(0.48, 0.94, 1, 1)
+theme_override_colors/font_outline_color = Color(0.02, 0.05, 0.07, 1)
+theme_override_constants/outline_size = 6
+theme_override_font_sizes/font_size = 18
+text = "CLUE // 09.25"
+
+[node name="TaskPanel" parent="HUD" unique_id=1484274849 instance=ExtResource("7_tasks")]
+
+[node name="PauseOverlay" type="CanvasLayer" parent="." unique_id=1815384173]
+layer = 10
+
+[node name="Panel" type="Control" parent="PauseOverlay" unique_id=1297018799]
+visible = false
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+mouse_filter = 2
+
+[node name="Dim" type="ColorRect" parent="PauseOverlay/Panel" unique_id=1352873248]
+layout_mode = 0
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+mouse_filter = 2
+color = Color(0, 0, 0, 0.6)
+
+[node name="Label" type="Label" parent="PauseOverlay/Panel" unique_id=88572618]
+layout_mode = 0
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -240.0
+offset_top = -80.0
+offset_right = 240.0
+offset_bottom = 80.0
+grow_horizontal = 2
+grow_vertical = 2
+theme_override_colors/font_color = Color(1, 1, 1, 1)
+theme_override_font_sizes/font_size = 48
+text = "PAUSED
+Esc to resume"
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="ClueUI" type="CanvasLayer" parent="." unique_id=1274572406]
+layer = 20
+script = ExtResource("5_clue")
+
+[node name="KeypadUI" type="CanvasLayer" parent="." unique_id=1168998136]
+layer = 20
+script = ExtResource("6_keypad")

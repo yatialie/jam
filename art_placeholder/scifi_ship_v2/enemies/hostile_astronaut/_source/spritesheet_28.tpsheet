@@ -1,0 +1,24 @@
+{
+  "textures": [
+    {
+      "image": "spritesheet_28.png",
+      "sprites": [
+        {
+          "filename": "028.png",
+          "region": {
+            "x": 0,
+            "y": 0,
+            "w": 512,
+            "h": 512
+          },
+          "margin": {
+            "x": 0,
+            "y": 0,
+            "w": 0,
+            "h": 0
+          }
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,60 @@
+{
+  "base_url": "https://api.openai-next.com",
+  "model": "gpt-image-2.5",
+  "default_size": "1024x1024",
+  "default_candidates": 4,
+  "default_preset": "env",
+  "timeout_seconds": 300,
+  "common_prefix": "semi-stylized sci-fi hard-surface game art for a top-down shooter, project art direction: dark gunmetal steel #242A33 with beveled panels, steel plate #39424F, edge highlights #5C6B7E, cyan emissive strips #39D6E8, amber warning lamps #F2A63B, soft top-left key light, crisp thick outline, restrained wear and scratches, clean readable silhouette, consistent proportions",
+  "common_negative": "photorealistic, anime, oversaturated neon, strong bloom, heavy dirt, baked cast shadow, text, lettering, watermark, logo, signature, cropped subject, thin lines under 2px, noisy texture, inconsistent perspective, duplicate limbs, deformed hands, extra fingers, motion blur, low contrast",
+  "presets": {
+    "env": {
+      "prefix": "top-down 3/4 view with 30 degree camera elevation, modular sci-fi starship environment asset, single standalone object centered in frame",
+      "negative": "floor background, background scenery, scene mockup, characters"
+    },
+    "prop": {
+      "prefix": "standalone sci-fi prop, top-down 3/4 view with 30 degree camera elevation, centered, transparent background",
+      "negative": "floor included, room background, characters"
+    },
+    "character": {
+      "prefix": "game character asset, top-down 3/4 view with 30 degree camera elevation, full body, symmetrical idle pose, transparent background",
+      "negative": "scene background, dynamic action pose, extreme foreshortening"
+    },
+    "character-sheet": {
+      "prefix": "character turnaround reference sheet, multiple consistent views of the same character on a flat neutral background, uniform scale and baseline, orthographic-like consistency",
+      "negative": "different characters, inconsistent outfit, inconsistent proportions"
+    },
+    "portrait": {
+      "prefix": "visual novel dialogue portrait asset, upper-body waist-up bust of a single game character with both hands visible, three-quarter front view at eye level, calm neutral pose, isolated on a fully transparent background, clean readable silhouette, no frame, no border, no scene background, no ground shadow, character design and palette consistent with the project",
+      "negative": "scene background, hangar, room, full body, legs, feet, multiple characters, duplicate head, frame, border, panel, text, letters, logo, watermark, UI elements, white outline, halo, hard rectangular crop"
+    },
+    "portrait-symbol": {
+      "prefix": "visual novel dialogue portrait asset, upper-body waist-up bust of a single game character with both hands visible, three-quarter front view at eye level, isolated on a fully transparent background, clean readable silhouette, no frame, no border, no scene background, no ground shadow, plus exactly one large floating emotion symbol above the character's head, painted in the same semi-stylized painterly game art style with a dark outline and a soft colored glow, clearly separated from the character, character design and palette consistent with the project",
+      "negative_override": "scene background, hangar, room, full body, legs, feet, multiple characters, duplicate head, frame, border, panel, extra symbols, multiple punctuation marks, words, captions, logos, watermark, UI elements, white outline, halo, hard rectangular crop, checkerboard pattern, opaque background"
+    },
+    "portrait-emotion": {
+      "prefix": "visual novel dialogue portrait asset, upper-body waist-up bust of a single game character with both hands visible, three-quarter front view at eye level, expressive emotional pose, isolated on a fully transparent background, clean readable silhouette, no frame, no border, no scene background, no ground shadow, optional single small floating emotion symbol above the character's head painted in the same style, character design and palette consistent with the project",
+      "negative_override": "scene background, hangar, room, full body, legs, feet, multiple characters, duplicate head, frame, border, panel, extra symbols, words, captions, logos, watermark, UI elements, white outline, halo, hard rectangular crop, checkerboard pattern, opaque background"
+    },
+    "starfield": {
+      "prefix": "seamless deep space background texture for a top-down sci-fi game, flat even lighting, no horizon line, no ground plane, no standalone object, fills the entire frame edge to edge, very dark so foreground gameplay art stays readable",
+      "negative": "standalone object, character, spaceship, planet surface, horizon, bright cartoon stars, heavy lens flare, strong vignette, frame, border"
+    },
+    "ui": {
+      "prefix": "retro-futurist cassette-archive sci-fi UI art, glass panel with subtle scanlines and film grain, cold cyan and amber accents, clean geometric layout, flat front view, no text",
+      "negative": "photorealistic room, 3D perspective tilt, illegible glyph noise, heavy grunge"
+    },
+    "fx": {
+      "prefix": "game VFX asset, single effect frame on transparent background, additive glow, readable shape",
+      "negative": "scene background, multiple unrelated effects"
+    },
+    "icon": {
+      "prefix": "flat game UI icon, bold simple silhouette, centered, transparent background, vector-like clarity",
+      "negative": "scene background, tiny details, several objects"
+    },
+    "illustration": {
+      "prefix": "cinematic key art illustration for the game, atmospheric sci-fi interior, dramatic composition, consistent project palette",
+      "negative": "text overlay, UI elements, collage"
+    }
+  }
+}

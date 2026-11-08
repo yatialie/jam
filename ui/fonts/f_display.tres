@@ -1,0 +1,9 @@
+[gd_resource type="FontVariation" load_steps=2 format=3]
+
+[sub_resource type="SystemFont" id="sf_display"]
+font_names = PackedStringArray("Bahnschrift", "Segoe UI")
+font_weight = 700
+allow_system_fallback = true
+
+[resource]
+base_font = SubResource("sf_display")

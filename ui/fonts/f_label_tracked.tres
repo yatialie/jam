@@ -1,0 +1,13 @@
+[gd_resource type="FontVariation" format=3 uid="uid://c4qfwr5y8r55d"]
+
+[sub_resource type="SystemFont" id="sf_tracked"]
+font_names = PackedStringArray("Bahnschrift", "Segoe UI")
+font_weight = 600
+
+[resource]
+base_font = SubResource("sf_tracked")
+variation_opentype = {
+2003072104: 100,
+2003265652: 600
+}
+spacing_glyph = 4

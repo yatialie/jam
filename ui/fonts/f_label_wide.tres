@@ -1,0 +1,13 @@
+[gd_resource type="FontVariation" format=3 uid="uid://dib7h5cuhsxpq"]
+
+[sub_resource type="SystemFont" id="sf_wide"]
+font_names = PackedStringArray("Bahnschrift", "Segoe UI")
+font_weight = 500
+
+[resource]
+base_font = SubResource("sf_wide")
+variation_opentype = {
+2003072104: 100,
+2003265652: 500
+}
+spacing_glyph = 12

@@ -1,0 +1,21 @@
+# Godot 4+ specific ignores
+.godot/
+/android/
+
+# image-gen local secret
+.trae/skills/image-gen/config.local.json
+
+# 本地调试产物
+.screenshots/
+.uploads/
+.trae-html-share-packages/
+
+# 生图候选（未接入游戏，可再生）
+art_placeholder/_generated/
+art_placeholder_generated/
+
+# 音频测试素材
+audio/sfx_suno/_test/
+
+# 本机专属 MCP 配置（含绝对路径）
+.mcp.json

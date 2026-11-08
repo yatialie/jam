@@ -1,0 +1,714 @@
+{
+  "kit": "scifi_ship_v2",
+  "world_scale": {
+    "tile_px": 512,
+    "tile_world": 384,
+    "px_per_world": 1.3333
+  },
+  "assets": [
+    {
+      "path": "environment/walls/wall_straight.png",
+      "canvas": [
+        512,
+        512
+      ],
+      "anchor": "bottom-center",
+      "content_height": 400,
+      "tile": "horizontal",
+      "shadow": false
+    },
+    {
+      "path": "environment/walls/wall_side_left.png",
+      "canvas": [
+        512,
+        512
+      ],
+      "anchor": "bottom-center",
+      "content_height": 400,
+      "tile": "vertical",
+      "shadow": false
+    },
+    {
+      "path": "environment/walls/wall_side_right.png",
+      "canvas": [
+        512,
+        512
+      ],
+      "anchor": "bottom-center",
+      "content_height": 400,
+      "tile": "vertical",
+      "shadow": false
+    },
+    {
+      "path": "environment/walls/wall_corner_inner.png",
+      "canvas": [
+        512,
+        512
+      ],
+      "anchor": "bottom-center",
+      "content_height": 400,
+      "tile": "none",
+      "shadow": false
+    },
+    {
+      "path": "environment/walls/wall_corner_outer.png",
+      "canvas": [
+        512,
+        512
+      ],
+      "anchor": "bottom-center",
+      "content_height": 400,
+      "tile": "none",
+      "shadow": false
+    },
+    {
+      "path": "environment/walls/wall_end_cap.png",
+      "canvas": [
+        512,
+        512
+      ],
+      "anchor": "bottom-center",
+      "content_height": 400,
+      "tile": "none",
+      "shadow": false
+    },
+    {
+      "path": "environment/walls/door_frame.png",
+      "canvas": [
+        512,
+        512
+      ],
+      "anchor": "bottom-center",
+      "content_height": 400,
+      "tile": "none",
+      "shadow": false
+    },
+    {
+      "path": "environment/walls/door_open.png",
+      "canvas": [
+        512,
+        512
+      ],
+      "anchor": "bottom-center",
+      "content_height": 373,
+      "tile": "none",
+      "shadow": false
+    },
+    {
+      "path": "environment/floors/floor_transition_corridor_to_engineering.png",
+      "canvas": [
+        512,
+        128
+      ],
+      "anchor": "top-left",
+      "tile": "horizontal",
+      "shadow": false
+    },
+    {
+      "path": "environment/floors/wall_top_trim.png",
+      "canvas": [
+        512,
+        64
+      ],
+      "anchor": "top-left",
+      "tile": "horizontal",
+      "shadow": false
+    },
+    {
+      "path": "environment/floors/wall_base_trim.png",
+      "canvas": [
+        512,
+        64
+      ],
+      "anchor": "top-left",
+      "tile": "horizontal",
+      "shadow": false
+    },
+    {
+      "path": "props/console_terminal_01.png",
+      "canvas": [
+        512,
+        512
+      ],
+      "anchor": "bottom-center",
+      "content_height": 400,
+      "world_height": 300,
+      "shadow": "separate"
+    },
+    {
+      "path": "props/cargo_crate_large.png",
+      "canvas": [
+        256,
+        256
+      ],
+      "anchor": "bottom-center",
+      "content_height": 207,
+      "world_height": 170,
+      "shadow": "separate"
+    },
+    {
+      "path": "vfx/muzzle_flash.png",
+      "canvas": [
+        1152,
+        192
+      ],
+      "grid": {
+        "frames": 6,
+        "cell": [
+          192,
+          192
+        ]
+      },
+      "shadow": false
+    },
+    {
+      "path": "vfx/impact_spark.png",
+      "canvas": [
+        640,
+        128
+      ],
+      "grid": {
+        "frames": 5,
+        "cell": [
+          128,
+          128
+        ]
+      },
+      "shadow": false
+    },
+    {
+      "path": "vfx/projectile_energy.png",
+      "canvas": [
+        64,
+        64
+      ],
+      "shadow": false
+    },
+    {
+      "path": "vfx/crosshair.png",
+      "canvas": [
+        128,
+        128
+      ],
+      "shadow": false
+    },
+    {
+      "path": "vfx/hit_marker.png",
+      "canvas": [
+        64,
+        64
+      ],
+      "shadow": false
+    },
+    {
+      "path": "vfx/shadow_character.png",
+      "canvas": [
+        256,
+        128
+      ],
+      "shadow": true
+    },
+    {
+      "path": "vfx/light_pool_cyan.png",
+      "canvas": [
+        512,
+        512
+      ],
+      "additive": true
+    },
+    {
+      "path": "vfx/light_pool_amber.png",
+      "canvas": [
+        512,
+        512
+      ],
+      "additive": true
+    },
+    {
+      "path": "characters/astronaut/astronaut_turnaround.png",
+      "canvas": [
+        1536,
+        1024
+      ],
+      "note": "8 views, 2 rows of 4, order S SE E NE N NW W SW"
+    },
+    {
+      "path": "characters/astronaut/astronaut_idle_s.png",
+      "canvas": [
+        384,
+        384
+      ],
+      "anchor": "bottom-center",
+      "content_height": 200,
+      "dir": "S"
+    },
+    {
+      "path": "characters/astronaut/astronaut_walk_e.png",
+      "canvas": [
+        3072,
+        384
+      ],
+      "grid": {
+        "frames": 8,
+        "cell": [
+          384,
+          384
+        ],
+        "order": "left-to-right"
+      },
+      "dir": "E",
+      "shadow": "separate"
+    },
+    {
+      "path": "characters/astronaut/astronaut_shoot_e.png",
+      "canvas": [
+        1536,
+        384
+      ],
+      "grid": {
+        "frames": 4,
+        "cell": [
+          384,
+          384
+        ],
+        "order": "left-to-right"
+      },
+      "dir": "E",
+      "shadow": "separate"
+    },
+    {
+      "path": "characters/astronaut/astronaut_idle_s.png",
+      "canvas": [
+        384,
+        384
+      ],
+      "anchor": "bottom-center",
+      "content_height": 200,
+      "dir": "S"
+    },
+    {
+      "path": "characters/astronaut/astronaut_walk_s.png",
+      "canvas": [
+        3072,
+        384
+      ],
+      "grid": {
+        "frames": 8,
+        "cell": [
+          384,
+          384
+        ]
+      },
+      "dir": "S",
+      "shadow": "separate"
+    },
+    {
+      "path": "characters/astronaut/astronaut_shoot_s.png",
+      "canvas": [
+        1536,
+        384
+      ],
+      "grid": {
+        "frames": 4,
+        "cell": [
+          384,
+          384
+        ]
+      },
+      "dir": "S",
+      "shadow": "separate"
+    },
+    {
+      "path": "characters/astronaut/astronaut_idle_se.png",
+      "canvas": [
+        384,
+        384
+      ],
+      "anchor": "bottom-center",
+      "content_height": 200,
+      "dir": "SE"
+    },
+    {
+      "path": "characters/astronaut/astronaut_walk_se.png",
+      "canvas": [
+        3072,
+        384
+      ],
+      "grid": {
+        "frames": 8,
+        "cell": [
+          384,
+          384
+        ]
+      },
+      "dir": "SE",
+      "shadow": "separate"
+    },
+    {
+      "path": "characters/astronaut/astronaut_shoot_se.png",
+      "canvas": [
+        1536,
+        384
+      ],
+      "grid": {
+        "frames": 4,
+        "cell": [
+          384,
+          384
+        ]
+      },
+      "dir": "SE",
+      "shadow": "separate"
+    },
+    {
+      "path": "characters/astronaut/astronaut_idle_e.png",
+      "canvas": [
+        384,
+        384
+      ],
+      "anchor": "bottom-center",
+      "content_height": 200,
+      "dir": "E"
+    },
+    {
+      "path": "characters/astronaut/astronaut_walk_e.png",
+      "canvas": [
+        3072,
+        384
+      ],
+      "grid": {
+        "frames": 8,
+        "cell": [
+          384,
+          384
+        ]
+      },
+      "dir": "E",
+      "shadow": "separate"
+    },
+    {
+      "path": "characters/astronaut/astronaut_shoot_e.png",
+      "canvas": [
+        1536,
+        384
+      ],
+      "grid": {
+        "frames": 4,
+        "cell": [
+          384,
+          384
+        ]
+      },
+      "dir": "E",
+      "shadow": "separate"
+    },
+    {
+      "path": "characters/astronaut/astronaut_idle_ne.png",
+      "canvas": [
+        384,
+        384
+      ],
+      "anchor": "bottom-center",
+      "content_height": 200,
+      "dir": "NE"
+    },
+    {
+      "path": "characters/astronaut/astronaut_walk_ne.png",
+      "canvas": [
+        3072,
+        384
+      ],
+      "grid": {
+        "frames": 8,
+        "cell": [
+          384,
+          384
+        ]
+      },
+      "dir": "NE",
+      "shadow": "separate"
+    },
+    {
+      "path": "characters/astronaut/astronaut_shoot_ne.png",
+      "canvas": [
+        1536,
+        384
+      ],
+      "grid": {
+        "frames": 4,
+        "cell": [
+          384,
+          384
+        ]
+      },
+      "dir": "NE",
+      "shadow": "separate"
+    },
+    {
+      "path": "characters/astronaut/astronaut_idle_n.png",
+      "canvas": [
+        384,
+        384
+      ],
+      "anchor": "bottom-center",
+      "content_height": 200,
+      "dir": "N"
+    },
+    {
+      "path": "characters/astronaut/astronaut_walk_n.png",
+      "canvas": [
+        3072,
+        384
+      ],
+      "grid": {
+        "frames": 8,
+        "cell": [
+          384,
+          384
+        ]
+      },
+      "dir": "N",
+      "shadow": "separate"
+    },
+    {
+      "path": "characters/astronaut/astronaut_shoot_n.png",
+      "canvas": [
+        1536,
+        384
+      ],
+      "grid": {
+        "frames": 4,
+        "cell": [
+          384,
+          384
+        ]
+      },
+      "dir": "N",
+      "shadow": "separate"
+    },
+    {
+      "path": "characters/astronaut/astronaut_idle_nw.png",
+      "canvas": [
+        384,
+        384
+      ],
+      "anchor": "bottom-center",
+      "content_height": 200,
+      "dir": "NW"
+    },
+    {
+      "path": "characters/astronaut/astronaut_walk_nw.png",
+      "canvas": [
+        3072,
+        384
+      ],
+      "grid": {
+        "frames": 8,
+        "cell": [
+          384,
+          384
+        ]
+      },
+      "dir": "NW",
+      "shadow": "separate"
+    },
+    {
+      "path": "characters/astronaut/astronaut_shoot_nw.png",
+      "canvas": [
+        1536,
+        384
+      ],
+      "grid": {
+        "frames": 4,
+        "cell": [
+          384,
+          384
+        ]
+      },
+      "dir": "NW",
+      "shadow": "separate"
+    },
+    {
+      "path": "characters/astronaut/astronaut_idle_w.png",
+      "canvas": [
+        384,
+        384
+      ],
+      "anchor": "bottom-center",
+      "content_height": 200,
+      "dir": "W"
+    },
+    {
+      "path": "characters/astronaut/astronaut_walk_w.png",
+      "canvas": [
+        3072,
+        384
+      ],
+      "grid": {
+        "frames": 8,
+        "cell": [
+          384,
+          384
+        ]
+      },
+      "dir": "W",
+      "shadow": "separate"
+    },
+    {
+      "path": "characters/astronaut/astronaut_shoot_w.png",
+      "canvas": [
+        1536,
+        384
+      ],
+      "grid": {
+        "frames": 4,
+        "cell": [
+          384,
+          384
+        ]
+      },
+      "dir": "W",
+      "shadow": "separate"
+    },
+    {
+      "path": "characters/astronaut/astronaut_idle_sw.png",
+      "canvas": [
+        384,
+        384
+      ],
+      "anchor": "bottom-center",
+      "content_height": 200,
+      "dir": "SW"
+    },
+    {
+      "path": "characters/astronaut/astronaut_walk_sw.png",
+      "canvas": [
+        3072,
+        384
+      ],
+      "grid": {
+        "frames": 8,
+        "cell": [
+          384,
+          384
+        ]
+      },
+      "dir": "SW",
+      "shadow": "separate"
+    },
+    {
+      "path": "characters/astronaut/astronaut_shoot_sw.png",
+      "canvas": [
+        1536,
+        384
+      ],
+      "grid": {
+        "frames": 4,
+        "cell": [
+          384,
+          384
+        ]
+      },
+      "dir": "SW",
+      "shadow": "separate"
+    }
+  ],
+  "directions": [
+    "S",
+    "SE",
+    "E",
+    "NE",
+    "N",
+    "NW",
+    "W",
+    "SW"
+  ],
+  "character_kit": {
+    "id": "nova",
+    "role": "player default protagonist",
+    "dir": "characters/nova",
+    "canvas": [
+      384,
+      384
+    ],
+    "anchor": "bottom-center",
+    "content_height": 336,
+    "world_height": 150,
+    "source": "_source = S-key (south) 12f; _source_n = W-key (north) 14f; _source_e = D-key (east) 12f; _source_w = A-key (west) 11f; all de-watermarked, height-normalized and re-aligned to a common baseline",
+    "idle": "nova_idle_s.png = 28-frame front idle loop (10752x384, cell 384, 24 fps, frames 29-30 trimmed to close the loop); nova_idle_n/e/w.png stay single-frame static idles",
+    "idle_note": "front idle scaled 0.72 to match walk head height (140 px), feet baseline 363, head centered at x=192; only the S direction has animated idle because the delivered sheet is front view only",
+    "walk_s": "nova_walk_s.png, 12 frames, 4608x384, cell 384",
+    "walk_n": "nova_walk_n.png, 14 frames, 5376x384, cell 384, height-normalized to match S",
+    "walk_e": "nova_walk_e.png, 12 frames, 4608x384, cell 384, height-normalized to match S",
+    "walk_w": "nova_walk_w.png, 11 frames, 4224x384, cell 384, height-normalized to match S",
+    "death": "nova_death.png, 20 frames, 7680x384, cell 384, 24 fps, non-looping; source sheet 50 frames trimmed to originals 19-38 (standing -> white impact burst -> collapse -> settled pose), height-normalized to the idle (342 px content) with feet baseline 364 and head center x 191.5; source frames in _source_death with .gdignore",
+    "respawn": "nova_respawn.png, 34 frames, 13056x384, cell 384, 30 fps, non-looping; source sheet 46 frames trimmed to originals 13-46 (energy core -> swirling rings -> settle), normalized by the final frame (416 px source) to idle height 342 with feet baseline 364; source frames in _source_respawn with .gdignore",
+    "missing": "four cardinals are complete; diagonal sheets and shoot frames are not delivered yet, so NE/NW use N, SE uses E, SW uses W",
+    "note": "key naming: art 'S key' = south, 'W key' = north, 'D key' = east, 'A key' = west"
+  },
+  "enemy_kit": {
+    "id": "grunt",
+    "role": "initial melee grunt",
+    "dir": "enemies/grunt",
+    "canvas": [
+      384,
+      384
+    ],
+    "anchor": "bottom-center, horizontally centered on the blue body instead of the spear",
+    "world_height": 85,
+    "walk": "grunt_walk.png, 17 frames, 6528x384, cell 384",
+    "idle": "grunt_idle.png, frame 1",
+    "attack": "grunt_attack.png, 22 frames, 14080x640, cell 640, 24 fps, non-looping; drawn by a separate AttackVisual node because the swing arc (373 px) exceeds the 384 walk cell, baseline 560 and horizontal center 320 keep it at the same on-screen height as the walk sheet",
+    "note": "single delivered direction; the sprite flips horizontally for left-facing movement, scene uses the existing enemy AI; attack plays once when the melee attack starts and hides the walk sprite until it finishes"
+  },
+  "ranged_enemy_kit": {
+    "id": "ranged_monster",
+    "role": "original ranged monster (crystal drifter)",
+    "dir": "enemies/ranged",
+    "canvas": [
+      512,
+      512
+    ],
+    "anchor": "head-centered x=241, tentacle bottom baseline y=344",
+    "world_height": 120,
+    "attack": "ranged_attack.png, 40 frames packed as 8x5 atlas, cell 512, 4096x2560, 30 fps, non-looping; frames 1-20 charge, 21 tentacles snap open, 22-25 full extension, 26-40 recover; projectile released on frame 21",
+    "idle": "frame 1 held as hover idle; the scene adds a subtle procedural bob",
+    "note": "single front view, no watermark; source frames kept in _source with .gdignore"
+  },
+  "hostile_astronaut_kit": {
+    "id": "hostile_astronaut",
+    "role": "original melee enemy (rogue astronaut)",
+    "dir": "enemies/hostile_astronaut",
+    "canvas": [
+      512,
+      512
+    ],
+    "anchor": "head-centered x=259, feet baseline y=384",
+    "world_height": 128,
+    "attack": "hostile_astronaut_attack.png, 24 frames, 12288x512, cell 512, 26 fps, non-looping; damage lands on index 14 (original frame 15); original frame 17 (white-background impact flash) was dropped and the 18-32 static hold trimmed to 18/19 to avoid a frozen punch",
+    "idle": "final frame (original 38) held as standing idle",
+    "move": "hostile_astronaut_move.png, 20 frames, 10240x512, cell 512, 18 fps, looping; the 20 delivered walk frames are uniformly scaled to the idle stature, then aligned to head-center x=259 and feet baseline y=384; playback speed scales with velocity",
+    "note": "single front-left view; the sprite flips horizontally for right-facing movement; source frames kept in _source and _source_move with .gdignore"
+  },
+  "ufo_astronaut_kit": {
+    "id": "ufo_astronaut",
+    "role": "original ranged enemy (spectral astronaut)",
+    "dir": "enemies/ufo_astronaut",
+    "canvas": [
+      512,
+      512
+    ],
+    "anchor": "head-centered x=264, tail tip baseline y=387",
+    "world_height": 112,
+    "attack": "ufo_astronaut_attack.png, 16 frames, 8192x512, cell 512, 24 fps, non-looping; source frames 1-22 were static and trimmed, keeping 23/24 as anticipation, 25 as the gold star burst where the projectile spawns, 26-38 as drift recovery",
+    "idle": "source frame 24 (atlas index 1) held as hover idle; the scene adds a procedural bob and sway",
+    "move": "ufo_astronaut_move.png, 26 frames, 13312x512, cell 512, 20 fps, looping; delivered frames uniformly scaled to 0.799 to match the idle stature, then aligned to body center x=259 and tail tip baseline y=387; played while sliding, interrupted by the attack sequence",
+    "note": "front view, no watermark, no directional flip; fires a gold-tinted enemy projectile; source frames kept in _source and _source_move with .gdignore"
+  },
+  "notes": [
+    "全部 PNG 直通 alpha，未预乘",
+    "站立类资产底边中心为地面接触点",
+    "NOVA 现有 S/N/E 三向移动素材，W 与部分斜向暂回退；射击序列未提供",
+    "影子与光池为独立叠加层，未烘焙进资产"
+  ]
+}

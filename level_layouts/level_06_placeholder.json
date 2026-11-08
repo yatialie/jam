@@ -1,0 +1,99 @@
+{
+	"version": 1,
+	"scene": "res://scenes/levels/level_06_placeholder.tscn",
+	"world_path": "Projection/World",
+	"items": [
+		{
+			"id": "a_1",
+			"type": "collider",
+			"shape": "arc",
+			"name": "Curve",
+			"pos": [
+				1358.50268554688,
+				1386.7294921875
+			],
+			"size": [
+				0.0,
+				0.0
+			],
+			"layer": 1,
+			"mask": 0,
+			"rotation": 0.0,
+			"one_way": false,
+			"group": "",
+			"purpose": "",
+			"meta": {},
+			"radius_x": 1178.59033203125,
+			"radius_y": 1660.20874023438,
+			"thickness": 48.0,
+			"start_angle": 191.863596447249,
+			"end_angle": 346.619486099895,
+			"arc_rotation": 0.0,
+			"clockwise": true,
+			"segments": 30
+		},
+		{
+			"id": "a_2",
+			"type": "collider",
+			"shape": "arc",
+			"name": "Curve",
+			"pos": [
+				1353.248046875,
+				1245.70202636719
+			],
+			"size": [
+				0.0,
+				0.0
+			],
+			"layer": 1,
+			"mask": 0,
+			"rotation": 0.0,
+			"one_way": false,
+			"group": "",
+			"purpose": "",
+			"meta": {},
+			"radius_x": 1145.00830078125,
+			"radius_y": 915.876708984375,
+			"thickness": 48.0,
+			"start_angle": 4.02806393565365,
+			"end_angle": 175.161417038649,
+			"arc_rotation": 0.0,
+			"clockwise": true,
+			"segments": 0
+		}
+	],
+	"spawn": [
+		500.0,
+		1200.0
+	],
+	"room": [
+		-6.05859375,
+		-409.650329589844,
+		2682.916015625,
+		3144.42944335938
+	],
+	"doors": {
+		"entrance": {
+			"pos": [
+				2492.47045898438,
+				1013.22778320313
+			],
+			"scale": [
+				-1.0,
+				1.0
+			],
+			"rotation": -180.0
+		},
+		"exit": {
+			"pos": [
+				212.646728515625,
+				1051.10852050781
+			],
+			"scale": [
+				1.0,
+				1.0
+			],
+			"rotation": -180.0
+		}
+	}
+}

@@ -1,0 +1,4 @@
+[gd_resource type="SystemFont" format=3 uid="uid://deg7ctjn5eixx"]
+
+[resource]
+font_names = PackedStringArray("Consolas", "Cascadia Mono", "Courier New")

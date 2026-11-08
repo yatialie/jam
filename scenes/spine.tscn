@@ -1,0 +1,99 @@
+[gd_scene load_steps=8 format=3]
+
+[ext_resource type="Script" path="res://scripts/spine_scene.gd" id="1_main"]
+[ext_resource type="PackedScene" path="res://scenes/player.tscn" id="2_player"]
+[ext_resource type="Script" path="res://scripts/spine_art.gd" id="3_world"]
+[ext_resource type="Script" path="res://scripts/camera_director.gd" id="4_camera"]
+[ext_resource type="PackedScene" path="res://scenes/door.tscn" id="5_door"]
+[ext_resource type="PackedScene" path="res://scenes/task_panel.tscn" id="6_tasks"]
+[ext_resource type="PackedScene" path="res://scenes/hud_vitals.tscn" id="7_vitals"]
+
+[node name="Spine" type="Node2D"]
+process_mode = 3
+script = ExtResource("1_main")
+
+[node name="Projection" type="Node2D" parent="."]
+process_mode = 1
+scale = Vector2(1, 0.72)
+
+[node name="World" type="Node2D" parent="Projection"]
+script = ExtResource("3_world")
+
+[node name="RightAirlock" parent="Projection/World" instance=ExtResource("5_door")]
+position = Vector2(2740, 920)
+z_index = 4
+exit_scene_path = "res://scenes/engineering_bay.tscn"
+locked_hint = "RIGHT WING SEALED"
+start_locked = false
+
+[node name="LeftAirlock" parent="Projection/World" instance=ExtResource("5_door")]
+position = Vector2(260, 920)
+scale = Vector2(-1, 1)
+z_index = 4
+exit_scene_path = "res://scenes/sector_03.tscn"
+locked_hint = "LEFT WING SEALED"
+start_locked = false
+
+[node name="Player" parent="Projection" instance=ExtResource("2_player")]
+process_mode = 1
+z_index = 10
+position = Vector2(1500, 900)
+
+[node name="CameraRig" type="Camera2D" parent="."]
+process_mode = 1
+zoom = Vector2(1.45, 1.45)
+limit_left = 0
+limit_top = 0
+limit_right = 3000
+limit_bottom = 864
+script = ExtResource("4_camera")
+target_path = NodePath("../Projection/Player")
+base_zoom = 1.45
+framing_offset = Vector2(0, -40)
+
+[node name="HUD" type="CanvasLayer" parent="."]
+
+[node name="Vitals" parent="HUD" instance=ExtResource("7_vitals")]
+location_text = "MAIN SPINE / TRANSIT DECK"
+
+[node name="TaskPanel" parent="HUD" instance=ExtResource("6_tasks")]
+
+[node name="PauseOverlay" type="CanvasLayer" parent="."]
+layer = 10
+
+[node name="Panel" type="Control" parent="PauseOverlay"]
+visible = false
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+mouse_filter = 2
+
+[node name="Dim" type="ColorRect" parent="PauseOverlay/Panel"]
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+mouse_filter = 2
+color = Color(0, 0, 0, 0.6)
+
+[node name="Label" type="Label" parent="PauseOverlay/Panel"]
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -240.0
+offset_top = -80.0
+offset_right = 240.0
+offset_bottom = 80.0
+grow_horizontal = 2
+grow_vertical = 2
+theme_override_colors/font_color = Color(1, 1, 1, 1)
+theme_override_font_sizes/font_size = 48
+text = "PAUSED
+Esc to resume"
+horizontal_alignment = 1
+vertical_alignment = 1

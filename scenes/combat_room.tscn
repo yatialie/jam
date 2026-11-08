@@ -1,0 +1,107 @@
+[gd_scene load_steps=11 format=3]
+
+[ext_resource type="Script" path="res://scripts/combat_room.gd" id="1_main"]
+[ext_resource type="PackedScene" path="res://scenes/player.tscn" id="2_player"]
+[ext_resource type="Script" path="res://scripts/combat_room_art.gd" id="3_world"]
+[ext_resource type="Script" path="res://scripts/camera_director.gd" id="4_camera"]
+[ext_resource type="Script" path="res://scripts/combat_hud.gd" id="5_hud"]
+[ext_resource type="PackedScene" path="res://scenes/door.tscn" id="6_door"]
+[ext_resource type="PackedScene" path="res://scenes/access_panel.tscn" id="7_panel"]
+[ext_resource type="Script" path="res://scripts/puzzle_ui.gd" id="8_puzzle"]
+[ext_resource type="PackedScene" path="res://scenes/task_panel.tscn" id="9_tasks"]
+[ext_resource type="PackedScene" path="res://scenes/hud_vitals.tscn" id="10_vitals"]
+
+[node name="CombatRoom" type="Node2D" groups=["combat_director"]]
+process_mode = 3
+script = ExtResource("1_main")
+
+[node name="Projection" type="Node2D" parent="."]
+process_mode = 1
+scale = Vector2(1, 0.72)
+
+[node name="World" type="Node2D" parent="Projection"]
+script = ExtResource("3_world")
+
+[node name="Enemies" type="Node2D" parent="Projection"]
+z_index = 6
+
+[node name="RespawnPoint" type="Marker2D" parent="Projection"]
+position = Vector2(240, 1400)
+
+[node name="ExitDoor" parent="Projection/World" instance=ExtResource("6_door")]
+position = Vector2(2304, 1240)
+z_index = 4
+exit_scene_path = "res://scenes/sector_03.tscn"
+
+[node name="ExitPanel" parent="Projection/World" instance=ExtResource("7_panel")]
+position = Vector2(2050, 1350)
+z_index = 3
+
+[node name="Player" parent="Projection" instance=ExtResource("2_player")]
+process_mode = 1
+z_index = 10
+position = Vector2(240, 1400)
+
+[node name="CameraRig" type="Camera2D" parent="."]
+process_mode = 1
+zoom = Vector2(1.32, 1.32)
+limit_left = 0
+limit_top = 300
+limit_right = 2620
+limit_bottom = 1130
+script = ExtResource("4_camera")
+target_path = NodePath("../Projection/Player")
+base_zoom = 1.32
+
+[node name="HUD" type="CanvasLayer" parent="."]
+layer = 5
+script = ExtResource("5_hud")
+
+[node name="Vitals" parent="HUD" instance=ExtResource("10_vitals")]
+location_text = "COMBAT DECK / SECTOR 07"
+
+[node name="TaskPanel" parent="HUD" instance=ExtResource("9_tasks")]
+
+[node name="PauseOverlay" type="CanvasLayer" parent="."]
+layer = 10
+
+[node name="Panel" type="Control" parent="PauseOverlay"]
+visible = false
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+mouse_filter = 2
+
+[node name="Dim" type="ColorRect" parent="PauseOverlay/Panel"]
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+mouse_filter = 2
+color = Color(0, 0, 0, 0.6)
+
+[node name="Label" type="Label" parent="PauseOverlay/Panel"]
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -240.0
+offset_top = -80.0
+offset_right = 240.0
+offset_bottom = 80.0
+grow_horizontal = 2
+grow_vertical = 2
+theme_override_colors/font_color = Color(1, 1, 1, 1)
+theme_override_font_sizes/font_size = 48
+text = "PAUSED
+Esc to resume"
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="PuzzleUI" type="CanvasLayer" parent="."]
+layer = 20
+script = ExtResource("8_puzzle")

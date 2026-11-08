@@ -1,0 +1,19 @@
+[remap]
+
+importer="csv_translation"
+type="Translation"
+uid="uid://blh2ne1n2b8st"
+
+[deps]
+
+files=["res://audio/sfx/manifest.file.translation", "res://audio/sfx/manifest.category.translation", "res://audio/sfx/manifest.description.translation", "res://audio/sfx/manifest.loop.translation", "res://audio/sfx/manifest.loop.translation", "res://audio/sfx/manifest.loop.translation", "res://audio/sfx/manifest.duration.translation", "res://audio/sfx/manifest.sample.translation", "res://audio/sfx/manifest.channels.translation", "res://audio/sfx/manifest.peak.translation", "res://audio/sfx/manifest.rms.translation"]
+
+source_file="res://audio/sfx/manifest.csv"
+dest_files=["res://audio/sfx/manifest.file.translation", "res://audio/sfx/manifest.category.translation", "res://audio/sfx/manifest.description.translation", "res://audio/sfx/manifest.loop.translation", "res://audio/sfx/manifest.loop.translation", "res://audio/sfx/manifest.loop.translation", "res://audio/sfx/manifest.duration.translation", "res://audio/sfx/manifest.sample.translation", "res://audio/sfx/manifest.channels.translation", "res://audio/sfx/manifest.peak.translation", "res://audio/sfx/manifest.rms.translation"]
+
+[params]
+
+compress=1
+delimiter=0
+unescape_keys=false
+unescape_translations=true

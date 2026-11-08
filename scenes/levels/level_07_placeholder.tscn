@@ -1,0 +1,111 @@
+[gd_scene load_steps=8 format=3]
+
+[ext_resource type="Script" path="res://scripts/levels/level_controller.gd" id="1_main"]
+[ext_resource type="PackedScene" path="res://scenes/player.tscn" id="2_player"]
+[ext_resource type="Script" path="res://scripts/levels/whitebox_level.gd" id="3_world"]
+[ext_resource type="Script" path="res://scripts/camera_director.gd" id="4_camera"]
+[ext_resource type="PackedScene" path="res://scenes/task_panel.tscn" id="5_tasks"]
+[ext_resource type="PackedScene" path="res://scenes/hud_vitals.tscn" id="6_vitals"]
+[ext_resource type="PackedScene" path="res://scenes/door.tscn" id="7_door"]
+
+[node name="Level07Placeholder" type="Node2D"]
+process_mode = 3
+script = ExtResource("1_main")
+
+[node name="Projection" type="Node2D" parent="."]
+process_mode = 1
+scale = Vector2(1, 0.72)
+
+[node name="World" type="Node2D" parent="Projection" groups=["layout_world"]]
+script = ExtResource("3_world")
+room_size = Vector2(4000, 2400)
+tile = 128.0
+title = "LEVEL 07 / PLACEHOLDER"
+subtitle = "WHITEBOX / COLLISION PASS"
+spawn_marker = Vector2(500, 1200)
+show_exit_marker = false
+show_return_marker = false
+exit_marker_y = 1200.0
+exit_label = "EXIT → ???"
+return_label = "RETURN → LEVEL 06"
+
+[node name="Player" parent="Projection" instance=ExtResource("2_player")]
+process_mode = 1
+z_index = 10
+position = Vector2(500, 1200)
+
+[node name="EntranceDoor" parent="Projection/World" instance=ExtResource("7_door")]
+position = Vector2(32, 1340)
+scale = Vector2(-1, 1)
+z_index = 4
+door_role = "entrance"
+exit_scene_path = "res://scenes/levels/level_06_placeholder.tscn"
+locked_hint = "LEVEL 06 SEALED"
+start_locked = false
+
+[node name="ExitDoor" parent="Projection/World" instance=ExtResource("7_door")]
+position = Vector2(3968, 1340)
+z_index = 4
+door_role = "exit"
+exit_scene_path = ""
+locked_hint = "TO BE CONTINUED"
+start_locked = false
+
+[node name="CameraRig" type="Camera2D" parent="."]
+process_mode = 1
+zoom = Vector2(1.3, 1.3)
+limit_left = 0
+limit_top = 0
+limit_right = 4000
+limit_bottom = 1728
+script = ExtResource("4_camera")
+target_path = NodePath("../Projection/Player")
+base_zoom = 1.3
+framing_offset = Vector2(0, -40)
+
+[node name="HUD" type="CanvasLayer" parent="."]
+
+[node name="Vitals" parent="HUD" instance=ExtResource("6_vitals")]
+location_text = "LEVEL 07 / PLACEHOLDER"
+
+[node name="TaskPanel" parent="HUD" instance=ExtResource("5_tasks")]
+
+[node name="PauseOverlay" type="CanvasLayer" parent="."]
+layer = 10
+
+[node name="Panel" type="Control" parent="PauseOverlay"]
+visible = false
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+mouse_filter = 2
+
+[node name="Dim" type="ColorRect" parent="PauseOverlay/Panel"]
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+mouse_filter = 2
+color = Color(0, 0, 0, 0.6)
+
+[node name="Label" type="Label" parent="PauseOverlay/Panel"]
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -240.0
+offset_top = -80.0
+offset_right = 240.0
+offset_bottom = 80.0
+grow_horizontal = 2
+grow_vertical = 2
+theme_override_colors/font_color = Color(1, 1, 1, 1)
+theme_override_font_sizes/font_size = 48
+text = "PAUSED
+Esc to resume"
+horizontal_alignment = 1
+vertical_alignment = 1

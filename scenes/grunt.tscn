@@ -1,0 +1,42 @@
+[gd_scene load_steps=4 format=3]
+
+[ext_resource type="Script" path="res://scripts/grunt.gd" id="1_grunt"]
+
+[sub_resource type="CircleShape2D" id="CircleShape2D_body"]
+radius = 16.0
+
+[sub_resource type="CapsuleShape2D" id="CapsuleShape2D_hurt"]
+radius = 25.0
+height = 114.0
+
+[node name="Grunt" type="CharacterBody2D" groups=["enemies", "targets"]]
+collision_layer = 8
+collision_mask = 1
+z_index = 6
+script = ExtResource("1_grunt")
+max_hp = 3
+move_speed = 110.0
+contact_range = 48.0
+melee_cooldown = 1.0
+patrol_radius = 120.0
+detection_radius = 260.0
+leash_radius = 320.0
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+shape = SubResource("CircleShape2D_body")
+
+[node name="HurtBox" type="Area2D" parent="."]
+position = Vector2(3, -56.5)
+collision_layer = 2
+collision_mask = 0
+monitoring = false
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="HurtBox"]
+shape = SubResource("CapsuleShape2D_hurt")
+
+[node name="Visual" type="AnimatedSprite2D" parent="."]
+centered = false
+
+[node name="AttackVisual" type="AnimatedSprite2D" parent="."]
+visible = false
+centered = false

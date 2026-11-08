@@ -1,0 +1,193 @@
+[gd_scene load_steps=9 format=3]
+
+[ext_resource type="Script" path="res://scripts/settings_panel.gd" id="1_settings"]
+[ext_resource type="Theme" path="res://ui/theme/jam_theme.tres" id="2_theme"]
+[ext_resource type="Shader" path="res://ui/shaders/modal_blur.gdshader" id="3_blur"]
+[ext_resource type="Script" path="res://ui/components/glass_panel.gd" id="4_glass"]
+[ext_resource type="Script" path="res://ui/components/jam_toggle.gd" id="5_toggle"]
+[ext_resource type="Script" path="res://ui/components/jam_slider.gd" id="6_slider"]
+[ext_resource type="FontVariation" path="res://ui/fonts/f_label_tracked.tres" id="7_label"]
+
+[sub_resource type="ShaderMaterial" id="mat_blur"]
+shader = ExtResource("3_blur")
+shader_parameter/blur_radius = 3.0
+shader_parameter/darken = 0.68
+shader_parameter/tint = 0.4
+shader_parameter/tint_color = Color(0.02, 0.05, 0.065, 1)
+shader_parameter/fade = 1.0
+
+[node name="SettingsPanel" type="Control"]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+theme = ExtResource("2_theme")
+script = ExtResource("1_settings")
+
+[node name="BackBuffer" type="BackBufferCopy" parent="."]
+copy_mode = 2
+
+[node name="Blur" type="ColorRect" parent="."]
+material = SubResource("mat_blur")
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+color = Color(1, 1, 1, 1)
+
+[node name="Center" type="Control" parent="."]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+mouse_filter = 2
+
+[node name="Panel" type="Control" parent="Center"]
+layout_mode = 1
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -400.0
+offset_top = -360.0
+offset_right = 400.0
+offset_bottom = 360.0
+grow_horizontal = 2
+grow_vertical = 2
+script = ExtResource("4_glass")
+
+[node name="Margin" type="MarginContainer" parent="Center/Panel"]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+theme_override_constants/margin_left = 46
+theme_override_constants/margin_top = 40
+theme_override_constants/margin_right = 46
+theme_override_constants/margin_bottom = 34
+
+[node name="Content" type="VBoxContainer" parent="Center/Panel/Margin"]
+layout_mode = 2
+theme_override_constants/separation = 8
+
+[node name="Header" type="HBoxContainer" parent="Center/Panel/Margin/Content"]
+layout_mode = 2
+theme_override_constants/separation = 12
+
+[node name="Titles" type="VBoxContainer" parent="Center/Panel/Margin/Content/Header"]
+layout_mode = 2
+size_flags_horizontal = 3
+theme_override_constants/separation = 0
+
+[node name="Title" type="Label" parent="Center/Panel/Margin/Content/Header/Titles"]
+layout_mode = 2
+theme_override_colors/font_color = Color(0.93, 0.97, 0.98, 1)
+theme_override_font_sizes/font_size = 30
+text = "设置"
+
+[node name="Sub" type="Label" parent="Center/Panel/Margin/Content/Header/Titles"]
+layout_mode = 2
+theme_override_colors/font_color = Color(0.27, 0.85, 0.92, 0.55)
+theme_override_fonts/font = ExtResource("7_label")
+theme_override_font_sizes/font_size = 11
+text = "SYSTEM SETTINGS  //  ARCHIVE NODE 001"
+
+[node name="CloseButton" type="Button" parent="Center/Panel/Margin/Content/Header"]
+custom_minimum_size = Vector2(96, 40)
+layout_mode = 2
+size_flags_vertical = 4
+focus_mode = 2
+text = "返回"
+
+[node name="Divider" type="ColorRect" parent="Center/Panel/Margin/Content"]
+custom_minimum_size = Vector2(0, 1)
+layout_mode = 2
+color = Color(1, 1, 1, 0.16)
+
+[node name="SectionDisplay" type="Label" parent="Center/Panel/Margin/Content"]
+custom_minimum_size = Vector2(0, 28)
+layout_mode = 2
+theme_override_colors/font_color = Color(0.45, 0.8, 0.85, 0.78)
+theme_override_font_sizes/font_size = 14
+text = "显示   /   DISPLAY"
+
+[node name="ToggleFullscreen" type="Button" parent="Center/Panel/Margin/Content"]
+custom_minimum_size = Vector2(0, 66)
+layout_mode = 2
+script = ExtResource("5_toggle")
+title_text = "全屏显示"
+hint_text = "FULLSCREEN   ·   F11 / ALT+ENTER"
+
+[node name="ToggleVsync" type="Button" parent="Center/Panel/Margin/Content"]
+custom_minimum_size = Vector2(0, 66)
+layout_mode = 2
+script = ExtResource("5_toggle")
+title_text = "垂直同步"
+hint_text = "V-SYNC"
+
+[node name="SectionAudio" type="Label" parent="Center/Panel/Margin/Content"]
+custom_minimum_size = Vector2(0, 28)
+layout_mode = 2
+theme_override_colors/font_color = Color(0.45, 0.8, 0.85, 0.78)
+theme_override_font_sizes/font_size = 14
+text = "音频   /   AUDIO"
+
+[node name="SliderVolume" type="Control" parent="Center/Panel/Margin/Content"]
+custom_minimum_size = Vector2(0, 86)
+layout_mode = 2
+script = ExtResource("6_slider")
+title_text = "主音量"
+hint_text = "MASTER VOLUME"
+min_value = 0.0
+max_value = 100.0
+step = 1.0
+suffix = "%"
+
+[node name="SectionControl" type="Label" parent="Center/Panel/Margin/Content"]
+custom_minimum_size = Vector2(0, 28)
+layout_mode = 2
+theme_override_colors/font_color = Color(0.45, 0.8, 0.85, 0.78)
+theme_override_font_sizes/font_size = 14
+text = "操作   /   CONTROL"
+
+[node name="SliderSensitivity" type="Control" parent="Center/Panel/Margin/Content"]
+custom_minimum_size = Vector2(0, 86)
+layout_mode = 2
+script = ExtResource("6_slider")
+title_text = "鼠标灵敏度"
+hint_text = "MOUSE SENSITIVITY"
+min_value = 0.2
+max_value = 2.5
+step = 0.05
+decimals = 2
+suffix = "×"
+
+[node name="Spacer" type="Control" parent="Center/Panel/Margin/Content"]
+layout_mode = 2
+size_flags_vertical = 3
+mouse_filter = 2
+
+[node name="Footer" type="HBoxContainer" parent="Center/Panel/Margin/Content"]
+layout_mode = 2
+
+[node name="Hint" type="Label" parent="Center/Panel/Margin/Content/Footer"]
+layout_mode = 2
+size_flags_horizontal = 3
+theme_override_colors/font_color = Color(0.55, 0.65, 0.7, 0.6)
+theme_override_font_sizes/font_size = 12
+text = "更改会立即生效并自动保存"
+
+[node name="EscHint" type="Label" parent="Center/Panel/Margin/Content/Footer"]
+layout_mode = 2
+theme_override_colors/font_color = Color(0.55, 0.75, 0.8, 0.7)
+theme_override_font_sizes/font_size = 12
+text = "ESC  返回"

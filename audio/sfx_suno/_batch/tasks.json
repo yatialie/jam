@@ -1,0 +1,3491 @@
+{
+  "player/pl_footstep_metal_01.wav": {
+    "task": "task_7lq4QvWvVxdKnlj9AS0es1FCUnWPez9w",
+    "status": "done",
+    "mode": "10",
+    "title": "PL-01 pl_footstep_metal_01",
+    "submitted_at": 1794050253.5614984,
+    "clips": [
+      {
+        "audio_url": "https://file.lloongai.com/temp/suno/dl/d5/2026/11/07/20261107191740A402.m4a",
+        "duration": 2,
+        "id": "afe13771-dd54-4de1-8dca-c437e18170fc",
+        "image_url": "https://cdn2.suno.ai/image_afe13771-dd54-4de1-8dca-c437e18170fc.jpeg",
+        "instrumental": true,
+        "progress": 100,
+        "prompt": "Single dry sound effect, no music, no melody: one metal boot footstep on a spaceship floor, low thump and metallic heel click. Isolated one-shot, close-mic game SFX.",
+        "status": "SUCCESS",
+        "tags": "single isolated one-shot game sound effect: one heavy metal boot footstep on a spaceship floor, low compact thump followed by a crisp metallic heel click, close-miked, dry, short natural decay, no music, no melody, no ambience, no repeated steps",
+        "title": "Metal Bootstep — Spaceship Floor"
+      },
+      {
+        "audio_url": "https://file.lloongai.com/temp/suno/dl/d5/2026/11/07/20261107191744A404.m4a",
+        "duration": 2,
+        "id": "d22317a7-1cb8-4698-8d4f-196cf0f5df3a",
+        "image_url": "https://cdn2.suno.ai/image_d22317a7-1cb8-4698-8d4f-196cf0f5df3a.jpeg",
+        "instrumental": true,
+        "progress": 100,
+        "prompt": "Single dry sound effect, no music, no melody: one metal boot footstep on a spaceship floor, low thump and metallic heel click. Isolated one-shot, close-mic game SFX.",
+        "status": "SUCCESS",
+        "tags": "Single isolated close-mic game sound effect: one heavy metal boot footstep on a spaceship floor, low dull thump followed by a sharp metallic heel click. Dry, short, no ambience, no music, no melody, no additional footsteps.",
+        "title": "Metal Bootstep on Spaceship Floor"
+      }
+    ],
+    "result_status": "SUCCESS"
+  },
+  "player/pl_footstep_metal_02.wav": {
+    "task": "task_mHnUXhe9b0JxJaIHl4bHxVHA12fb4eSC",
+    "status": "done",
+    "mode": "10",
+    "title": "PL-01 pl_footstep_metal_02",
+    "submitted_at": 1794050255.9718523,
+    "clips": [
+      {
+        "audio_url": "https://file.lloongai.com/temp/suno/dl/d5/2026/11/07/20261107191744A403.m4a",
+        "duration": 3.56,
+        "id": "935ac26b-143b-4b67-8535-69874baa79e5",
+        "image_url": "https://cdn2.suno.ai/image_935ac26b-143b-4b67-8535-69874baa79e5.jpeg",
+        "instrumental": true,
+        "progress": 100,
+        "prompt": "[Instrumental]",
+        "status": "SUCCESS",
+        "tags": "Single isolated close-mic game sound effect, one light metal boot footstep landing on a spaceship floor, crisp sharp heel click, brief restrained metallic contact and tiny natural decay, dry intimate recording, one-shot only",
+        "title": "Metallic Footstep"
+      },
+      {
+        "audio_url": "https://file.lloongai.com/temp/suno/dl/d5/2026/11/07/20261107191750A408.m4a",
+        "duration": 3.96,
+        "id": "5220fe8b-bffe-450f-bd86-d981f98e8368",
+        "image_url": "https://cdn2.suno.ai/image_5220fe8b-bffe-450f-bd86-d981f98e8368.jpeg",
+        "instrumental": true,
+        "progress": 100,
+        "prompt": "[Instrumental]",
+        "status": "SUCCESS",
+        "tags": "Single isolated close-mic game sound effect, one light metal boot footstep landing on a spaceship floor, crisp sharp heel click, brief restrained metallic contact and tiny natural decay, dry intimate recording, one-shot only",
+        "title": "Metallic Footstep"
+      }
+    ],
+    "result_status": "SUCCESS"
+  },
+  "player/pl_footstep_metal_03.wav": {
+    "task": "task_w7Hkr6FFKsCuDqoJ6qJJxM7Cb4VTv2cI",
+    "status": "done",
+    "mode": "10",
+    "title": "PL-01 pl_footstep_metal_03",
+    "submitted_at": 1794050258.283415,
+    "clips": [
+      {
+        "audio_url": "https://file.lloongai.com/temp/suno/dl/d5/2026/11/07/20261107191745A405.m4a",
+        "duration": 32.4,
+        "id": "d091c02d-b37f-4fec-8986-f3d419ce3361",
+        "image_url": "https://cdn2.suno.ai/image_d091c02d-b37f-4fec-8986-f3d419ce3361.jpeg",
+        "instrumental": true,
+        "progress": 100,
+        "prompt": "[Instrumental]",
+        "status": "SUCCESS",
+        "tags": "Single isolated close-mic game sound effect, one heavy metal boot striking a spaceship deck with a gritty heel scuff and short tight metallic resonance, dry foreground recording, brief natural decay, no musical arrangement",
+        "title": "Metallic Bootstep"
+      },
+      {
+        "audio_url": "https://file.lloongai.com/temp/suno/dl/d5/2026/11/07/20261107191752A410.m4a",
+        "duration": 32.72,
+        "id": "1dc8a80c-5b32-4bfb-a9c1-e9053956dad5",
+        "image_url": "https://cdn2.suno.ai/image_1dc8a80c-5b32-4bfb-a9c1-e9053956dad5.jpeg",
+        "instrumental": true,
+        "progress": 100,
+        "prompt": "[Instrumental]",
+        "status": "SUCCESS",
+        "tags": "Single isolated close-mic game sound effect, one heavy metal boot striking a spaceship deck with a gritty heel scuff and short tight metallic resonance, dry foreground recording, brief natural decay, no musical arrangement",
+        "title": "Metallic Bootstep"
+      }
+    ],
+    "result_status": "SUCCESS"
+  },
+  "player/pl_footstep_metal_heavy.wav": {
+    "task": "task_83cH3HjdRrEbWlBUUj3oQ69tI8fflEy4",
+    "status": "done",
+    "mode": "10",
+    "title": "PL-01 pl_footstep_metal_heavy",
+    "submitted_at": 1794050260.6798325,
+    "clips": [
+      {
+        "audio_url": "https://file.lloongai.com/temp/suno/dl/d5/2026/11/07/20261107191759A414.m4a",
+        "duration": 11.96,
+        "id": "d7352d70-3b1d-4706-b899-c563050afc63",
+        "image_url": "https://cdn2.suno.ai/image_d7352d70-3b1d-4706-b899-c563050afc63.jpeg",
+        "instrumental": true,
+        "progress": 100,
+        "prompt": "Single dry sound effect, no music, no melody: one heavy metal boot footstep on a spaceship floor, deep thump and sharp heel click. Isolated one-shot, close-mic game SFX.",
+        "status": "SUCCESS",
+        "tags": "Single isolated heavy metal boot footstep on a spaceship floor: one close-mic impact, deep heavy thump followed immediately by a sharp metallic heel click, dry tight transient, subtle sci-fi metal floor resonance, no ambience, no music, no melody, one-shot sound effect",
+        "title": "Spaceship Metal Boot Footstep"
+      },
+      {
+        "audio_url": "https://file.lloongai.com/temp/suno/dl/d5/2026/11/07/20261107191804A421.m4a",
+        "duration": 11.96,
+        "id": "9af4a79e-c8b9-46d6-912d-362890d5ee91",
+        "image_url": "https://cdn2.suno.ai/image_9af4a79e-c8b9-46d6-912d-362890d5ee91.jpeg",
+        "instrumental": true,
+        "progress": 100,
+        "prompt": "Single dry sound effect, no music, no melody: one heavy metal boot footstep on a spaceship floor, deep thump and sharp heel click. Isolated one-shot, close-mic game SFX.",
+        "status": "SUCCESS",
+        "tags": "Single isolated heavy metal boot footstep on a spaceship floor: one deep, weighty thump followed immediately by a sharp heel click, close-mic, dry, game sound effect, no ambience, no music, no melody, one-shot",
+        "title": "Spaceship Boot Footstep"
+      }
+    ],
+    "result_status": "SUCCESS"
+  },
+  "player/pl_hurt.wav": {
+    "task": "task_YPxQP7AFO5w4o5ED7QtkX2A2snnDNFmS",
+    "status": "done",
+    "mode": "10",
+    "title": "PL-02 pl_hurt",
+    "submitted_at": 1794050263.0375931,
+    "clips": [
+      {
+        "audio_url": "https://file.lloongai.com/temp/suno/dl/d5/2026/11/07/20261107191811A423.m4a",
+        "duration": 2,
+        "id": "c473d8e8-1e34-4d6e-9a09-71300b72c11a",
+        "image_url": "https://cdn2.suno.ai/image_c473d8e8-1e34-4d6e-9a09-71300b72c11a.jpeg",
+        "instrumental": true,
+        "progress": 100,
+        "prompt": "Single dry sound effect, no music, no melody: player hurt, short sharp gasp and suit impact, cuts through gunfire. Isolated one-shot, close-mic game SFX.",
+        "status": "SUCCESS",
+        "tags": "Single isolated close-mic video game sound effect: a player takes a hit, a short sharp human gasp immediately followed by a tight, dry armored-suit impact thump. Abrupt, punchy, realistic game SFX, no ambience, no gunfire, no music, no melody, no loop.",
+        "title": "Player Hurt Impact"
+      },
+      {
+        "audio_url": "https://file.lloongai.com/temp/suno/dl/d5/2026/11/07/20261107191749A407.m4a",
+        "duration": 4.36,
+        "id": "441c026e-78ab-433b-bad0-9d016dbbcf87",
+        "image_url": "https://cdn2.suno.ai/image_441c026e-78ab-433b-bad0-9d016dbbcf87.jpeg",
+        "instrumental": true,
+        "progress": 100,
+        "prompt": "Single dry sound effect, no music, no melody: player hurt, short sharp gasp and suit impact, cuts through gunfire. Isolated one-shot, close-mic game SFX.",
+        "status": "SUCCESS",
+        "tags": "Single isolated video game player-hurt one-shot: a short sharp human gasp of pain immediately paired with a compact suit/body impact thud, close-mic and dry, abrupt transient, restrained and believable, designed to cut through gunfire. One event only; no gunfire, no ambience, no music, no melody, no tail, no repeated hits.",
+        "title": "Player Hurt One-Shot"
+      }
+    ],
+    "result_status": "SUCCESS"
+  },
+  "player/pl_death.wav": {
+    "task": "task_24U4iu2yvoTXm62LUJy2T8AR85o32ir7",
+    "status": "done",
+    "mode": "10",
+    "title": "PL-03 pl_death",
+    "submitted_at": 1794050265.4096885,
+    "clips": [
+      {
+        "audio_url": "https://file.lloongai.com/temp/suno/dl/d5/2026/11/07/20261107191751A229.m4a",
+        "duration": 4.8,
+        "id": "13965c97-b229-49f6-9588-0e882f531fce",
+        "image_url": "https://cdn2.suno.ai/image_13965c97-b229-49f6-9588-0e882f531fce.jpeg",
+        "instrumental": true,
+        "progress": 100,
+        "prompt": "[Instrumental]",
+        "status": "SUCCESS",
+        "tags": "single dry close-mic game sound effect, brief suit decompression hiss followed by a descending electronic power-down tone, isolated one-shot, no musical arrangement",
+        "title": "Suit Decompression"
+      },
+      {
+        "audio_url": "https://file.lloongai.com/temp/suno/dl/d5/2026/11/07/20261107191756A233.m4a",
+        "duration": 3.68,
+        "id": "6225089b-4eb6-4d5a-a387-58913894e2c7",
+        "image_url": "https://cdn2.suno.ai/image_6225089b-4eb6-4d5a-a387-58913894e2c7.jpeg",
+        "instrumental": true,
+        "progress": 100,
+        "prompt": "[Instrumental]",
+        "status": "SUCCESS",
+        "tags": "single dry close-mic game sound effect, brief suit decompression hiss followed by a descending electronic power-down tone, isolated one-shot, no musical arrangement",
+        "title": "Suit Decompression"
+      }
+    ],
+    "result_status": "SUCCESS"
+  },
+  "player/pl_pickup_heal.wav": {
+    "task": "task_HdBX9TuPdWaRhqyTtPIuHFNWVjybLz2S",
+    "status": "done",
+    "mode": "10",
+    "title": "PL-04 pl_pickup_heal",
+    "submitted_at": 1794050267.7545943,
+    "clips": [
+      {
+        "audio_url": "https://file.lloongai.com/temp/suno/dl/d5/2026/11/07/20261107191754A231.m4a",
+        "duration": 2,
+        "id": "6ea6f555-dae8-461c-b63d-02c6e7b2feb1",
+        "image_url": "https://cdn2.suno.ai/image_6ea6f555-dae8-461c-b63d-02c6e7b2feb1.jpeg",
+        "instrumental": true,
+        "progress": 100,
+        "prompt": "Single dry sound effect, no music, no melody: short rising electronic pickup chime, soft shimmer, health restore. Isolated one-shot, close-mic game SFX.",
+        "status": "SUCCESS",
+        "tags": "Single dry electronic game sound effect: short rising health-restore pickup chime, gentle two-step upward pitch sweep with a soft glassy shimmer and clean rounded transient, close and intimate, brief natural tail. One isolated one-shot, no music, no rhythm, no melody phrase, no ambience.",
+        "title": "Health Restore Chime"
+      },
+      {
+        "audio_url": "https://file.lloongai.com/temp/suno/dl/d5/2026/11/07/20261107191756A234.m4a",
+        "duration": 1.96,
+        "id": "f7c3370e-cd87-465c-86ed-fa2db74ac273",
+        "image_url": "https://cdn2.suno.ai/image_f7c3370e-cd87-465c-86ed-fa2db74ac273.jpeg",
+        "instrumental": true,
+        "progress": 100,
+        "prompt": "Single dry sound effect, no music, no melody: short rising electronic pickup chime, soft shimmer, health restore. Isolated one-shot, close-mic game SFX.",
+        "status": "SUCCESS",
+        "tags": "Single dry electronic game sound effect: short rising pickup chime suggesting health restoration, soft delicate shimmer, close and clean, one isolated one-shot, no music, no melody beyond the brief chime gesture",
+        "title": "Health Restore Chime"
+      }
+    ],
+    "result_status": "SUCCESS"
+  },
+  "player/pl_low_health.wav": {
+    "task": "task_TWcnY5SO1Vjs69smMkdV0BgxJGeQTnhL",
+    "status": "done",
+    "mode": "10",
+    "title": "PL-05 pl_low_health",
+    "submitted_at": 1794050270.0521717,
+    "clips": [
+      {
+        "audio_url": "https://file.lloongai.com/temp/suno/dl/d5/2026/11/07/20261107191756A413.m4a",
+        "duration": 2,
+        "id": "f014b987-b725-48a8-adf7-682775ce3ac9",
+        "image_url": "https://cdn2.suno.ai/image_f014b987-b725-48a8-adf7-682775ce3ac9.jpeg",
+        "instrumental": true,
+        "progress": 100,
+        "prompt": "Single dry sound effect, no music, no melody: sparse low health warning pulse, two soft heartbeat thumps. Isolated one-shot, close-mic game SFX.",
+        "status": "SUCCESS",
+        "tags": "Single isolated close-mic game sound effect: sparse low-health warning pulse, exactly two soft low heartbeat thumps with a short gap, dry and intimate, no music, no melody, no extra ambience or tail.",
+        "title": "Low Health Warning Pulse"
+      },
+      {
+        "audio_url": "https://file.lloongai.com/temp/suno/dl/d5/2026/11/07/20261107191801A417.m4a",
+        "duration": 2.28,
+        "id": "15977785-eac0-409b-b1f0-88ebb79a43d7",
+        "image_url": "https://cdn2.suno.ai/image_15977785-eac0-409b-b1f0-88ebb79a43d7.jpeg",
+        "instrumental": true,
+        "progress": 100,
+        "prompt": "Single dry sound effect, no music, no melody: sparse low health warning pulse, two soft heartbeat thumps. Isolated one-shot, close-mic game SFX.",
+        "status": "SUCCESS",
+        "tags": "Single dry close-mic game sound effect: sparse low-health warning pulse, exactly two soft heartbeat thumps, muted low thud with a faint short warning tick, isolated one-shot, no music, no melody, no ambience, no reverb",
+        "title": "Low Health Warning Pulse"
+      }
+    ],
+    "result_status": "SUCCESS"
+  },
+  "player/pl_dash.wav": {
+    "task": "task_WO1DFnT1Gu4WiC6dbtmKoAoFhu7ZGV1b",
+    "status": "done",
+    "mode": "10",
+    "title": "PL-06 pl_dash",
+    "submitted_at": 1794050272.4296823,
+    "clips": [
+      {
+        "audio_url": "https://file.lloongai.com/temp/suno/dl/d5/2026/11/07/20261107191759A763.m4a",
+        "duration": 2.8,
+        "id": "566848c7-8dfb-484f-ab70-80a7b48cb5ce",
+        "image_url": "https://cdn2.suno.ai/image_566848c7-8dfb-484f-ab70-80a7b48cb5ce.jpeg",
+        "instrumental": true,
+        "progress": 100,
+        "prompt": "[Instrumental]",
+        "status": "SUCCESS",
+        "tags": "Single close-mic game sound effect: a quick airy dash whoosh with a soft spacesuit fabric swish, compact movement, dry intimate recording, one isolated transient, no musical arrangement",
+        "title": "Airy Dash"
+      },
+      {
+        "audio_url": "https://file.lloongai.com/temp/suno/dl/d5/2026/11/07/20261107191803A764.m4a",
+        "duration": 2.6,
+        "id": "2afb2c22-dca7-422a-bc31-282a4537c67e",
+        "image_url": "https://cdn2.suno.ai/image_2afb2c22-dca7-422a-bc31-282a4537c67e.jpeg",
+        "instrumental": true,
+        "progress": 100,
+        "prompt": "[Instrumental]",
+        "status": "SUCCESS",
+        "tags": "Single close-mic game sound effect: a quick airy dash whoosh with a soft spacesuit fabric swish, compact movement, dry intimate recording, one isolated transient, no musical arrangement",
+        "title": "Airy Dash"
+      }
+    ],
+    "result_status": "SUCCESS"
+  },
+  "weapons/wp_shoot_01.wav": {
+    "task": "task_XyTN6xVqfiSp1MGkRtK6pl22TVXdgwoX",
+    "status": "done",
+    "mode": "10",
+    "title": "WP-01 wp_shoot_01",
+    "submitted_at": 1794050274.767208,
+    "clips": [
+      {
+        "audio_url": "https://file.lloongai.com/temp/suno/dl/d5/2026/11/07/20261107191801A238.m4a",
+        "duration": 3.92,
+        "id": "47217fa2-ce10-4cc6-abb0-3679fce5c2cd",
+        "image_url": "https://cdn2.suno.ai/image_47217fa2-ce10-4cc6-abb0-3679fce5c2cd.jpeg",
+        "instrumental": true,
+        "progress": 100,
+        "prompt": "[Instrumental]",
+        "status": "SUCCESS",
+        "tags": "Single isolated sci-fi energy rifle shot sound effect, close-mic capacitor charging snap followed by a hard electric crack and brief sizzling discharge tail, dry tight transient, compact game sound design, one-shot only",
+        "title": "Energy Rifle Shot"
+      },
+      {
+        "audio_url": "https://file.lloongai.com/temp/suno/dl/d5/2026/11/07/20261107191809A244.m4a",
+        "duration": 5.84,
+        "id": "b3bdd91a-a058-4018-919c-2586ebcf4094",
+        "image_url": "https://cdn2.suno.ai/image_b3bdd91a-a058-4018-919c-2586ebcf4094.jpeg",
+        "instrumental": true,
+        "progress": 100,
+        "prompt": "[Instrumental]",
+        "status": "SUCCESS",
+        "tags": "Single isolated sci-fi energy rifle shot sound effect, close-mic capacitor charging snap followed by a hard electric crack and brief sizzling discharge tail, dry tight transient, compact game sound design, one-shot only",
+        "title": "Energy Rifle Shot"
+      }
+    ],
+    "result_status": "SUCCESS"
+  },
+  "weapons/wp_shoot_02.wav": {
+    "task": "task_IvvcdR0zXhvC7qHyiYASc6eP6tmsRp0l",
+    "id": "WP-01",
+    "status": "done",
+    "mode": "10",
+    "title": "WP-01 wp_shoot_02",
+    "submitted_at": 1794050384.9081993,
+    "clips": [
+      {
+        "audio_url": "https://file.lloongai.com/temp/suno/dl/d5/2026/11/07/20261107191951A289.m4a",
+        "duration": 12.8,
+        "id": "eba51914-b973-41b1-b532-e54f0be63f15",
+        "image_url": "https://cdn2.suno.ai/image_eba51914-b973-41b1-b532-e54f0be63f15.jpeg",
+        "instrumental": true,
+        "progress": 100,
+        "prompt": "[Instrumental]",
+        "status": "SUCCESS",
+        "tags": "Single isolated close-mic sci-fi energy rifle shot sound effect, a sharp bright high-frequency crack followed immediately by a short compact low thump, dry and punchy, clean transient, brief natural decay, game-ready one-shot",
+        "title": "Energy Rifle Shot"
+      },
+      {
+        "audio_url": "https://file.lloongai.com/temp/suno/dl/d5/2026/11/07/20261107191959A295.m4a",
+        "duration": 26.8,
+        "id": "71463cd2-70b9-4313-a397-47989d3906f8",
+        "image_url": "https://cdn2.suno.ai/image_71463cd2-70b9-4313-a397-47989d3906f8.jpeg",
+        "instrumental": true,
+        "progress": 100,
+        "prompt": "[Instrumental]",
+        "status": "SUCCESS",
+        "tags": "Single isolated close-mic sci-fi energy rifle shot sound effect, a sharp bright high-frequency crack followed immediately by a short compact low thump, dry and punchy, clean transient, brief natural decay, game-ready one-shot",
+        "title": "Energy Rifle Shot"
+      }
+    ],
+    "result_status": "SUCCESS"
+  },
+  "weapons/wp_shoot_03.wav": {
+    "task": "task_p5zLA8M7JWZGlKD37Ig2yYVeBqSp4Cz9",
+    "id": "WP-01",
+    "status": "done",
+    "mode": "10",
+    "title": "WP-01 wp_shoot_03",
+    "submitted_at": 1794050387.1524625,
+    "clips": [
+      {
+        "audio_url": "https://file.lloongai.com/temp/suno/dl/d5/2026/11/07/20261107191954A291.m4a",
+        "duration": 3.6,
+        "id": "56453ef7-a24b-457c-b2ae-035f90be983b",
+        "image_url": "https://cdn2.suno.ai/image_56453ef7-a24b-457c-b2ae-035f90be983b.jpeg",
+        "instrumental": true,
+        "progress": 100,
+        "prompt": "[Instrumental]",
+        "status": "SUCCESS",
+        "tags": "Single isolated close-mic sci-fi energy rifle shot sound effect, deep capacitor discharge thump, sharp electrical crack, short metallic tail, dry game sound design",
+        "title": "Discharge Shot"
+      },
+      {
+        "audio_url": "https://file.lloongai.com/temp/suno/dl/d5/2026/11/07/20261107191958A294.m4a",
+        "duration": 3.6,
+        "id": "658acf8d-0a55-45fb-9fd9-a56617ed32c9",
+        "image_url": "https://cdn2.suno.ai/image_658acf8d-0a55-45fb-9fd9-a56617ed32c9.jpeg",
+        "instrumental": true,
+        "progress": 100,
+        "prompt": "Single dry sound effect, no music, no melody: sci-fi energy rifle shot, deeper capacitor discharge and metallic tail. Isolated one-shot, close-mic game SFX.",
+        "status": "SUCCESS",
+        "tags": "",
+        "title": ""
+      }
+    ],
+    "result_status": "SUCCESS"
+  },
+  "weapons/wp_hit_organic.wav": {
+    "task": "task_cixHKHICQj3R4qLRe3OMEhnsqxMIvu1D",
+    "id": "WP-02",
+    "status": "done",
+    "mode": "10",
+    "title": "WP-02 wp_hit_organic",
+    "submitted_at": 1794050389.4863412,
+    "clips": [
+      {
+        "audio_url": "https://file.lloongai.com/temp/suno/dl/d5/2026/11/07/20261107191956A799.m4a",
+        "duration": 3.16,
+        "id": "9c89cdb3-7788-489f-a594-dca2326a18fa",
+        "image_url": "https://cdn2.suno.ai/image_9c89cdb3-7788-489f-a594-dca2326a18fa.jpeg",
+        "instrumental": true,
+        "progress": 100,
+        "prompt": "Single dry sound effect, no music, no melody: bullet hitting an organic alien body, wet thud and short electronic confirm. Isolated one-shot, close-mic game SFX.",
+        "status": "SUCCESS",
+        "tags": "Single dry close-mic game sound effect: a projectile striking an organic alien body, compact wet fleshy thud with a brief subtle electronic confirmation chirp immediately after. One isolated one-shot, no music, no melody, no speech, clean silence around it.",
+        "title": "Alien Impact Confirm"
+      },
+      {
+        "audio_url": "https://file.lloongai.com/temp/suno/dl/d5/2026/11/07/20261107192013A810.m4a",
+        "duration": 2,
+        "id": "15eb03cb-95cd-4710-a504-915ba484ebc3",
+        "image_url": "https://cdn2.suno.ai/image_15eb03cb-95cd-4710-a504-915ba484ebc3.jpeg",
+        "instrumental": true,
+        "progress": 100,
+        "prompt": "Single dry sound effect, no music, no melody: bullet hitting an organic alien body, wet thud and short electronic confirm. Isolated one-shot, close-mic game SFX.",
+        "status": "SUCCESS",
+        "tags": "Single dry close-mic game sound effect: a bullet striking an organic alien body, a wet, dense thud with a short electronic confirmation blip immediately after. Isolated one-shot, no ambience, no music, no melody.",
+        "title": "Organic Alien Impact"
+      }
+    ],
+    "result_status": "SUCCESS"
+  },
+  "weapons/wp_hit_metal.wav": {
+    "task": "task_yhFJAA95IBM6ma4c1fnapIslzohrOs0V",
+    "id": "WP-03",
+    "status": "done",
+    "mode": "10",
+    "title": "WP-03 wp_hit_metal",
+    "submitted_at": 1794050391.6364543,
+    "clips": [
+      {
+        "audio_url": "https://file.lloongai.com/temp/suno/dl/d5/2026/11/07/20261107191959A801.m4a",
+        "duration": 2,
+        "id": "d59ee0a8-a54f-48ca-bfbd-ddb1e7e70fbe",
+        "image_url": "https://cdn2.suno.ai/image_d59ee0a8-a54f-48ca-bfbd-ddb1e7e70fbe.jpeg",
+        "instrumental": true,
+        "progress": 100,
+        "prompt": "Single dry sound effect, no music, no melody: bullet hitting a metal surface, crisp metallic ping and short tick. Isolated one-shot, close-mic game SFX.",
+        "status": "SUCCESS",
+        "tags": "Single isolated close-mic game sound effect: a bullet striking a metal surface, crisp bright metallic ping followed by a short dry tick, one-shot, no music, no melody, no ambience, clean transient",
+        "title": "Metal Impact Ping"
+      },
+      {
+        "audio_url": "https://file.lloongai.com/temp/suno/dl/d5/2026/11/07/20261107192017A302.m4a",
+        "duration": 3.32,
+        "id": "89dc58bc-2600-4f8e-aa45-318f0a5b1b1b",
+        "image_url": "https://cdn2.suno.ai/image_89dc58bc-2600-4f8e-aa45-318f0a5b1b1b.jpeg",
+        "instrumental": true,
+        "progress": 100,
+        "prompt": "[Instrumental]",
+        "status": "SUCCESS",
+        "tags": "Single isolated close-mic game sound effect, one crisp bullet impact against a hard metal surface, bright short metallic ping followed by a tight tick, dry and immediate, no ambience, no tail beyond a brief natural decay",
+        "title": "Metallic Ping"
+      }
+    ],
+    "result_status": "SUCCESS"
+  },
+  "weapons/wp_hit_glass.wav": {
+    "task": "task_6x2bqAtJQnwWxGrv62Ne88ThFg50UrbN",
+    "id": "WP-04",
+    "status": "done",
+    "mode": "10",
+    "title": "WP-04 wp_hit_glass",
+    "submitted_at": 1794050393.9185467,
+    "clips": [
+      {
+        "audio_url": "https://file.lloongai.com/temp/suno/dl/d5/2026/11/07/20261107192000A459.m4a",
+        "duration": 4.4,
+        "id": "6ad35a6d-a1ce-4f25-b455-c4233bd06cff",
+        "image_url": "https://cdn2.suno.ai/image_6ad35a6d-a1ce-4f25-b455-c4233bd06cff.jpeg",
+        "instrumental": true,
+        "progress": 100,
+        "prompt": "[Instrumental]",
+        "status": "SUCCESS",
+        "tags": "Isolated close-mic game sound effect, one sharp bullet impact on a glass container, crisp dry tick-crack followed by a tiny scatter of delicate glass shards, brief natural decay, single event only",
+        "title": "Glass Impact"
+      },
+      {
+        "audio_url": "https://file.lloongai.com/temp/suno/dl/d5/2026/11/07/20261107192007A464.m4a",
+        "duration": 4.92,
+        "id": "b0264901-c432-478a-b86b-dfb56845d4a7",
+        "image_url": "https://cdn2.suno.ai/image_b0264901-c432-478a-b86b-dfb56845d4a7.jpeg",
+        "instrumental": true,
+        "progress": 100,
+        "prompt": "[Instrumental]",
+        "status": "SUCCESS",
+        "tags": "Isolated close-mic game sound effect, one sharp bullet impact on a glass container, crisp dry tick-crack followed by a tiny scatter of delicate glass shards, brief natural decay, single event only",
+        "title": "Glass Impact"
+      }
+    ],
+    "result_status": "SUCCESS"
+  },
+  "weapons/wp_reload.wav": {
+    "task": "task_ii3RBPrTeeUw3o0aK7b5ICo1XlAQgPpo",
+    "id": "WP-05",
+    "status": "done",
+    "mode": "10",
+    "title": "WP-05 wp_reload",
+    "submitted_at": 1794050396.5911171,
+    "clips": [
+      {
+        "audio_url": "https://file.lloongai.com/temp/suno/dl/d5/2026/11/07/20261107192015A301.m4a",
+        "duration": 59.56,
+        "id": "12a9e08e-b830-4a76-842c-42a8387c80aa",
+        "image_url": "https://cdn2.suno.ai/image_12a9e08e-b830-4a76-842c-42a8387c80aa.jpeg",
+        "instrumental": true,
+        "progress": 100,
+        "prompt": "[Instrumental]",
+        "status": "SUCCESS",
+        "tags": "Single close-miked sci-fi game sound effect: dry, isolated one-shot sequence of a compact energy rifle reload, sharp magazine release and clack, metallic mechanical lock, energy module sliding into place, firm final latch; tight transient detail, restrained low mechanical thump, no ambience.",
+        "title": "Energy Rifle Reload"
+      },
+      {
+        "audio_url": "https://file.lloongai.com/temp/suno/dl/d5/2026/11/07/20261107192023A308.m4a",
+        "duration": 151.2,
+        "id": "4d6f682b-226f-4e3b-aaca-b213fdcd07b9",
+        "image_url": "https://cdn2.suno.ai/image_4d6f682b-226f-4e3b-aaca-b213fdcd07b9.jpeg",
+        "instrumental": true,
+        "progress": 100,
+        "prompt": "[Instrumental]",
+        "status": "SUCCESS",
+        "tags": "Single close-miked sci-fi game sound effect: dry, isolated one-shot sequence of a compact energy rifle reload, sharp magazine release and clack, metallic mechanical lock, energy module sliding into place, firm final latch; tight transient detail, restrained low mechanical thump, no ambience.",
+        "title": "Energy Rifle Reload"
+      }
+    ],
+    "result_status": "SUCCESS"
+  },
+  "weapons/wp_empty.wav": {
+    "task": "task_A1O9DGXAM2bVn3bfoOlNZr6WcxKF032Y",
+    "id": "WP-06",
+    "status": "done",
+    "mode": "10",
+    "title": "WP-06 wp_empty",
+    "submitted_at": 1794050398.8370054,
+    "clips": [
+      {
+        "audio_url": "https://file.lloongai.com/temp/suno/dl/d5/2026/11/07/20261107192007A298.m4a",
+        "duration": 2,
+        "id": "fab50b03-4b48-4c6c-a3ef-aae15bf17a5a",
+        "image_url": "https://cdn2.suno.ai/image_fab50b03-4b48-4c6c-a3ef-aae15bf17a5a.jpeg",
+        "instrumental": true,
+        "progress": 100,
+        "prompt": "Single dry sound effect, no music, no melody: empty weapon dry click and short refusal buzz. Isolated one-shot, close-mic game SFX.",
+        "status": "SUCCESS",
+        "tags": "Single isolated close-mic game sound effect: an empty weapon dry mechanical click immediately followed by a short electronic refusal buzz. One-shot, crisp transient, compact and dry, no music, no melody, no ambience, no extra impacts.",
+        "title": "Dry Click and Refusal Buzz"
+      },
+      {
+        "audio_url": "https://file.lloongai.com/temp/suno/dl/d5/2026/11/07/20261107192023A310.m4a",
+        "duration": 2,
+        "id": "7b344539-db08-49b6-90ed-f50e0bd0dc8f",
+        "image_url": "https://cdn2.suno.ai/image_7b344539-db08-49b6-90ed-f50e0bd0dc8f.jpeg",
+        "instrumental": true,
+        "progress": 100,
+        "prompt": "Single dry sound effect, no music, no melody: empty weapon dry click and short refusal buzz. Isolated one-shot, close-mic game SFX.",
+        "status": "SUCCESS",
+        "tags": "Single isolated game sound effect: an empty weapon trigger dry mechanical click immediately followed by a short electronic refusal buzz. Close-mic, dry, crisp transient, compact buzz tail, one-shot only, no ambience, no music, no melody.",
+        "title": "Dry Click and Refusal Buzz"
+      }
+    ],
+    "result_status": "SUCCESS"
+  },
+  "weapons/wp_charge_loop.wav": {
+    "task": "task_k8BSkSqaPIPrv2iJYCRAerH6PaiQdOUL",
+    "id": "WP-07",
+    "status": "done",
+    "mode": "20",
+    "title": "WP-07 wp_charge_loop",
+    "submitted_at": 1794050401.068515,
+    "clips": [
+      {
+        "audio_url": "https://file.lloongai.com/temp/suno/dl/d5/2026/11/07/20261107192009A467.m4a",
+        "duration": 13.12,
+        "id": "bcda501d-cd61-4779-a9ac-2448308a1525",
+        "image_url": "https://cdn2.suno.ai/image_bcda501d-cd61-4779-a9ac-2448308a1525.jpeg",
+        "instrumental": true,
+        "progress": 100,
+        "prompt": "",
+        "status": "SUCCESS",
+        "tags": "seamless ambient loop, no music, no melody, no drums, sound design: rising energy weapon charge whine, loopable capacitor hum. continuous background texture, loopable",
+        "title": "WP-07 wp_charge_loop"
+      },
+      {
+        "audio_url": "https://file.lloongai.com/temp/suno/dl/d5/2026/11/07/20261107192016A473.m4a",
+        "duration": 46.84,
+        "id": "7751fb40-31ef-4a0c-905e-121b0065b5a7",
+        "image_url": "https://cdn2.suno.ai/image_7751fb40-31ef-4a0c-905e-121b0065b5a7.jpeg",
+        "instrumental": true,
+        "progress": 100,
+        "prompt": "",
+        "status": "SUCCESS",
+        "tags": "seamless ambient loop, no music, no melody, no drums, sound design: rising energy weapon charge whine, loopable capacitor hum. continuous background texture, loopable",
+        "title": "WP-07 wp_charge_loop"
+      }
+    ],
+    "result_status": "SUCCESS"
+  },
+  "weapons/wp_overheat_warning.wav": {
+    "task": "task_YrWntHSZJ2iUk6wSsgFoT3v3exysfWAF",
+    "id": "WP-07",
+    "status": "done",
+    "mode": "10",
+    "title": "WP-07 wp_overheat_warning",
+    "submitted_at": 1794050403.3432467,
+    "clips": [
+      {
+        "audio_url": "https://file.lloongai.com/temp/suno/dl/d5/2026/11/07/20261107192011A468.m4a",
+        "duration": 2,
+        "id": "5c7b8bd5-4bd6-4682-8e13-0b959960e953",
+        "image_url": "https://cdn2.suno.ai/image_5c7b8bd5-4bd6-4682-8e13-0b959960e953.jpeg",
+        "instrumental": true,
+        "progress": 100,
+        "prompt": "Single dry sound effect, no music, no melody: weapon overheat warning, three short urgent beeps and low buzz. Isolated one-shot, close-mic game SFX.",
+        "status": "SUCCESS",
+        "tags": "Single isolated close-mic video game weapon overheat warning sound effect: three short urgent electronic beeps followed immediately by a low sustained buzzy tail, dry and compact, no ambience, no music, no melody, one-shot",
+        "title": "Weapon Overheat Warning"
+      },
+      {
+        "audio_url": "https://file.lloongai.com/temp/suno/dl/d5/2026/11/07/20261107192027A819.m4a",
+        "duration": 2,
+        "id": "23c8e189-fd18-4e4a-b393-d5d5801661be",
+        "image_url": "https://cdn2.suno.ai/image_23c8e189-fd18-4e4a-b393-d5d5801661be.jpeg",
+        "instrumental": true,
+        "progress": 100,
+        "prompt": "Single dry sound effect, no music, no melody: weapon overheat warning, three short urgent beeps and low buzz. Isolated one-shot, close-mic game SFX.",
+        "status": "SUCCESS",
+        "tags": "Single isolated close-mic video game weapon overheat warning: three short urgent electronic beeps followed by a low rough buzz. Dry, compact one-shot, no music, no melody, no ambience.",
+        "title": "Weapon Overheat Warning"
+      }
+    ],
+    "result_status": "SUCCESS"
+  },
+  "weapons/wp_cooldown_complete.wav": {
+    "task": "task_uiqJfkQAaeZoYKNsz1eQj1cwvnlyrim3",
+    "id": "WP-07",
+    "status": "done",
+    "mode": "10",
+    "title": "WP-07 wp_cooldown_complete",
+    "submitted_at": 1794050405.9399118,
+    "clips": [
+      {
+        "audio_url": "https://file.lloongai.com/temp/suno/dl/d5/2026/11/07/20261107192013A471.m4a",
+        "duration": 2.4,
+        "id": "e8c6102b-5963-4f56-8fbd-18115bb9774a",
+        "image_url": "https://cdn2.suno.ai/image_e8c6102b-5963-4f56-8fbd-18115bb9774a.jpeg",
+        "instrumental": true,
+        "progress": 100,
+        "prompt": "Single dry sound effect, no music, no melody: weapon cooldown complete, soft descending relief chime. Isolated one-shot, close-mic game SFX.",
+        "status": "SUCCESS",
+        "tags": "Single isolated one-shot game sound effect: weapon cooldown complete, soft descending relief chime. Dry close-mic transient, short gentle metallic-electronic tonal decay, restrained and clear. No music, no melody, no rhythm, no ambience, no extra sounds.",
+        "title": "Cooldown Complete Chime"
+      },
+      {
+        "audio_url": "https://file.lloongai.com/temp/suno/dl/d5/2026/11/07/20261107192021A479.m4a",
+        "duration": 2,
+        "id": "c0ef9913-c080-447d-8893-9c3b984b2683",
+        "image_url": "https://cdn2.suno.ai/image_c0ef9913-c080-447d-8893-9c3b984b2683.jpeg",
+        "instrumental": true,
+        "progress": 100,
+        "prompt": "Single dry sound effect, no music, no melody: weapon cooldown complete, soft descending relief chime. Isolated one-shot, close-mic game SFX.",
+        "status": "SUCCESS",
+        "tags": "Single isolated close-mic game sound effect: weapon cooldown complete, soft descending relief chime. One short, clean, dry tonal chime with a gentle downward pitch glide and a quick natural decay; no ambience, no music, no melody, no additional sounds.",
+        "title": "Cooldown Complete Chime"
+      }
+    ],
+    "result_status": "SUCCESS"
+  },
+  "weapons/wp_switch.wav": {
+    "task": "task_eOyXsnQjPdrdZuS3j60irBXZYdBQbVUC",
+    "id": "WP-08",
+    "status": "done",
+    "mode": "10",
+    "title": "WP-08 wp_switch",
+    "submitted_at": 1794050408.1182506,
+    "clips": [
+      {
+        "audio_url": "https://file.lloongai.com/temp/suno/dl/d5/2026/11/07/20261107192015A814.m4a",
+        "duration": 3.6,
+        "id": "6e6e9531-216a-42dd-b512-1cb764abff7b",
+        "image_url": "https://cdn2.suno.ai/image_6e6e9531-216a-42dd-b512-1cb764abff7b.jpeg",
+        "instrumental": true,
+        "progress": 100,
+        "prompt": "Single dry sound effect, no music, no melody: weapon switch, servo movement, latch click and short electronic confirm. Isolated one-shot, close-mic game SFX.",
+        "status": "SUCCESS",
+        "tags": "Single isolated one-shot game sound effect: weapon switch, tight mechanical servo movement, a distinct latch click, then a brief electronic confirmation chirp. Close-miked, dry, crisp transient, concise sequence, no music, no melody, no ambience, no loop.",
+        "title": "Weapon Switch Confirm SFX"
+      },
+      {
+        "audio_url": "https://file.lloongai.com/temp/suno/dl/d5/2026/11/07/20261107192033A486.m4a",
+        "duration": 2,
+        "id": "a23ec5b0-749b-40b2-b472-4316f844903b",
+        "image_url": "https://cdn2.suno.ai/image_a23ec5b0-749b-40b2-b472-4316f844903b.jpeg",
+        "instrumental": true,
+        "progress": 100,
+        "prompt": "Single dry sound effect, no music, no melody: weapon switch, servo movement, latch click and short electronic confirm. Isolated one-shot, close-mic game SFX.",
+        "status": "SUCCESS",
+        "tags": "Single isolated close-mic video game weapon-switch sound effect: compact mechanical servo movement / slide, distinct latch click, followed by a very short clean electronic confirmation blip. Dry, crisp, realistic, one-shot, no ambience, no music, no melody, no extra sounds.",
+        "title": "Weapon Switch Confirm SFX"
+      }
+    ],
+    "result_status": "SUCCESS"
+  },
+  "enemies/en_alert_01.wav": {
+    "task": "task_QHdvCAWeGcJHt3ryhqAjuFRv7O7YwBkX",
+    "id": "EN-01",
+    "status": "done",
+    "mode": "10",
+    "title": "EN-01 en_alert_01",
+    "submitted_at": 1794050410.3587253,
+    "clips": [
+      {
+        "audio_url": "https://file.lloongai.com/temp/suno/dl/d5/2026/11/07/20261107192017A475.m4a",
+        "duration": 4.8,
+        "id": "656db342-0f36-4503-9635-a4edd284278b",
+        "image_url": "https://cdn2.suno.ai/image_656db342-0f36-4503-9635-a4edd284278b.jpeg",
+        "instrumental": true,
+        "progress": 100,
+        "prompt": "[Instrumental]",
+        "status": "SUCCESS",
+        "tags": "Single isolated one-shot game sound effect, close-mic alien humanoid alert cry: short guttural distorted throat growl that snaps into a sharp electronic chirp, dry and up-front, brief tail, designed as a standalone creature vocalization.",
+        "title": "Alert Cry"
+      },
+      {
+        "audio_url": "https://file.lloongai.com/temp/suno/dl/d5/2026/11/07/20261107192023A480.m4a",
+        "duration": 4.68,
+        "id": "47a56fed-16a5-4061-9d78-375a1016c9e3",
+        "image_url": "https://cdn2.suno.ai/image_47a56fed-16a5-4061-9d78-375a1016c9e3.jpeg",
+        "instrumental": true,
+        "progress": 100,
+        "prompt": "[Instrumental]",
+        "status": "SUCCESS",
+        "tags": "Single isolated one-shot game sound effect, close-mic alien humanoid alert cry: short guttural distorted throat growl that snaps into a sharp electronic chirp, dry and up-front, brief tail, designed as a standalone creature vocalization.",
+        "title": "Alert Cry"
+      }
+    ],
+    "result_status": "SUCCESS"
+  },
+  "enemies/en_alert_02.wav": {
+    "task": "task_BYk80iIlW0ZfEefBWVgOQJz68jgNlJh0",
+    "id": "EN-01",
+    "status": "done",
+    "mode": "10",
+    "title": "EN-01 en_alert_02",
+    "submitted_at": 1794050412.489265,
+    "clips": [
+      {
+        "audio_url": "https://file.lloongai.com/temp/suno/dl/d5/2026/11/07/20261107192019A815.m4a",
+        "duration": 3.56,
+        "id": "3b94c32a-bb2f-4354-b695-da52ca4eb7e9",
+        "image_url": "https://cdn2.suno.ai/image_3b94c32a-bb2f-4354-b695-da52ca4eb7e9.jpeg",
+        "instrumental": true,
+        "progress": 100,
+        "prompt": "Single dry sound effect, no music, no melody: alien bug creature alert, chitin clicks and high chirp. Isolated one-shot, close-mic game SFX.",
+        "status": "SUCCESS",
+        "tags": "Single isolated one-shot game sound effect: alien bug creature alert, close-mic dry chitin clicks followed by a brief high-pitched chirp; organic, sharp, non-musical, no melody, no ambience, no tail",
+        "title": "Alien Bug Alert"
+      },
+      {
+        "audio_url": "https://file.lloongai.com/temp/suno/dl/d5/2026/11/07/20261107192025A818.m4a",
+        "duration": 2.36,
+        "id": "eedae349-62d3-45a9-98dc-156bad4db5cb",
+        "image_url": "https://cdn2.suno.ai/image_eedae349-62d3-45a9-98dc-156bad4db5cb.jpeg",
+        "instrumental": true,
+        "progress": 100,
+        "prompt": "Single dry sound effect, no music, no melody: alien bug creature alert, chitin clicks and high chirp. Isolated one-shot, close-mic game SFX.",
+        "status": "SUCCESS",
+        "tags": "Single isolated close-mic game sound effect: an alien bug creature alert, sharp dry chitin clicks followed by one high, brief insect-like chirp. No music, no melody, no ambience, no room reverb; crisp transient detail, compact one-shot.",
+        "title": "Alien Bug Alert"
+      }
+    ],
+    "result_status": "SUCCESS"
+  },
+  "enemies/en_melee_warning.wav": {
+    "task": "task_2jCGJxm06jd0J14F6gw10POrxkmQg4nI",
+    "id": "EN-02",
+    "status": "done",
+    "mode": "10",
+    "title": "EN-02 en_melee_warning",
+    "submitted_at": 1794050414.673201,
+    "clips": [
+      {
+        "audio_url": "https://file.lloongai.com/temp/suno/dl/d5/2026/11/07/20261107192021A307.m4a",
+        "duration": 5.56,
+        "id": "b7d3d907-4ee2-4ffa-83f3-23f2616462bd",
+        "image_url": "https://cdn2.suno.ai/image_b7d3d907-4ee2-4ffa-83f3-23f2616462bd.jpeg",
+        "instrumental": true,
+        "progress": 100,
+        "prompt": "[Instrumental]",
+        "status": "SUCCESS",
+        "tags": "Isolated one-shot game sound design, close-mic dry low creature growl, strained joint creak, tension rising in a short irregular swell, gritty organic texture, abrupt restrained finish, sound effect only",
+        "title": "Joint Creak"
+      },
+      {
+        "audio_url": "https://file.lloongai.com/temp/suno/dl/d5/2026/11/07/20261107192029A314.m4a",
+        "duration": 5,
+        "id": "09a9177f-da30-4f3b-bd43-e7b81fe6be7b",
+        "image_url": "https://cdn2.suno.ai/image_09a9177f-da30-4f3b-bd43-e7b81fe6be7b.jpeg",
+        "instrumental": true,
+        "progress": 100,
+        "prompt": "[Instrumental]",
+        "status": "SUCCESS",
+        "tags": "Isolated one-shot game sound design, close-mic dry low creature growl, strained joint creak, tension rising in a short irregular swell, gritty organic texture, abrupt restrained finish, sound effect only",
+        "title": "Joint Creak"
+      }
+    ],
+    "result_status": "SUCCESS"
+  },
+  "enemies/en_broom_whoosh.wav": {
+    "task": "task_syUZiOfJtU7hcH2SZEIMNjLiFKLjYqnq",
+    "id": "EN-03",
+    "status": "done",
+    "mode": "10",
+    "title": "EN-03 en_broom_whoosh",
+    "submitted_at": 1794050417.1360357,
+    "clips": [
+      {
+        "audio_url": "https://file.lloongai.com/temp/suno/dl/d5/2026/11/07/20261107192024A481.m4a",
+        "duration": 4.4,
+        "id": "f95994a4-5b91-48ac-afea-57980a85e85e",
+        "image_url": "https://cdn2.suno.ai/image_f95994a4-5b91-48ac-afea-57980a85e85e.jpeg",
+        "instrumental": true,
+        "progress": 100,
+        "prompt": "[Instrumental]",
+        "status": "SUCCESS",
+        "tags": "Single isolated close-mic game sound effect, one quick broom-weapon swing through air, soft broadband whoosh with dry bristle brush friction and a short natural tail, clean transient, no ambience.",
+        "title": "Broom Swing"
+      },
+      {
+        "audio_url": "https://file.lloongai.com/temp/suno/dl/d5/2026/11/07/20261107192029A485.m4a",
+        "duration": 3.16,
+        "id": "7113565e-c4c4-42d7-96c4-0ed91d3b56ae",
+        "image_url": "https://cdn2.suno.ai/image_7113565e-c4c4-42d7-96c4-0ed91d3b56ae.jpeg",
+        "instrumental": true,
+        "progress": 100,
+        "prompt": "[Instrumental]",
+        "status": "SUCCESS",
+        "tags": "Single isolated close-mic game sound effect, one quick broom-weapon swing through air, soft broadband whoosh with dry bristle brush friction and a short natural tail, clean transient, no ambience.",
+        "title": "Broom Swing"
+      }
+    ],
+    "result_status": "SUCCESS"
+  },
+  "enemies/en_broom_hit.wav": {
+    "task": "task_Vpp27grKlxoEzMbyRnJIC3PIxCMcXYyr",
+    "id": "EN-04",
+    "status": "done",
+    "mode": "10",
+    "title": "EN-04 en_broom_hit",
+    "submitted_at": 1794050419.344195,
+    "clips": [
+      {
+        "audio_url": "https://file.lloongai.com/temp/suno/dl/d5/2026/11/07/20261107192027A483.m4a",
+        "duration": 2,
+        "id": "c2f5ebe6-b004-42c3-ad8f-fbb0b87b5d40",
+        "image_url": "https://cdn2.suno.ai/image_c2f5ebe6-b004-42c3-ad8f-fbb0b87b5d40.jpeg",
+        "instrumental": true,
+        "progress": 100,
+        "prompt": "Single dry sound effect, no music, no melody: broom weapon hit, dull thump and brush scrape. Isolated one-shot, close-mic game SFX.",
+        "status": "SUCCESS",
+        "tags": "Single isolated close-mic game sound effect: broom used as a weapon lands one dull, compact thump followed immediately by a short coarse bristle brush scrape. Dry, no room tone, no music, no melody, no voice, one-shot.",
+        "title": "Broom Weapon Hit"
+      },
+      {
+        "audio_url": "https://file.lloongai.com/temp/suno/dl/d5/2026/11/07/20261107192045A326.m4a",
+        "duration": 35.96,
+        "id": "6fe9b2c7-94fd-43d2-bcdc-2bb86cb832bb",
+        "image_url": "https://cdn2.suno.ai/image_6fe9b2c7-94fd-43d2-bcdc-2bb86cb832bb.jpeg",
+        "instrumental": true,
+        "progress": 100,
+        "prompt": "[Instrumental]",
+        "status": "SUCCESS",
+        "tags": "single isolated close-mic game sound effect, one dry broom weapon hit, low dull thump followed immediately by a short coarse brush scrape, compact transient, natural bristle texture, silence around the hit",
+        "title": "Broom Weapon Hit"
+      }
+    ],
+    "result_status": "SUCCESS"
+  },
+  "enemies/en_hurt_01.wav": {
+    "task": "task_HX6V1zh2hpoOo1YLEW9F1D4raV9rIPXX",
+    "id": "EN-05",
+    "status": "done",
+    "mode": "10",
+    "title": "EN-05 en_hurt_01",
+    "submitted_at": 1794050422.002358,
+    "clips": [
+      {
+        "audio_url": "https://file.lloongai.com/temp/suno/dl/d5/2026/11/07/20261107192029A484.m4a",
+        "duration": 6,
+        "id": "b46bf6d1-f316-4548-a552-40d17c1554f9",
+        "image_url": "https://cdn2.suno.ai/image_b46bf6d1-f316-4548-a552-40d17c1554f9.jpeg",
+        "instrumental": true,
+        "progress": 100,
+        "prompt": "[Instrumental]",
+        "status": "SUCCESS",
+        "tags": "Single isolated close-mic creature vocal sound effect, a short strained alien hurt grunt with a wet organic impact texture, dry intimate recording, abrupt one-shot, no accompaniment",
+        "title": "Close-Mic Grunt"
+      },
+      {
+        "audio_url": "https://file.lloongai.com/temp/suno/dl/d5/2026/11/07/20261107192035A487.m4a",
+        "duration": 4.36,
+        "id": "3aaf7a21-d8d3-4990-9bc9-6dc935db39a8",
+        "image_url": "https://cdn2.suno.ai/image_3aaf7a21-d8d3-4990-9bc9-6dc935db39a8.jpeg",
+        "instrumental": true,
+        "progress": 100,
+        "prompt": "[Instrumental]",
+        "status": "SUCCESS",
+        "tags": "Single isolated close-mic creature vocal sound effect, a short strained alien hurt grunt with a wet organic impact texture, dry intimate recording, abrupt one-shot, no accompaniment",
+        "title": "Close-Mic Grunt"
+      }
+    ],
+    "result_status": "SUCCESS"
+  },
+  "enemies/en_hurt_02.wav": {
+    "task": "task_YLj5IqOxYxIQlyyjoUrOi4HGCL0l1JTk",
+    "id": "EN-05",
+    "status": "done",
+    "mode": "10",
+    "title": "EN-05 en_hurt_02",
+    "submitted_at": 1794050424.12528,
+    "clips": [
+      {
+        "audio_url": "https://file.lloongai.com/temp/suno/dl/d5/2026/11/07/20261107192047A833.m4a",
+        "duration": 2,
+        "id": "368e29c7-4319-4375-ad61-a2ae4d607382",
+        "image_url": "https://cdn2.suno.ai/image_368e29c7-4319-4375-ad61-a2ae4d607382.jpeg",
+        "instrumental": true,
+        "progress": 100,
+        "prompt": "Single dry sound effect, no music, no melody: alien creature hurt, shorter higher grunt and electric tick. Isolated one-shot, close-mic game SFX.",
+        "status": "SUCCESS",
+        "tags": "Single isolated one-shot game sound effect: an alien creature taking a hit, a short higher-pitched pained grunt followed immediately by a crisp electric tick. Close-mic, dry, compact, no music, no melody, no ambience, no loop.",
+        "title": "Alien Hit — Grunt and Electric Tick"
+      },
+      {
+        "audio_url": "https://file.lloongai.com/temp/suno/dl/d5/2026/11/07/20261107192030A820.m4a",
+        "duration": 2.32,
+        "id": "f6a5a27c-051a-49aa-8d27-176ad237120a",
+        "image_url": "https://cdn2.suno.ai/image_f6a5a27c-051a-49aa-8d27-176ad237120a.jpeg",
+        "instrumental": true,
+        "progress": 100,
+        "prompt": "Single dry sound effect, no music, no melody: alien creature hurt, shorter higher grunt and electric tick. Isolated one-shot, close-mic game SFX.",
+        "status": "SUCCESS",
+        "tags": "Single dry close-mic game sound effect: an alien creature hurt, a short high-pitched grunt immediately followed by a tiny electric tick. One isolated one-shot, abrupt and compact, no ambience, no music, no melody.",
+        "title": "Alien Hurt Grunt and Electric Tick"
+      }
+    ],
+    "result_status": "SUCCESS"
+  },
+  "enemies/en_hurt_glass.wav": {
+    "task": "task_A3Ez9XpKeSf9Jj86vaETbROzvQHDyChR",
+    "id": "EN-05",
+    "status": "done",
+    "mode": "10",
+    "title": "EN-05 en_hurt_glass",
+    "submitted_at": 1794050426.2595446,
+    "clips": [
+      {
+        "audio_url": "https://file.lloongai.com/temp/suno/dl/d5/2026/11/07/20261107192049A494.m4a",
+        "duration": 3.12,
+        "id": "4ed04822-b72c-48ae-8f3d-afebfba0f720",
+        "image_url": "https://cdn2.suno.ai/image_4ed04822-b72c-48ae-8f3d-afebfba0f720.jpeg",
+        "instrumental": true,
+        "progress": 100,
+        "prompt": "[Instrumental]",
+        "status": "SUCCESS",
+        "tags": "single dry isolated one-shot game sound effect, close-miked glass jar tick followed by a brief hurt creature squeak, brittle tiny glass resonance, tight transient, intimate and quiet",
+        "title": "Glass Jar Tick"
+      },
+      {
+        "audio_url": "https://file.lloongai.com/temp/suno/dl/d5/2026/11/07/20261107192054A499.m4a",
+        "duration": 4.36,
+        "id": "29652cf7-e1ff-4609-b5f0-61c940e16b74",
+        "image_url": "https://cdn2.suno.ai/image_29652cf7-e1ff-4609-b5f0-61c940e16b74.jpeg",
+        "instrumental": true,
+        "progress": 100,
+        "prompt": "[Instrumental]",
+        "status": "SUCCESS",
+        "tags": "single dry isolated one-shot game sound effect, close-miked glass jar tick followed by a brief hurt creature squeak, brittle tiny glass resonance, tight transient, intimate and quiet",
+        "title": "Glass Jar Tick"
+      }
+    ],
+    "result_status": "SUCCESS"
+  },
+  "enemies/en_death.wav": {
+    "task": "task_xYhbfIewGT3tvn7xYngrazIKUtvZXa4D",
+    "id": "EN-06",
+    "status": "done",
+    "mode": "10",
+    "title": "EN-06 en_death",
+    "submitted_at": 1794050428.4221146,
+    "clips": [
+      {
+        "audio_url": "https://file.lloongai.com/temp/suno/dl/d5/2026/11/07/20261107192047A492.m4a",
+        "duration": 3.2,
+        "id": "cd20354c-5252-4994-8f75-5afe1df89f34",
+        "image_url": "https://cdn2.suno.ai/image_cd20354c-5252-4994-8f75-5afe1df89f34.jpeg",
+        "instrumental": true,
+        "progress": 100,
+        "prompt": "Single dry sound effect, no music, no melody: alien creature death, body collapse thud and electric power-down. Isolated one-shot, close-mic game SFX.",
+        "status": "SUCCESS",
+        "tags": "Single dry close-mic game sound effect: alien creature death, a brief guttural otherworldly organic gasp/croak collapsing into a heavy wet body thud, followed by a short crackling electric power-down sputter and descending fizz. One isolated one-shot, no music, no melody, no ambience, no background, clean silence after the tail.",
+        "title": "Alien Creature Power-Down"
+      },
+      {
+        "audio_url": "https://file.lloongai.com/temp/suno/dl/d5/2026/11/07/20261107192051A496.m4a",
+        "duration": 5.2,
+        "id": "dd492c20-8227-4639-a391-7803281b0ee9",
+        "image_url": "https://cdn2.suno.ai/image_dd492c20-8227-4639-a391-7803281b0ee9.jpeg",
+        "instrumental": true,
+        "progress": 100,
+        "prompt": "Single dry sound effect, no music, no melody: alien creature death, body collapse thud and electric power-down. Isolated one-shot, close-mic game SFX.",
+        "status": "SUCCESS",
+        "tags": "Single isolated close-mic game sound effect: alien creature dies, heavy wet body collapse thud followed by a brief electric power-down crackle and descending electrical whine, abrupt end, dry and tightly controlled, no ambience, no music, no melody",
+        "title": "Alien Creature Death — Collapse and Power-Down"
+      }
+    ],
+    "result_status": "SUCCESS"
+  },
+  "enemies/en_death_glass.wav": {
+    "task": "task_7fAd2xpBYT0opClA7sFhKj2dfZ44Qdr6",
+    "id": "EN-06",
+    "status": "done",
+    "mode": "10",
+    "title": "EN-06 en_death_glass",
+    "submitted_at": 1794050430.7885282,
+    "clips": [
+      {
+        "audio_url": "https://file.lloongai.com/temp/suno/dl/d5/2026/11/07/20261107192054A500.m4a",
+        "duration": 8.64,
+        "id": "6247f936-4a9a-4dab-8ead-494c408f2038",
+        "image_url": "https://cdn2.suno.ai/image_6247f936-4a9a-4dab-8ead-494c408f2038.jpeg",
+        "instrumental": true,
+        "progress": 100,
+        "prompt": "Single dry sound effect, no music, no melody: glass jar creature death, glass shatter and liquid spill. Isolated one-shot, close-mic game SFX.",
+        "status": "SUCCESS",
+        "tags": "Single isolated close-mic game sound effect: a glass jar creature dies, with a sudden sharp glass shatter followed immediately by a wet liquid spill and a few small glass fragments settling. One-shot, dry, tightly focused, no ambience, no music, no melody, no voice.",
+        "title": "Glass Jar Creature Death SFX"
+      },
+      {
+        "audio_url": "https://file.lloongai.com/temp/suno/dl/d5/2026/11/07/20261107192037A825.m4a",
+        "duration": 2.08,
+        "id": "151b55b9-4b41-49a1-8602-f22e328a18ad",
+        "image_url": "https://cdn2.suno.ai/image_151b55b9-4b41-49a1-8602-f22e328a18ad.jpeg",
+        "instrumental": true,
+        "progress": 100,
+        "prompt": "Single dry sound effect, no music, no melody: glass jar creature death, glass shatter and liquid spill. Isolated one-shot, close-mic game SFX.",
+        "status": "SUCCESS",
+        "tags": "Single close-mic game sound effect: a small glass jar creature dies, glass shatters sharply, then a brief wet liquid spill and slosh. One isolated event, dry and intimate, no ambience, no music, no melody, no voice.",
+        "title": "Glass Jar Creature Death"
+      }
+    ],
+    "result_status": "SUCCESS"
+  },
+  "enemies/en_idle_humanoid_loop.wav": {
+    "task": "task_DtH0Rm1R0ABDNblJcYjdT7lS9WELxnDt",
+    "id": "EN-07",
+    "status": "done",
+    "mode": "20",
+    "title": "EN-07 en_idle_humanoid_loop",
+    "submitted_at": 1794050433.765211,
+    "clips": [
+      {
+        "audio_url": "https://file.lloongai.com/temp/suno/dl/d5/2026/11/07/20261107192040A490.m4a",
+        "duration": 73.8,
+        "id": "e6be6415-ad91-4083-8c04-d44fd4203113",
+        "image_url": "https://cdn2.suno.ai/image_e6be6415-ad91-4083-8c04-d44fd4203113.jpeg",
+        "instrumental": true,
+        "progress": 100,
+        "prompt": "",
+        "status": "SUCCESS",
+        "tags": "seamless ambient loop, no music, no melody, no drums, sound design: humanoid enemy idle loop, dragging footsteps, cloth and gear rustle. continuous background texture, loopable",
+        "title": "EN-07 en_idle_humanoid_loop"
+      },
+      {
+        "audio_url": "https://file.lloongai.com/temp/suno/dl/d5/2026/11/07/20261107192101A502.m4a",
+        "duration": 56.8,
+        "id": "36b85779-3102-4a25-9843-19c6a0ec7f55",
+        "image_url": "https://cdn2.suno.ai/image_36b85779-3102-4a25-9843-19c6a0ec7f55.jpeg",
+        "instrumental": true,
+        "progress": 100,
+        "prompt": "",
+        "status": "SUCCESS",
+        "tags": "seamless ambient loop, no music, no melody, no drums, sound design: humanoid enemy idle loop, dragging footsteps, cloth and gear rustle. continuous background texture, loopable",
+        "title": "EN-07 en_idle_humanoid_loop"
+      }
+    ],
+    "result_status": "SUCCESS"
+  },
+  "enemies/en_idle_bug_loop.wav": {
+    "task": "task_0HAkRSgV29VLkYcudsukwaJFT9Nt4jYm",
+    "id": "EN-07",
+    "status": "done",
+    "mode": "20",
+    "title": "EN-07 en_idle_bug_loop",
+    "submitted_at": 1794050435.9205232,
+    "clips": [
+      {
+        "audio_url": "https://file.lloongai.com/temp/suno/dl/d5/2026/11/07/20261107192042A324.m4a",
+        "duration": 34.44,
+        "id": "d6f55e77-e005-4000-a4ee-89b1503d7a60",
+        "image_url": "https://cdn2.suno.ai/image_d6f55e77-e005-4000-a4ee-89b1503d7a60.jpeg",
+        "instrumental": true,
+        "progress": 100,
+        "prompt": "",
+        "status": "SUCCESS",
+        "tags": "seamless ambient loop, no music, no melody, no drums, sound design: bug enemy idle loop, chitin clicks, crawling and short chirps. continuous background texture, loopable",
+        "title": "EN-07 en_idle_bug_loop"
+      },
+      {
+        "audio_url": "https://file.lloongai.com/temp/suno/dl/d5/2026/11/07/20261107192050A332.m4a",
+        "duration": 25.84,
+        "id": "f80027e1-1cf2-477d-b860-c150705ec9fe",
+        "image_url": "https://cdn2.suno.ai/image_f80027e1-1cf2-477d-b860-c150705ec9fe.jpeg",
+        "instrumental": true,
+        "progress": 100,
+        "prompt": "",
+        "status": "SUCCESS",
+        "tags": "seamless ambient loop, no music, no melody, no drums, sound design: bug enemy idle loop, chitin clicks, crawling and short chirps. continuous background texture, loopable",
+        "title": "EN-07 en_idle_bug_loop"
+      }
+    ],
+    "result_status": "SUCCESS"
+  },
+  "enemies/en_ranged_charge.wav": {
+    "task": "task_bsh5HVwguJ2GvmSdAPck8zpUdIQH6Nj9",
+    "id": "EN-08",
+    "status": "done",
+    "mode": "10",
+    "title": "EN-08 en_ranged_charge",
+    "submitted_at": 1794050438.0917702,
+    "clips": [
+      {
+        "audio_url": "https://file.lloongai.com/temp/suno/dl/d5/2026/11/07/20261107192044A829.m4a",
+        "duration": 9.08,
+        "id": "c5e51b86-f3df-4fd2-86d3-00319e0ca777",
+        "image_url": "https://cdn2.suno.ai/image_c5e51b86-f3df-4fd2-86d3-00319e0ca777.jpeg",
+        "instrumental": true,
+        "progress": 100,
+        "prompt": "Single dry sound effect, no music, no melody: alien ranged weapon charge, rising pressure whine and hiss. Isolated one-shot, close-mic game SFX.",
+        "status": "SUCCESS",
+        "tags": "Single isolated one-shot game sound effect: alien ranged weapon charging, close-mic dry sound, pressure building through a rising tonal whine layered with a sharp airy hiss, tense electronic energy, ends with a brief charged peak and clean stop. No music, no melody, no ambience, no impact or firing blast.",
+        "title": "Alien Weapon Charge"
+      },
+      {
+        "audio_url": "https://file.lloongai.com/temp/suno/dl/d5/2026/11/07/20261107192101A840.m4a",
+        "duration": 6,
+        "id": "257607f5-42a8-4428-94dc-83fe162e4b3f",
+        "image_url": "https://cdn2.suno.ai/image_257607f5-42a8-4428-94dc-83fe162e4b3f.jpeg",
+        "instrumental": true,
+        "progress": 100,
+        "prompt": "Single dry sound effect, no music, no melody: alien ranged weapon charge, rising pressure whine and hiss. Isolated one-shot, close-mic game SFX.",
+        "status": "SUCCESS",
+        "tags": "Single isolated one-shot alien ranged weapon charging: close-mic synthetic pressure whine that steadily rises in pitch and intensity, layered with a tight airy hiss, ending in a brief charged peak and clean stop. Dry, focused game sound effect, no music, no melody, no ambience, no impact or firing blast.",
+        "title": "Alien Weapon Charge"
+      }
+    ],
+    "result_status": "SUCCESS"
+  },
+  "enemies/en_ranged_spray.wav": {
+    "task": "task_hWTzUcKOtKzElDG2W6tGYN7FKfoDyBkP",
+    "id": "EN-08",
+    "status": "done",
+    "mode": "10",
+    "title": "EN-08 en_ranged_spray",
+    "submitted_at": 1794050440.255442,
+    "clips": [
+      {
+        "audio_url": "https://file.lloongai.com/temp/suno/dl/d5/2026/11/07/20261107192046A327.m4a",
+        "duration": 2,
+        "id": "d4031dd2-c826-45e3-a740-4408592d11ba",
+        "image_url": "https://cdn2.suno.ai/image_d4031dd2-c826-45e3-a740-4408592d11ba.jpeg",
+        "instrumental": true,
+        "progress": 100,
+        "prompt": "Single dry sound effect, no music, no melody: alien ranged weapon spray, wet sputtering burst. Isolated one-shot, close-mic game SFX.",
+        "status": "SUCCESS",
+        "tags": "Single dry sound effect, no music, no melody: alien ranged weapon spray, wet sputtering burst. Isolated one-shot, close-mic game SFX.",
+        "title": "Alien Weapon Spray SFX"
+      },
+      {
+        "audio_url": "https://file.lloongai.com/temp/suno/dl/d5/2026/11/07/20261107192103A843.m4a",
+        "duration": 2,
+        "id": "1156f981-2489-4114-a0d8-d863d86855eb",
+        "image_url": "https://cdn2.suno.ai/image_1156f981-2489-4114-a0d8-d863d86855eb.jpeg",
+        "instrumental": true,
+        "progress": 100,
+        "prompt": "Single dry sound effect, no music, no melody: alien ranged weapon spray, wet sputtering burst. Isolated one-shot, close-mic game SFX.",
+        "status": "SUCCESS",
+        "tags": "Single dry close-mic game sound effect: alien ranged weapon firing one short wet sputtering spray burst, organic liquid pops and raspy bio-mechanical splats, sharp attack, quick decay, isolated one-shot, no music, no melody, no ambience",
+        "title": "Alien Weapon Spray SFX"
+      }
+    ],
+    "result_status": "SUCCESS"
+  },
+  "enemies/en_ranged_land.wav": {
+    "task": "task_BpHcNy3cRkTJeFvHdKnTESZRKAtm2fuO",
+    "id": "EN-08",
+    "status": "done",
+    "mode": "10",
+    "title": "EN-08 en_ranged_land",
+    "submitted_at": 1794050442.435482,
+    "clips": [
+      {
+        "audio_url": "https://file.lloongai.com/temp/suno/dl/d5/2026/11/07/20261107192050A330.m4a",
+        "duration": 2,
+        "id": "3335734c-1288-410b-afb6-7aaf557d6473",
+        "image_url": "https://cdn2.suno.ai/image_3335734c-1288-410b-afb6-7aaf557d6473.jpeg",
+        "instrumental": true,
+        "progress": 100,
+        "prompt": "Single dry sound effect, no music, no melody: alien projectile landing, wet splat and short hiss. Isolated one-shot, close-mic game SFX.",
+        "status": "SUCCESS",
+        "tags": "Single isolated one-shot game sound effect: alien projectile lands with a wet splat followed by a short sharp hiss; close-mic, dry, compact, no music, no melody, no ambience",
+        "title": "Alien Projectile Impact"
+      },
+      {
+        "audio_url": "https://file.lloongai.com/temp/suno/dl/d5/2026/11/07/20261107192053A334.m4a",
+        "duration": 2,
+        "id": "0806bb38-f825-48fe-b0f0-995abf666c9b",
+        "image_url": "https://cdn2.suno.ai/image_0806bb38-f825-48fe-b0f0-995abf666c9b.jpeg",
+        "instrumental": true,
+        "progress": 100,
+        "prompt": "Single dry sound effect, no music, no melody: alien projectile landing, wet splat and short hiss. Isolated one-shot, close-mic game SFX.",
+        "status": "SUCCESS",
+        "tags": "single close-mic alien projectile landing: compact soft wet splat impact followed immediately by a short airy hiss, dry isolated game sound effect, no music, no melody",
+        "title": "Alien Projectile Landing"
+      }
+    ],
+    "result_status": "SUCCESS"
+  },
+  "enemies/en_heal_start.wav": {
+    "task": "task_q6m3pKDFtrJivAetd0JheVfa6VGgFOQF",
+    "id": "EN-09",
+    "status": "done",
+    "mode": "10",
+    "title": "EN-09 en_heal_start",
+    "submitted_at": 1794050445.2043178,
+    "clips": [
+      {
+        "audio_url": "https://file.lloongai.com/temp/suno/dl/d5/2026/11/07/20261107192052A333.m4a",
+        "duration": 3.2,
+        "id": "b9830ac8-cffb-4cd4-bb0c-cf86cdc82680",
+        "image_url": "https://cdn2.suno.ai/image_b9830ac8-cffb-4cd4-bb0c-cf86cdc82680.jpeg",
+        "instrumental": true,
+        "progress": 100,
+        "prompt": "Single dry sound effect, no music, no melody: medical enemy heal start, soft rising warm tone and shimmer. Isolated one-shot, close-mic game SFX.",
+        "status": "SUCCESS",
+        "tags": "Single isolated game sound effect: medical enemy heal start cue, soft warm rising tonal swell with a delicate shimmer at the crest, close-mic, dry, concise one-shot, no music, no melody, no ambience, no extra sounds",
+        "title": "Medical Heal Start Cue"
+      },
+      {
+        "audio_url": "https://file.lloongai.com/temp/suno/dl/d5/2026/11/07/20261107192057A339.m4a",
+        "duration": 2.4,
+        "id": "4a32bef7-a030-44f4-ab9a-df4ee9de870e",
+        "image_url": "https://cdn2.suno.ai/image_4a32bef7-a030-44f4-ab9a-df4ee9de870e.jpeg",
+        "instrumental": true,
+        "progress": 100,
+        "prompt": "Single dry sound effect, no music, no melody: medical enemy heal start, soft rising warm tone and shimmer. Isolated one-shot, close-mic game SFX.",
+        "status": "SUCCESS",
+        "tags": "single isolated game sound effect: medical enemy heal start cue, soft rising warm tone with a delicate shimmer, close-mic, dry, one-shot, no music, no melody, no ambience, no tail beyond a short clean decay",
+        "title": "Heal Start Cue"
+      }
+    ],
+    "result_status": "SUCCESS"
+  },
+  "enemies/en_heal_loop.wav": {
+    "task": "task_SAIVZ9c9yS78JNyPaGcnD3pisy9BbOwq",
+    "id": "EN-09",
+    "status": "done",
+    "mode": "20",
+    "title": "EN-09 en_heal_loop",
+    "submitted_at": 1794050448.1084158,
+    "clips": [
+      {
+        "audio_url": "https://file.lloongai.com/temp/suno/dl/d5/2026/11/07/20261107192054A335.m4a",
+        "duration": 68.36,
+        "id": "e4ededbd-24d2-4d28-bf7e-1c415851f301",
+        "image_url": "https://cdn2.suno.ai/image_e4ededbd-24d2-4d28-bf7e-1c415851f301.jpeg",
+        "instrumental": true,
+        "progress": 100,
+        "prompt": "",
+        "status": "SUCCESS",
+        "tags": "seamless ambient loop, no music, no melody, no drums, sound design: medical enemy heal loop, soft pulsing warm pad and shimmer. continuous background texture, loopable",
+        "title": "EN-09 en_heal_loop"
+      },
+      {
+        "audio_url": "https://file.lloongai.com/temp/suno/dl/d5/2026/11/07/20261107192102A342.m4a",
+        "duration": 76.72,
+        "id": "76019aeb-cb72-4145-b141-4e88249a5757",
+        "image_url": "https://cdn2.suno.ai/image_76019aeb-cb72-4145-b141-4e88249a5757.jpeg",
+        "instrumental": true,
+        "progress": 100,
+        "prompt": "",
+        "status": "SUCCESS",
+        "tags": "seamless ambient loop, no music, no melody, no drums, sound design: medical enemy heal loop, soft pulsing warm pad and shimmer. continuous background texture, loopable",
+        "title": "EN-09 en_heal_loop"
+      }
+    ],
+    "result_status": "SUCCESS"
+  },
+  "enemies/en_heal_end.wav": {
+    "task": "task_CFZMFcwmTM8Q89Ku4Jon1f6hPKUPrnv0",
+    "id": "EN-09",
+    "status": "done",
+    "mode": "10",
+    "title": "EN-09 en_heal_end",
+    "submitted_at": 1794050451.5220501,
+    "clips": [
+      {
+        "audio_url": "https://file.lloongai.com/temp/suno/dl/d5/2026/11/07/20261107192111A348.m4a",
+        "duration": 165.12,
+        "id": "bab22867-b808-4d8d-98f1-9733ac76eae2",
+        "image_url": "https://cdn2.suno.ai/image_bab22867-b808-4d8d-98f1-9733ac76eae2.jpeg",
+        "instrumental": true,
+        "progress": 100,
+        "prompt": "[Instrumental]",
+        "status": "SUCCESS",
+        "tags": "Single isolated close-mic medical game sound effect, soft descending two-note synthetic chime with a gentle muted electronic decay, dry intimate capture, brief one-shot, no accompaniment",
+        "title": "Soft Descending Chime"
+      },
+      {
+        "audio_url": "https://file.lloongai.com/temp/suno/dl/d5/2026/11/07/20261107192117A354.m4a",
+        "duration": 60,
+        "id": "55fb24d1-b4b3-4b9b-be12-8859ed9e36ad",
+        "image_url": "https://cdn2.suno.ai/image_55fb24d1-b4b3-4b9b-be12-8859ed9e36ad.jpeg",
+        "instrumental": true,
+        "progress": 100,
+        "prompt": "[Instrumental]",
+        "status": "SUCCESS",
+        "tags": "Single isolated close-mic medical game sound effect, soft descending two-note synthetic chime with a gentle muted electronic decay, dry intimate capture, brief one-shot, no accompaniment",
+        "title": "Soft Descending Chime"
+      }
+    ],
+    "result_status": "SUCCESS"
+  },
+  "enemies/en_energy_charge.wav": {
+    "task": "task_gDnrr5ckEEeNtL8PusNTBcj8QCy6Hlsh",
+    "id": "EN-10",
+    "status": "done",
+    "mode": "10",
+    "title": "EN-10 en_energy_charge",
+    "submitted_at": 1794050453.591258,
+    "clips": [
+      {
+        "audio_url": "https://file.lloongai.com/temp/suno/dl/d5/2026/11/07/20261107192100A341.m4a",
+        "duration": 4.88,
+        "id": "aa0d69da-d737-48d6-871d-51cfa97c0d02",
+        "image_url": "https://cdn2.suno.ai/image_aa0d69da-d737-48d6-871d-51cfa97c0d02.jpeg",
+        "instrumental": true,
+        "progress": 100,
+        "prompt": "[Instrumental]",
+        "status": "SUCCESS",
+        "tags": "single isolated game sound effect, close-mic dry rising electric hum, intensifying high-voltage crackle, abrupt one-shot charge-up with tight decay",
+        "title": "Charge-Up"
+      },
+      {
+        "audio_url": "https://file.lloongai.com/temp/suno/dl/d5/2026/11/07/20261107192104A343.m4a",
+        "duration": 4.8,
+        "id": "77c0da26-95b0-4792-b0b1-ba6de6126c07",
+        "image_url": "https://cdn2.suno.ai/image_77c0da26-95b0-4792-b0b1-ba6de6126c07.jpeg",
+        "instrumental": true,
+        "progress": 100,
+        "prompt": "[Instrumental]",
+        "status": "SUCCESS",
+        "tags": "single isolated game sound effect, close-mic dry rising electric hum, intensifying high-voltage crackle, abrupt one-shot charge-up with tight decay",
+        "title": "Charge-Up"
+      }
+    ],
+    "result_status": "SUCCESS"
+  },
+  "enemies/en_energy_shield_hit.wav": {
+    "task": "task_7Bp8LAcsggYS2xuUOg0gwb0OT0CGaTVR",
+    "id": "EN-10",
+    "status": "done",
+    "mode": "10",
+    "title": "EN-10 en_energy_shield_hit",
+    "submitted_at": 1794050456.3884144,
+    "clips": [
+      {
+        "audio_url": "https://file.lloongai.com/temp/suno/dl/d5/2026/11/07/20261107192103A503.m4a",
+        "duration": 2.8,
+        "id": "6e2cf251-e710-43d2-bdba-a3d5202ab77a",
+        "image_url": "https://cdn2.suno.ai/image_6e2cf251-e710-43d2-bdba-a3d5202ab77a.jpeg",
+        "instrumental": true,
+        "progress": 100,
+        "prompt": "[Instrumental]",
+        "status": "SUCCESS",
+        "tags": "Single isolated one-shot video game sound effect, close-mic dry impact, bright glassy chime struck by a compact electric crack, brief metallic-glass resonance and fast decay, centered and clean, no musical arrangement",
+        "title": "Glassy Chime"
+      },
+      {
+        "audio_url": "https://file.lloongai.com/temp/suno/dl/d5/2026/11/07/20261107192107A508.m4a",
+        "duration": 2.92,
+        "id": "2c97889b-255b-4466-bb22-13b1406193d7",
+        "image_url": "https://cdn2.suno.ai/image_2c97889b-255b-4466-bb22-13b1406193d7.jpeg",
+        "instrumental": true,
+        "progress": 100,
+        "prompt": "[Instrumental]",
+        "status": "SUCCESS",
+        "tags": "Single isolated one-shot video game sound effect, close-mic dry impact, bright glassy chime struck by a compact electric crack, brief metallic-glass resonance and fast decay, centered and clean, no musical arrangement",
+        "title": "Glassy Chime"
+      }
+    ],
+    "result_status": "SUCCESS"
+  },
+  "enemies/en_energy_disconnect.wav": {
+    "task": "task_BmhAbnHQpwmYWh4Np1G8Ce0ZjVTPkm2o",
+    "id": "EN-10",
+    "status": "done",
+    "mode": "10",
+    "title": "EN-10 en_energy_disconnect",
+    "submitted_at": 1794050458.6027522,
+    "clips": [
+      {
+        "audio_url": "https://file.lloongai.com/temp/suno/dl/d5/2026/11/07/20261107192105A345.m4a",
+        "duration": 3.2,
+        "id": "7ec5b837-afa5-422d-a0bb-e36d1d3cc94a",
+        "image_url": "https://cdn2.suno.ai/image_7ec5b837-afa5-422d-a0bb-e36d1d3cc94a.jpeg",
+        "instrumental": true,
+        "progress": 100,
+        "prompt": "[Instrumental]",
+        "status": "SUCCESS",
+        "tags": "Single isolated close-mic game sound effect, brief electrical energy discharge collapsing into a sharp cable snap, dry intimate recording, abrupt transient, short decaying tail, one-shot only",
+        "title": "Cable Snap"
+      },
+      {
+        "audio_url": "https://file.lloongai.com/temp/suno/dl/d5/2026/11/07/20261107192110A347.m4a",
+        "duration": 2.8,
+        "id": "294a51f6-1db3-4e24-a5c3-3192da1295be",
+        "image_url": "https://cdn2.suno.ai/image_294a51f6-1db3-4e24-a5c3-3192da1295be.jpeg",
+        "instrumental": true,
+        "progress": 100,
+        "prompt": "[Instrumental]",
+        "status": "SUCCESS",
+        "tags": "Single isolated close-mic game sound effect, brief electrical energy discharge collapsing into a sharp cable snap, dry intimate recording, abrupt transient, short decaying tail, one-shot only",
+        "title": "Cable Snap"
+      }
+    ],
+    "result_status": "SUCCESS"
+  },
+  "boss/bo_arm_idle_loop.wav": {
+    "task": "task_68e9JiYdRlv8FToZekkGzBCUhZd5Y3sQ",
+    "id": "BO-01",
+    "status": "done",
+    "mode": "20",
+    "title": "BO-01 bo_arm_idle_loop",
+    "submitted_at": 1794050460.8321078,
+    "clips": [
+      {
+        "audio_url": "https://file.lloongai.com/temp/suno/dl/d5/2026/11/07/20261107192127A859.m4a",
+        "duration": 74.4,
+        "id": "d202b9e2-d3ac-4fc0-8dd0-50e2087e1e49",
+        "image_url": "https://cdn2.suno.ai/image_d202b9e2-d3ac-4fc0-8dd0-50e2087e1e49.jpeg",
+        "instrumental": true,
+        "progress": 100,
+        "prompt": "",
+        "status": "SUCCESS",
+        "tags": "seamless ambient loop, no music, no melody, no drums, sound design: mechanical arm idle loop, low servo motor hum and metal creak. continuous background texture, loopable",
+        "title": "BO-01 bo_arm_idle_loop"
+      },
+      {
+        "audio_url": "https://file.lloongai.com/temp/suno/dl/d5/2026/11/07/20261107192108A847.m4a",
+        "duration": 78.88,
+        "id": "0872f2ad-50ca-426b-900f-05350519c21a",
+        "image_url": "https://cdn2.suno.ai/image_0872f2ad-50ca-426b-900f-05350519c21a.jpeg",
+        "instrumental": true,
+        "progress": 100,
+        "prompt": "",
+        "status": "SUCCESS",
+        "tags": "seamless ambient loop, no music, no melody, no drums, sound design: mechanical arm idle loop, low servo motor hum and metal creak. continuous background texture, loopable",
+        "title": "BO-01 bo_arm_idle_loop"
+      }
+    ],
+    "result_status": "SUCCESS"
+  },
+  "boss/bo_sweep_warning.wav": {
+    "task": "task_IuSoKZ3bfNrda0nk020vBopoTYPB1L2X",
+    "id": "BO-02",
+    "status": "done",
+    "mode": "10",
+    "title": "BO-02 bo_sweep_warning",
+    "submitted_at": 1794050463.1587956,
+    "clips": [
+      {
+        "audio_url": "https://file.lloongai.com/temp/suno/dl/d5/2026/11/07/20261107192122A517.m4a",
+        "duration": 77.56,
+        "id": "d137cad6-e91a-4390-a093-9a345ff6f5b1",
+        "image_url": "https://cdn2.suno.ai/image_d137cad6-e91a-4390-a093-9a345ff6f5b1.jpeg",
+        "instrumental": true,
+        "progress": 100,
+        "prompt": "[Instrumental]",
+        "status": "SUCCESS",
+        "tags": "Single isolated close-mic mechanical game sound effect, dry and sharply defined: servo arm sweeps with a compact motor spin-up whine, then three urgent evenly spaced electronic warning beeps; one-shot, no ambience, no musical arrangement.",
+        "title": "Servo Warning Beeps"
+      },
+      {
+        "audio_url": "https://file.lloongai.com/temp/suno/dl/d5/2026/11/07/20261107192127A521.m4a",
+        "duration": 58.6,
+        "id": "4f08bb2a-f95e-4593-9f1f-794e4d7d390e",
+        "image_url": "https://cdn2.suno.ai/image_4f08bb2a-f95e-4593-9f1f-794e4d7d390e.jpeg",
+        "instrumental": true,
+        "progress": 100,
+        "prompt": "[Instrumental]",
+        "status": "SUCCESS",
+        "tags": "Single isolated close-mic mechanical game sound effect, dry and sharply defined: servo arm sweeps with a compact motor spin-up whine, then three urgent evenly spaced electronic warning beeps; one-shot, no ambience, no musical arrangement.",
+        "title": "Servo Warning Beeps"
+      }
+    ],
+    "result_status": "SUCCESS"
+  },
+  "boss/bo_sweep.wav": {
+    "task": "task_BSG6z0mNI5C3LqtgOKsKOk18KdNEiLHL",
+    "id": "BO-03",
+    "status": "done",
+    "mode": "10",
+    "title": "BO-03 bo_sweep",
+    "submitted_at": 1794050465.63753,
+    "clips": [
+      {
+        "audio_url": "https://file.lloongai.com/temp/suno/dl/d5/2026/11/07/20261107192112A850.m4a",
+        "duration": 5.2,
+        "id": "a7612667-bfc0-4ecf-b810-55688a396643",
+        "image_url": "https://cdn2.suno.ai/image_a7612667-bfc0-4ecf-b810-55688a396643.jpeg",
+        "instrumental": true,
+        "progress": 100,
+        "prompt": "[Instrumental]",
+        "status": "SUCCESS",
+        "tags": "Single isolated close-mic game sound effect, one heavy mechanical arm sweep: motor engages with a low dense torque groan, accelerates through a fast controlled arc, layered forceful air whoosh, then a short clunky mechanical stop. Dry, intimate, punchy transient detail, no musical arrangement.",
+        "title": "机械臂 sweep"
+      },
+      {
+        "audio_url": "https://file.lloongai.com/temp/suno/dl/d5/2026/11/07/20261107192116A854.m4a",
+        "duration": 5.6,
+        "id": "db6a05b3-a657-4456-8c5c-b6aa5c1d524c",
+        "image_url": "https://cdn2.suno.ai/image_db6a05b3-a657-4456-8c5c-b6aa5c1d524c.jpeg",
+        "instrumental": true,
+        "progress": 100,
+        "prompt": "[Instrumental]",
+        "status": "SUCCESS",
+        "tags": "Single isolated close-mic game sound effect, one heavy mechanical arm sweep: motor engages with a low dense torque groan, accelerates through a fast controlled arc, layered forceful air whoosh, then a short clunky mechanical stop. Dry, intimate, punchy transient detail, no musical arrangement.",
+        "title": "机械臂 sweep"
+      }
+    ],
+    "result_status": "SUCCESS"
+  },
+  "boss/bo_slam_charge.wav": {
+    "task": "task_LF8eKDBJtWzC6CTOXUNXOfQxR2MjC2me",
+    "id": "BO-04",
+    "status": "done",
+    "mode": "10",
+    "title": "BO-04 bo_slam_charge",
+    "submitted_at": 1794050468.2239509,
+    "clips": [
+      {
+        "audio_url": "https://file.lloongai.com/temp/suno/dl/d5/2026/11/07/20261107192114A352.m4a",
+        "duration": 2.8,
+        "id": "b1b385e9-bc5d-490d-a495-da6806175a41",
+        "image_url": "https://cdn2.suno.ai/image_b1b385e9-bc5d-490d-a495-da6806175a41.jpeg",
+        "instrumental": true,
+        "progress": 100,
+        "prompt": "Single dry sound effect, no music, no melody: mechanical arm slam charge, low pressure build and rhythmic ticks. Isolated one-shot, close-mic game SFX.",
+        "status": "SUCCESS",
+        "tags": "Single isolated close-mic game sound effect: mechanical arm charging up with a low pressurized mechanical build, several tight rhythmic ticks accelerating slightly, then a heavy metallic arm slam with a short dry impact tail. One-shot only, no music, no melody, no ambience, no voice.",
+        "title": "Mechanical Arm Charge Slam"
+      },
+      {
+        "audio_url": "https://file.lloongai.com/temp/suno/dl/d5/2026/11/07/20261107192130A866.m4a",
+        "duration": 52,
+        "id": "8e826fd0-cc25-4956-8abf-93bd5726de68",
+        "image_url": "https://cdn2.suno.ai/image_8e826fd0-cc25-4956-8abf-93bd5726de68.jpeg",
+        "instrumental": true,
+        "progress": 100,
+        "prompt": "[Instrumental]",
+        "status": "SUCCESS",
+        "tags": "Single close-mic mechanical game sound effect, low pneumatic pressure building in a short controlled swell, evenly spaced dry metal ticks accelerating slightly, compact actuator charge, abrupt heavy mechanical arm slam with a brief tight metal resonance, isolated one-shot, no musical pitch or rhythmic bed, dry and immediate",
+        "title": "Mechanical Arm Charge Slam"
+      }
+    ],
+    "result_status": "SUCCESS"
+  },
+  "boss/bo_slam_impact.wav": {
+    "task": "task_6u5zFDsnKLCPSSARZASxuJxMsExjaI9f",
+    "id": "BO-05",
+    "status": "done",
+    "mode": "10",
+    "title": "BO-05 bo_slam_impact",
+    "submitted_at": 1794050470.5412478,
+    "clips": [
+      {
+        "audio_url": "https://file.lloongai.com/temp/suno/dl/d5/2026/11/07/20261107192117A353.m4a",
+        "duration": 3.76,
+        "id": "df4d7170-66bd-43d2-83cf-62385a3d78c5",
+        "image_url": "https://cdn2.suno.ai/image_df4d7170-66bd-43d2-83cf-62385a3d78c5.jpeg",
+        "instrumental": true,
+        "progress": 100,
+        "prompt": "[Instrumental]",
+        "status": "SUCCESS",
+        "tags": "A single isolated one-shot game sound effect: close-miked mechanical arm slams down with a forceful heavy metal impact, brief clanging resonance and scattered debris settling. Dry, immediate, no musical arrangement.",
+        "title": "Mechanical Impact"
+      },
+      {
+        "audio_url": "https://file.lloongai.com/temp/suno/dl/d5/2026/11/07/20261107192121A356.m4a",
+        "duration": 4.76,
+        "id": "eace5bd2-0eab-40c1-89ed-ee493255e430",
+        "image_url": "https://cdn2.suno.ai/image_eace5bd2-0eab-40c1-89ed-ee493255e430.jpeg",
+        "instrumental": true,
+        "progress": 100,
+        "prompt": "[Instrumental]",
+        "status": "SUCCESS",
+        "tags": "A single isolated one-shot game sound effect: close-miked mechanical arm slams down with a forceful heavy metal impact, brief clanging resonance and scattered debris settling. Dry, immediate, no musical arrangement.",
+        "title": "Mechanical Impact"
+      }
+    ],
+    "result_status": "SUCCESS"
+  },
+  "boss/bo_damage_shutdown.wav": {
+    "task": "task_eaOCe6vSOT12ZGz8JdmShtoON9jOQRz7",
+    "id": "BO-06",
+    "status": "done",
+    "mode": "10",
+    "title": "BO-06 bo_damage_shutdown",
+    "submitted_at": 1794050473.903101,
+    "clips": [
+      {
+        "audio_url": "https://file.lloongai.com/temp/suno/dl/d5/2026/11/07/20261107192145A368.m4a",
+        "duration": 158.04,
+        "id": "ba964fbf-9374-4d22-abb7-297b9f5bd644",
+        "image_url": "https://cdn2.suno.ai/image_ba964fbf-9374-4d22-abb7-297b9f5bd644.jpeg",
+        "instrumental": true,
+        "progress": 100,
+        "prompt": "[Instrumental]",
+        "status": "SUCCESS",
+        "tags": "[Instrumental]",
+        "title": "Silent Flow"
+      },
+      {
+        "audio_url": "https://file.lloongai.com/temp/suno/dl/d5/2026/11/07/20261107192152A370.m4a",
+        "duration": 164,
+        "id": "0bbba931-b57a-4c46-9a23-55f46d00940b",
+        "image_url": "https://cdn2.suno.ai/image_0bbba931-b57a-4c46-9a23-55f46d00940b.jpeg",
+        "instrumental": true,
+        "progress": 100,
+        "prompt": "[Instrumental]",
+        "status": "SUCCESS",
+        "tags": "[Instrumental]",
+        "title": "Silent Flow"
+      }
+    ],
+    "result_status": "SUCCESS"
+  },
+  "objects/ob_mechanism_start.wav": {
+    "task": "task_dxZkTFAlOWYszlCIFo4ai7de3R8l3y9R",
+    "id": "OB-01",
+    "status": "done",
+    "mode": "10",
+    "title": "OB-01 ob_mechanism_start",
+    "submitted_at": 1794050476.396857,
+    "clips": [
+      {
+        "audio_url": "https://file.lloongai.com/temp/suno/dl/d5/2026/11/07/20261107192123A858.m4a",
+        "duration": 4.92,
+        "id": "d448bedd-eda0-4717-9421-33b00cbe8d07",
+        "image_url": "https://cdn2.suno.ai/image_d448bedd-eda0-4717-9421-33b00cbe8d07.jpeg",
+        "instrumental": true,
+        "progress": 100,
+        "prompt": "[Instrumental]",
+        "status": "SUCCESS",
+        "tags": "[Instrumental] Single dry close-mic game sound effect, generic mechanical startup: brief relay engagement click followed by an electric motor spinning up with a smooth rising whirr, then a short settled mechanical stop. Isolated one-shot, tight transient, controlled pitch rise, clean studio capture, no musical arrangement.",
+        "title": "Mechanical Startup"
+      },
+      {
+        "audio_url": "https://file.lloongai.com/temp/suno/dl/d5/2026/11/07/20261107192128A864.m4a",
+        "duration": 6,
+        "id": "d40f1670-a258-4563-bc92-804212084c12",
+        "image_url": "https://cdn2.suno.ai/image_d40f1670-a258-4563-bc92-804212084c12.jpeg",
+        "instrumental": true,
+        "progress": 100,
+        "prompt": "[Instrumental]",
+        "status": "SUCCESS",
+        "tags": "[Instrumental] Single dry close-mic game sound effect, generic mechanical startup: brief relay engagement click followed by an electric motor spinning up with a smooth rising whirr, then a short settled mechanical stop. Isolated one-shot, tight transient, controlled pitch rise, clean studio capture, no musical arrangement.",
+        "title": "Mechanical Startup"
+      }
+    ],
+    "result_status": "SUCCESS"
+  },
+  "objects/ob_mechanism_stop.wav": {
+    "task": "task_216InuvPUSFag1Cs8FoM9B7wyDwStRWG",
+    "id": "OB-01",
+    "status": "done",
+    "mode": "10",
+    "title": "OB-01 ob_mechanism_stop",
+    "submitted_at": 1794050478.6133788,
+    "clips": [
+      {
+        "audio_url": "https://file.lloongai.com/temp/suno/dl/d5/2026/11/07/20261107192126A518.m4a",
+        "duration": 4.76,
+        "id": "a481a156-92ec-4f49-9032-f943206da3a1",
+        "image_url": "https://cdn2.suno.ai/image_a481a156-92ec-4f49-9032-f943206da3a1.jpeg",
+        "instrumental": true,
+        "progress": 100,
+        "prompt": "[Instrumental]",
+        "status": "SUCCESS",
+        "tags": "Isolated close-mic game sound effect, single generic mechanism stopping: motor spins down in pitch and speed, brief mechanical release, then one solid metal clunk. Dry, compact, realistic transient detail, short tail.",
+        "title": "Mechanical Clunk"
+      },
+      {
+        "audio_url": "https://file.lloongai.com/temp/suno/dl/d5/2026/11/07/20261107192130A524.m4a",
+        "duration": 4.56,
+        "id": "dbc0dee4-1350-435f-95b1-36af0cbc3521",
+        "image_url": "https://cdn2.suno.ai/image_dbc0dee4-1350-435f-95b1-36af0cbc3521.jpeg",
+        "instrumental": true,
+        "progress": 100,
+        "prompt": "[Instrumental]",
+        "status": "SUCCESS",
+        "tags": "Isolated close-mic game sound effect, single generic mechanism stopping: motor spins down in pitch and speed, brief mechanical release, then one solid metal clunk. Dry, compact, realistic transient detail, short tail.",
+        "title": "Mechanical Clunk"
+      }
+    ],
+    "result_status": "SUCCESS"
+  },
+  "objects/ob_facility_hit_01.wav": {
+    "task": "task_4x0HaseTPzJdasXXJOejWHALw0vKRLg0",
+    "id": "OB-02",
+    "status": "done",
+    "mode": "10",
+    "title": "OB-02 ob_facility_hit_01",
+    "submitted_at": 1794050480.9041638,
+    "clips": [
+      {
+        "audio_url": "https://file.lloongai.com/temp/suno/dl/d5/2026/11/07/20261107192145A532.m4a",
+        "duration": 2,
+        "id": "1bad9d78-cb2c-41af-b643-4dff18d3e2b6",
+        "image_url": "https://cdn2.suno.ai/image_1bad9d78-cb2c-41af-b643-4dff18d3e2b6.jpeg",
+        "instrumental": true,
+        "progress": 100,
+        "prompt": "Single dry sound effect, no music, no melody: facility hit, metal impact and short electric zap. Isolated one-shot, close-mic game SFX.",
+        "status": "SUCCESS",
+        "tags": "Single isolated facility-hit game sound effect: close-miked heavy metallic impact, sharp clang with compact resonant tail, immediately followed by a short electric zap crackle. Dry, abrupt one-shot, no music, no melody, no ambience, no extra hits.",
+        "title": "Facility Hit — Metal Impact & Zap"
+      },
+      {
+        "audio_url": "https://file.lloongai.com/temp/suno/dl/d5/2026/11/07/20261107192127A519.m4a",
+        "duration": 2,
+        "id": "7ea286dd-b801-4f2d-b0f1-03dec2c12873",
+        "image_url": "https://cdn2.suno.ai/image_7ea286dd-b801-4f2d-b0f1-03dec2c12873.jpeg",
+        "instrumental": true,
+        "progress": 100,
+        "prompt": "Single dry sound effect, no music, no melody: facility hit, metal impact and short electric zap. Isolated one-shot, close-mic game SFX.",
+        "status": "SUCCESS",
+        "tags": "Single isolated game sound effect: a heavy facility door or industrial metal panel hit, sharp resonant metallic impact followed immediately by a short electric zap/spark. Close-mic, dry, tight transient, brief decay, no ambience, no music, no melody, one-shot.",
+        "title": "Facility Hit — Metal Impact & Zap"
+      }
+    ],
+    "result_status": "SUCCESS"
+  },
+  "objects/ob_facility_hit_02.wav": {
+    "task": "task_8fe0YJkOUt8UdaGhKqIIgIzCkS8XJiPA",
+    "id": "OB-02",
+    "status": "done",
+    "mode": "10",
+    "title": "OB-02 ob_facility_hit_02",
+    "submitted_at": 1794050483.0431912,
+    "clips": [
+      {
+        "audio_url": "https://file.lloongai.com/temp/suno/dl/d5/2026/11/07/20261107192130A362.m4a",
+        "duration": 4.4,
+        "id": "c51ce6ad-8bfb-4b1a-ab32-b2dad547e846",
+        "image_url": "https://cdn2.suno.ai/image_c51ce6ad-8bfb-4b1a-ab32-b2dad547e846.jpeg",
+        "instrumental": true,
+        "progress": 100,
+        "prompt": "[Instrumental]",
+        "status": "SUCCESS",
+        "tags": "Isolated one-shot game sound effect, close-miked deep metal facility impact, heavy resonant steel hit with a short brittle crackle and debris-like fizz tail, dry studio capture, abrupt attack, compact decay",
+        "title": "Steel Impact"
+      },
+      {
+        "audio_url": "https://file.lloongai.com/temp/suno/dl/d5/2026/11/07/20261107192133A364.m4a",
+        "duration": 4,
+        "id": "2f3f0bf6-8a20-4731-adf3-c0d6b18f5f7b",
+        "image_url": "https://cdn2.suno.ai/image_2f3f0bf6-8a20-4731-adf3-c0d6b18f5f7b.jpeg",
+        "instrumental": true,
+        "progress": 100,
+        "prompt": "[Instrumental]",
+        "status": "SUCCESS",
+        "tags": "Isolated one-shot game sound effect, close-miked deep metal facility impact, heavy resonant steel hit with a short brittle crackle and debris-like fizz tail, dry studio capture, abrupt attack, compact decay",
+        "title": "Steel Impact"
+      }
+    ],
+    "result_status": "SUCCESS"
+  },
+  "objects/ob_facility_destroy.wav": {
+    "task": "task_vFrxWv0otKUDRMcLIhbVtNB2Ukjq62mZ",
+    "id": "OB-03",
+    "status": "done",
+    "mode": "10",
+    "title": "OB-03 ob_facility_destroy",
+    "submitted_at": 1794050485.3065054,
+    "clips": [
+      {
+        "audio_url": "https://file.lloongai.com/temp/suno/dl/d5/2026/11/07/20261107192132A868.m4a",
+        "duration": 8.96,
+        "id": "0ebeabce-0dfa-49fd-a18d-39947ec35553",
+        "image_url": "https://cdn2.suno.ai/image_0ebeabce-0dfa-49fd-a18d-39947ec35553.jpeg",
+        "instrumental": true,
+        "progress": 100,
+        "prompt": "[Instrumental]",
+        "status": "SUCCESS",
+        "tags": "Single isolated close-mic cinematic game sound effect, facility destruction, tearing steel with strained metallic shrieks, sharp electric arc crackle and sputter, heavy structural buckling followed by a dense debris collapse and short gritty tail, dry intimate perspective, abrupt one-shot impact, no musical arrangement",
+        "title": "Facility Collapse"
+      },
+      {
+        "audio_url": "https://file.lloongai.com/temp/suno/dl/d5/2026/11/07/20261107192136A869.m4a",
+        "duration": 8.28,
+        "id": "d550f94c-fbf9-4905-932e-7ee6945bf092",
+        "image_url": "https://cdn2.suno.ai/image_d550f94c-fbf9-4905-932e-7ee6945bf092.jpeg",
+        "instrumental": true,
+        "progress": 100,
+        "prompt": "[Instrumental]",
+        "status": "SUCCESS",
+        "tags": "Single isolated close-mic cinematic game sound effect, facility destruction, tearing steel with strained metallic shrieks, sharp electric arc crackle and sputter, heavy structural buckling followed by a dense debris collapse and short gritty tail, dry intimate perspective, abrupt one-shot impact, no musical arrangement",
+        "title": "Facility Collapse"
+      }
+    ],
+    "result_status": "SUCCESS"
+  },
+  "objects/ob_glass_break.wav": {
+    "task": "task_qhp7stpw66yrUFezVW6iH7FtRkCdFLpu",
+    "id": "OB-04",
+    "status": "done",
+    "mode": "10",
+    "title": "OB-04 ob_glass_break",
+    "submitted_at": 1794050487.8643317,
+    "clips": [
+      {
+        "audio_url": "https://file.lloongai.com/temp/suno/dl/d5/2026/11/07/20261107192145A876.m4a",
+        "duration": 11.92,
+        "id": "37b6938c-04e0-4ffe-af61-288712eb1da6",
+        "image_url": "https://cdn2.suno.ai/image_37b6938c-04e0-4ffe-af61-288712eb1da6.jpeg",
+        "instrumental": true,
+        "progress": 100,
+        "prompt": "Single dry sound effect, no music, no melody: glass container shatter, glass shards and liquid spill. Isolated one-shot, close-mic game SFX.",
+        "status": "SUCCESS",
+        "tags": "Single dry close-mic game sound effect: a glass container abruptly shatters, sharp brittle break, shards scattering and tinkling across a hard surface, followed by a brief liquid splash and spill. Isolated one-shot, no music, no melody, no ambience, no voices.",
+        "title": "Glass Container Shatter and Spill"
+      },
+      {
+        "audio_url": "https://file.lloongai.com/temp/suno/dl/d5/2026/11/07/20261107192151A881.m4a",
+        "duration": 13.92,
+        "id": "6777101a-2fe9-4f29-8b67-78613f23e9a0",
+        "image_url": "https://cdn2.suno.ai/image_6777101a-2fe9-4f29-8b67-78613f23e9a0.jpeg",
+        "instrumental": true,
+        "progress": 100,
+        "prompt": "Single dry sound effect, no music, no melody: glass container shatter, glass shards and liquid spill. Isolated one-shot, close-mic game SFX.",
+        "status": "SUCCESS",
+        "tags": "Single isolated close-mic game sound effect: glass container shatters sharply, distinct cascading glass shards scattering and tinkling, followed by liquid splashing and spilling onto a hard surface. Dry, realistic, one-shot, no music, no melody, no ambience, no voices.",
+        "title": "Glass Container Shatter and Spill"
+      }
+    ],
+    "result_status": "SUCCESS"
+  },
+  "objects/ob_container_release.wav": {
+    "task": "task_YLNXw5fwwbSvHAtwQf3b2nFL5UZRjnrY",
+    "id": "OB-05",
+    "status": "done",
+    "mode": "10",
+    "title": "OB-05 ob_container_release",
+    "submitted_at": 1794050490.2241597,
+    "clips": [
+      {
+        "audio_url": "https://file.lloongai.com/temp/suno/dl/d5/2026/11/07/20261107192204A548.m4a",
+        "duration": 5.6,
+        "id": "1387e5e6-547b-423e-8f83-101af8ae0bbd",
+        "image_url": "https://cdn2.suno.ai/image_1387e5e6-547b-423e-8f83-101af8ae0bbd.jpeg",
+        "instrumental": true,
+        "progress": 100,
+        "prompt": "Single dry sound effect, no music, no melody: container release, pressure hiss, glass crack and creature wake. Isolated one-shot, close-mic game SFX.",
+        "status": "SUCCESS",
+        "tags": "Single dry close-mic game sound effect: heavy sealed container latch releases with a sharp mechanical clunk, sustained pressurized hiss, brittle glass crack and cascading tiny shards, then a low wet creature inhale / waking growl at the end. One isolated one-shot, no music, no melody, no rhythmic pattern, no ambience, crisp transient detail, controlled short tail.",
+        "title": "Container Release — Creature Awakening"
+      },
+      {
+        "audio_url": "https://file.lloongai.com/temp/suno/dl/d5/2026/11/07/20261107192137A870.m4a",
+        "duration": 3.84,
+        "id": "d464a993-9e36-41a1-bbd9-0fe936b25171",
+        "image_url": "https://cdn2.suno.ai/image_d464a993-9e36-41a1-bbd9-0fe936b25171.jpeg",
+        "instrumental": true,
+        "progress": 100,
+        "prompt": "Single dry sound effect, no music, no melody: container release, pressure hiss, glass crack and creature wake. Isolated one-shot, close-mic game SFX.",
+        "status": "SUCCESS",
+        "tags": "Single isolated close-mic game sound effect, no music and no melody: a sealed container latch releases with a compact mechanical clunk, a short pressurized hiss escapes, thin glass cracks and fractures with a sharp brittle snap, followed by a low wet creature inhale and subtle waking growl. One-shot sequence, dry intimate recording, clear distinct transient layers, restrained and believable, no ambience or background bed.",
+        "title": "Container Release — Creature Wakes"
+      }
+    ],
+    "result_status": "SUCCESS"
+  },
+  "objects/ob_fuel_explosion.wav": {
+    "task": "task_dgjKr0ZEZU4YzW31FcKThFqe6GkU4Hb3",
+    "id": "OB-06",
+    "status": "done",
+    "mode": "10",
+    "title": "OB-06 ob_fuel_explosion",
+    "submitted_at": 1794050492.903562,
+    "clips": [
+      {
+        "audio_url": "https://file.lloongai.com/temp/suno/dl/d5/2026/11/07/20261107192151A537.m4a",
+        "duration": 68.28,
+        "id": "bb0c8894-e06e-416b-92ac-161e4b8d7a92",
+        "image_url": "https://cdn2.suno.ai/image_bb0c8894-e06e-416b-92ac-161e4b8d7a92.jpeg",
+        "instrumental": true,
+        "progress": 100,
+        "prompt": "[Instrumental]",
+        "status": "SUCCESS",
+        "tags": "[Instrumental] isolated close-mic game sound effect, one-shot fuel container explosion, sharp pressure burst, heavy low-end boom, brief metallic rattling and debris scattering, dry unprocessed impact, abrupt natural decay",
+        "title": "燃料容器爆炸"
+      },
+      {
+        "audio_url": "https://file.lloongai.com/temp/suno/dl/d5/2026/11/07/20261107192207A549.m4a",
+        "duration": 76.8,
+        "id": "a3c2fd44-51ec-4eb0-b9bf-fdc80dd5a55d",
+        "image_url": "https://cdn2.suno.ai/image_a3c2fd44-51ec-4eb0-b9bf-fdc80dd5a55d.jpeg",
+        "instrumental": true,
+        "progress": 100,
+        "prompt": "[Instrumental]",
+        "status": "SUCCESS",
+        "tags": "[Instrumental] isolated close-mic game sound effect, one-shot fuel container explosion, sharp pressure burst, heavy low-end boom, brief metallic rattling and debris scattering, dry unprocessed impact, abrupt natural decay",
+        "title": "燃料容器爆炸"
+      }
+    ],
+    "result_status": "SUCCESS"
+  },
+  "objects/ob_explosion_warning.wav": {
+    "task": "task_QwkCmNNPXvP0XNwRohlsQFF3tA8zIaYS",
+    "id": "OB-07",
+    "status": "done",
+    "mode": "10",
+    "title": "OB-07 ob_explosion_warning",
+    "submitted_at": 1794050495.1450684,
+    "clips": [
+      {
+        "audio_url": "https://file.lloongai.com/temp/suno/dl/d5/2026/11/07/20261107192141A873.m4a",
+        "duration": 4.8,
+        "id": "a5ae61c7-efe4-4aa7-ba7a-8de45897e2fd",
+        "image_url": "https://cdn2.suno.ai/image_a5ae61c7-efe4-4aa7-ba7a-8de45897e2fd.jpeg",
+        "instrumental": true,
+        "progress": 100,
+        "prompt": "Single dry sound effect, no music, no melody: explosion warning, gas hiss and rising danger beeps. Isolated one-shot, close-mic game SFX.",
+        "status": "SUCCESS",
+        "tags": "Single isolated one-shot game sound effect: a pressurized gas hiss begins close and dry, then urgent warning beeps rise in pitch and speed as danger escalates, ending with a sharp explosive blast and short cutoff. No music, no melody, no ambience, no voice.",
+        "title": "Gas Warning Explosion SFX"
+      },
+      {
+        "audio_url": "https://file.lloongai.com/temp/suno/dl/d5/2026/11/07/20261107192147A877.m4a",
+        "duration": 4.8,
+        "id": "c5123a77-24cf-4e7a-997e-3af2021d23d1",
+        "image_url": "https://cdn2.suno.ai/image_c5123a77-24cf-4e7a-997e-3af2021d23d1.jpeg",
+        "instrumental": true,
+        "progress": 100,
+        "prompt": "Single dry sound effect, no music, no melody: explosion warning, gas hiss and rising danger beeps. Isolated one-shot, close-mic game SFX.",
+        "status": "SUCCESS",
+        "tags": "Single dry close-mic game sound effect: an explosion warning alarm, pressurized gas hiss, rising urgency beeps. One isolated one-shot, no music, no melody, no voice.",
+        "title": "Gas Hiss Danger Warning"
+      }
+    ],
+    "result_status": "SUCCESS"
+  },
+  "objects/ob_leak_spark_loop.wav": {
+    "task": "task_wUZNlU284lRDKnO19vKsYKB1U2oJUBAG",
+    "id": "OB-08",
+    "status": "done",
+    "mode": "20",
+    "title": "OB-08 ob_leak_spark_loop",
+    "submitted_at": 1794050497.3243997,
+    "clips": [
+      {
+        "audio_url": "https://file.lloongai.com/temp/suno/dl/d5/2026/11/07/20261107192144A875.m4a",
+        "duration": 5.68,
+        "id": "05f9837a-51a2-4637-8630-7e986c7ca2fa",
+        "image_url": "https://cdn2.suno.ai/image_05f9837a-51a2-4637-8630-7e986c7ca2fa.jpeg",
+        "instrumental": true,
+        "progress": 100,
+        "prompt": "",
+        "status": "SUCCESS",
+        "tags": "seamless ambient loop, no music, no melody, no drums, sound design: leaking pipe and electric sparks loop, crackle and hiss. continuous background texture, loopable",
+        "title": "OB-08 ob_leak_spark_loop"
+      },
+      {
+        "audio_url": "https://file.lloongai.com/temp/suno/dl/d5/2026/11/07/20261107192154A885.m4a",
+        "duration": 8.12,
+        "id": "5599d473-ace8-44f4-90ac-87ecd0346619",
+        "image_url": "https://cdn2.suno.ai/image_5599d473-ace8-44f4-90ac-87ecd0346619.jpeg",
+        "instrumental": true,
+        "progress": 100,
+        "prompt": "",
+        "status": "SUCCESS",
+        "tags": "seamless ambient loop, no music, no melody, no drums, sound design: leaking pipe and electric sparks loop, crackle and hiss. continuous background texture, loopable",
+        "title": "OB-08 ob_leak_spark_loop"
+      }
+    ],
+    "result_status": "SUCCESS"
+  },
+  "objects/ob_vacuum_start.wav": {
+    "task": "task_hoNySwTcdNGYzChYEE7S8Ngu8q2ZbGQ4",
+    "id": "OB-09",
+    "status": "done",
+    "mode": "10",
+    "title": "OB-09 ob_vacuum_start",
+    "submitted_at": 1794050500.515119,
+    "clips": [
+      {
+        "audio_url": "https://file.lloongai.com/temp/suno/dl/d5/2026/11/07/20261107192147A878.m4a",
+        "duration": 5.52,
+        "id": "79642361-058f-4e6a-a8c1-a832ee405e18",
+        "image_url": "https://cdn2.suno.ai/image_79642361-058f-4e6a-a8c1-a832ee405e18.jpeg",
+        "instrumental": true,
+        "progress": 100,
+        "prompt": "[Instrumental]",
+        "status": "SUCCESS",
+        "tags": "Isolated close-mic game sound effect, one-shot vacuum extractor startup; dry electric motor winding up from a low mechanical hum into a steady focused suction rush, slight air intake flutter, compact abrupt ending, realistic mechanical texture, no musical arrangement",
+        "title": "Extractor Startup"
+      },
+      {
+        "audio_url": "https://file.lloongai.com/temp/suno/dl/d5/2026/11/07/20261107192151A882.m4a",
+        "duration": 5.56,
+        "id": "a3fc03a1-b35c-4e56-a6ae-40375ab9067a",
+        "image_url": "https://cdn2.suno.ai/image_a3fc03a1-b35c-4e56-a6ae-40375ab9067a.jpeg",
+        "instrumental": true,
+        "progress": 100,
+        "prompt": "[Instrumental]",
+        "status": "SUCCESS",
+        "tags": "Isolated close-mic game sound effect, one-shot vacuum extractor startup; dry electric motor winding up from a low mechanical hum into a steady focused suction rush, slight air intake flutter, compact abrupt ending, realistic mechanical texture, no musical arrangement",
+        "title": "Extractor Startup"
+      }
+    ],
+    "result_status": "SUCCESS"
+  },
+  "objects/ob_vacuum_loop.wav": {
+    "task": "task_qXEw5mjMtoZK1POz0Gtrud4Gtf3UY8hw",
+    "id": "OB-09",
+    "status": "done",
+    "mode": "20",
+    "title": "OB-09 ob_vacuum_loop",
+    "submitted_at": 1794050503.244242,
+    "clips": [
+      {
+        "audio_url": "https://file.lloongai.com/temp/suno/dl/d5/2026/11/07/20261107192149A536.m4a",
+        "duration": 56.56,
+        "id": "d2a7b8ed-c80d-4d75-a3b0-b199441eec5f",
+        "image_url": "https://cdn2.suno.ai/image_d2a7b8ed-c80d-4d75-a3b0-b199441eec5f.jpeg",
+        "instrumental": true,
+        "progress": 100,
+        "prompt": "",
+        "status": "SUCCESS",
+        "tags": "seamless ambient loop, no music, no melody, no drums, sound design: vacuum extractor suction loop, strong air suction and motor hum. continuous background texture, loopable",
+        "title": "OB-09 ob_vacuum_loop"
+      },
+      {
+        "audio_url": "https://file.lloongai.com/temp/suno/dl/d5/2026/11/07/20261107192208A551.m4a",
+        "duration": 57.6,
+        "id": "be2e1f25-2df9-4634-8b9c-ec043b83910c",
+        "image_url": "https://cdn2.suno.ai/image_be2e1f25-2df9-4634-8b9c-ec043b83910c.jpeg",
+        "instrumental": true,
+        "progress": 100,
+        "prompt": "",
+        "status": "SUCCESS",
+        "tags": "seamless ambient loop, no music, no melody, no drums, sound design: vacuum extractor suction loop, strong air suction and motor hum. continuous background texture, loopable",
+        "title": "OB-09 ob_vacuum_loop"
+      }
+    ],
+    "result_status": "SUCCESS"
+  },
+  "objects/ob_vacuum_stop.wav": {
+    "task": "task_U15itpk1uobWCHYOBgISTHK2IBZvqt6w",
+    "id": "OB-09",
+    "status": "done",
+    "mode": "10",
+    "title": "OB-09 ob_vacuum_stop",
+    "submitted_at": 1794050505.38964,
+    "clips": [
+      {
+        "audio_url": "https://file.lloongai.com/temp/suno/dl/d5/2026/11/07/20261107192153A372.m4a",
+        "duration": 2.36,
+        "id": "6c0c29fc-64ce-4431-83b7-90a6df5a8b52",
+        "image_url": "https://cdn2.suno.ai/image_6c0c29fc-64ce-4431-83b7-90a6df5a8b52.jpeg",
+        "instrumental": true,
+        "progress": 100,
+        "prompt": "Single dry sound effect, no music, no melody: vacuum extractor stop, motor power-down and valve clunk. Isolated one-shot, close-mic game SFX.",
+        "status": "SUCCESS",
+        "tags": "Single isolated close-miked game sound effect: vacuum extractor abruptly stops, motor winds down in a short descending mechanical whirr, then a distinct solid valve clunk at the end. Dry, compact, realistic machinery, one-shot only, no music, no melody, no ambience.",
+        "title": "Vacuum Extractor Stop"
+      },
+      {
+        "audio_url": "https://file.lloongai.com/temp/suno/dl/d5/2026/11/07/20261107192158A375.m4a",
+        "duration": 2,
+        "id": "74c05ffa-0cfc-4960-9753-bae399f6a69a",
+        "image_url": "https://cdn2.suno.ai/image_74c05ffa-0cfc-4960-9753-bae399f6a69a.jpeg",
+        "instrumental": true,
+        "progress": 100,
+        "prompt": "Single dry sound effect, no music, no melody: vacuum extractor stop, motor power-down and valve clunk. Isolated one-shot, close-mic game SFX.",
+        "status": "SUCCESS",
+        "tags": "Single isolated close-mic game sound effect: vacuum extractor abruptly stops, motor winds down with a short descending mechanical whirr, then a distinct valve clunk. Dry, realistic, compact one-shot; no music, no melody, no ambience.",
+        "title": "Vacuum Extractor Shutdown"
+      }
+    ],
+    "result_status": "SUCCESS"
+  },
+  "objects/ob_door_open.wav": {
+    "task": "task_y201YdHkVRpbhmpDOTbZ1VPVqnsVOLOW",
+    "id": "OB-10",
+    "status": "done",
+    "mode": "10",
+    "title": "OB-10 ob_door_open",
+    "submitted_at": 1794050507.8000941,
+    "clips": [
+      {
+        "audio_url": "https://file.lloongai.com/temp/suno/dl/d5/2026/11/07/20261107192233A573.m4a",
+        "duration": 4.68,
+        "id": "128ce984-d52e-44ad-9a23-47ad4c392cb4",
+        "image_url": "https://cdn2.suno.ai/image_128ce984-d52e-44ad-9a23-47ad4c392cb4.jpeg",
+        "instrumental": true,
+        "progress": 100,
+        "prompt": "Single dry sound effect, no music, no melody: sci-fi airlock door opening, electric servo slide, pneumatic hiss and heavy latch clunk. Isolated one-shot, close-mic game SFX.",
+        "status": "SUCCESS",
+        "tags": "Single isolated sci-fi airlock door opening: close-mic electric servo motor engaging, heavy metal door sliding open, brief pneumatic pressure hiss, then a solid heavy latch clunk. Dry, intimate game sound effect, one-shot, no music, no melody, no ambience, crisp mechanical detail.",
+        "title": "Airlock Door Opening SFX"
+      },
+      {
+        "audio_url": "https://file.lloongai.com/temp/suno/dl/d5/2026/11/07/20261107192154A884.m4a",
+        "duration": 2.8,
+        "id": "406e1463-acf9-4638-87be-7b0467693645",
+        "image_url": "https://cdn2.suno.ai/image_406e1463-acf9-4638-87be-7b0467693645.jpeg",
+        "instrumental": true,
+        "progress": 100,
+        "prompt": "Single dry sound effect, no music, no melody: sci-fi airlock door opening, electric servo slide, pneumatic hiss and heavy latch clunk. Isolated one-shot, close-mic game SFX.",
+        "status": "SUCCESS",
+        "tags": "Single dry sci-fi airlock door opening one-shot: close-miked electric servo motor engages, heavy door slides open with a smooth mechanical whirr, short pneumatic hiss vents, ends with a weighty latch clunk. Isolated game sound effect, no music, no melody, no voices.",
+        "title": "Airlock Door Opening SFX"
+      }
+    ],
+    "result_status": "SUCCESS"
+  },
+  "objects/ob_door_close.wav": {
+    "task": "task_LEqMEjLHOj4RF9dLrly0o4x0exIqjQQE",
+    "id": "OB-10",
+    "status": "done",
+    "mode": "10",
+    "title": "OB-10 ob_door_close",
+    "submitted_at": 1794050509.886113,
+    "clips": [
+      {
+        "audio_url": "https://file.lloongai.com/temp/suno/dl/d5/2026/11/07/20261107192156A543.m4a",
+        "duration": 20,
+        "id": "5759131f-0d13-4494-8e54-de9cc0181fee",
+        "image_url": "https://cdn2.suno.ai/image_5759131f-0d13-4494-8e54-de9cc0181fee.jpeg",
+        "instrumental": true,
+        "progress": 100,
+        "prompt": "[Instrumental]",
+        "status": "SUCCESS",
+        "tags": "single isolated sci-fi game sound effect, close-mic electric servo sliding an airlock door shut, short mechanical travel followed by a heavy metal latch clunk, dry controlled recording, one-shot",
+        "title": "Airlock Seal"
+      },
+      {
+        "audio_url": "https://file.lloongai.com/temp/suno/dl/d5/2026/11/07/20261107192215A897.m4a",
+        "duration": 43.36,
+        "id": "0cd2889a-1fa8-4352-980e-7099bf5e4107",
+        "image_url": "https://cdn2.suno.ai/image_0cd2889a-1fa8-4352-980e-7099bf5e4107.jpeg",
+        "instrumental": true,
+        "progress": 100,
+        "prompt": "[Instrumental]",
+        "status": "SUCCESS",
+        "tags": "single isolated sci-fi game sound effect, close-mic electric servo sliding an airlock door shut, short mechanical travel followed by a heavy metal latch clunk, dry controlled recording, one-shot",
+        "title": "Airlock Seal"
+      }
+    ],
+    "result_status": "SUCCESS"
+  },
+  "objects/ob_lock_denied.wav": {
+    "task": "task_RNILlXCRmEWvQJnqQMPEWuSErOEI8fL7",
+    "id": "OB-11",
+    "status": "done",
+    "mode": "10",
+    "title": "OB-11 ob_lock_denied",
+    "submitted_at": 1794050512.0485256,
+    "clips": [
+      {
+        "audio_url": "https://file.lloongai.com/temp/suno/dl/d5/2026/11/07/20261107192159A888.m4a",
+        "duration": 3.04,
+        "id": "c7395f6f-4d9b-457f-abc2-588bcf2a5523",
+        "image_url": "https://cdn2.suno.ai/image_c7395f6f-4d9b-457f-abc2-588bcf2a5523.jpeg",
+        "instrumental": true,
+        "progress": 100,
+        "prompt": "[Instrumental]",
+        "status": "SUCCESS",
+        "tags": "Single isolated close-mic game sound effect, short dry mechanical locked-door refusal: brief low electrical buzz followed by a solid metal clunk, tight transient, minimal room tone, no musical arrangement.",
+        "title": "Locked Door"
+      },
+      {
+        "audio_url": "https://file.lloongai.com/temp/suno/dl/d5/2026/11/07/20261107192204A891.m4a",
+        "duration": 2.76,
+        "id": "51570295-8ae1-419f-b4a8-0c37594ebe57",
+        "image_url": "https://cdn2.suno.ai/image_51570295-8ae1-419f-b4a8-0c37594ebe57.jpeg",
+        "instrumental": true,
+        "progress": 100,
+        "prompt": "[Instrumental]",
+        "status": "SUCCESS",
+        "tags": "Single isolated close-mic game sound effect, short dry mechanical locked-door refusal: brief low electrical buzz followed by a solid metal clunk, tight transient, minimal room tone, no musical arrangement.",
+        "title": "Locked Door"
+      }
+    ],
+    "result_status": "SUCCESS"
+  },
+  "objects/ob_unlock.wav": {
+    "task": "task_UrMRC1B9wl8YfGAuMiVpZdFhiWLqulY1",
+    "id": "OB-11",
+    "status": "done",
+    "mode": "10",
+    "title": "OB-11 ob_unlock",
+    "submitted_at": 1794050514.150521,
+    "clips": [
+      {
+        "audio_url": "https://file.lloongai.com/temp/suno/dl/d5/2026/11/07/20261107192200A889.m4a",
+        "duration": 33.8,
+        "id": "f238b114-f824-4750-92ed-e740f3d0ca19",
+        "image_url": "https://cdn2.suno.ai/image_f238b114-f824-4750-92ed-e740f3d0ca19.jpeg",
+        "instrumental": true,
+        "progress": 100,
+        "prompt": "[Instrumental]",
+        "status": "SUCCESS",
+        "tags": "Isolated close-mic game interface sound design, a crisp mechanical relay click followed immediately by a short clean rising two-tone confirmation chime, dry studio recording, single one-shot, compact transient, no ambience",
+        "title": "Mechanical Relay Click"
+      },
+      {
+        "audio_url": "https://file.lloongai.com/temp/suno/dl/d5/2026/11/07/20261107192207A893.m4a",
+        "duration": 14.4,
+        "id": "6d1d3203-3b36-4a8b-952e-11d781086283",
+        "image_url": "https://cdn2.suno.ai/image_6d1d3203-3b36-4a8b-952e-11d781086283.jpeg",
+        "instrumental": true,
+        "progress": 100,
+        "prompt": "[Instrumental]",
+        "status": "SUCCESS",
+        "tags": "Isolated close-mic game interface sound design, a crisp mechanical relay click followed immediately by a short clean rising two-tone confirmation chime, dry studio recording, single one-shot, compact transient, no ambience",
+        "title": "Mechanical Relay Click"
+      }
+    ],
+    "result_status": "SUCCESS"
+  },
+  "puzzle/pu_terminal_enter.wav": {
+    "task": "task_bKssbjWuYxQCdp0pUCoJ8SzpPXs9o4Za",
+    "id": "PU-01",
+    "status": "done",
+    "mode": "10",
+    "title": "PU-01 pu_terminal_enter",
+    "submitted_at": 1794050517.133216,
+    "clips": [
+      {
+        "audio_url": "https://file.lloongai.com/temp/suno/dl/d5/2026/11/07/20261107192204A377.m4a",
+        "duration": 4,
+        "id": "8a676f8f-568f-407f-b255-eb337c1a2f05",
+        "image_url": "https://cdn2.suno.ai/image_8a676f8f-568f-407f-b255-eb337c1a2f05.jpeg",
+        "instrumental": true,
+        "progress": 100,
+        "prompt": "Single dry sound effect, no music, no melody: sci-fi terminal screen power-on, relay click, CRT whine and static. Isolated one-shot, close-mic game SFX.",
+        "status": "SUCCESS",
+        "tags": "Single dry close-mic sci-fi terminal screen power-on sound effect: a crisp relay click, brief CRT whine rising and settling, then a short burst of electronic static. Isolated one-shot, no music, no melody, no ambience, no room reverb.",
+        "title": "Sci-Fi Terminal Power-On"
+      },
+      {
+        "audio_url": "https://file.lloongai.com/temp/suno/dl/d5/2026/11/07/20261107192209A380.m4a",
+        "duration": 2.68,
+        "id": "2216a3f3-efed-491c-a857-fe9a5814d377",
+        "image_url": "https://cdn2.suno.ai/image_2216a3f3-efed-491c-a857-fe9a5814d377.jpeg",
+        "instrumental": true,
+        "progress": 100,
+        "prompt": "Single dry sound effect, no music, no melody: sci-fi terminal screen power-on, relay click, CRT whine and static. Isolated one-shot, close-mic game SFX.",
+        "status": "SUCCESS",
+        "tags": "Single isolated sci-fi terminal screen power-on game sound effect: one crisp mechanical relay click, followed by a short rising CRT electrical whine and a brief burst of analog static, then cut cleanly to silence. Close-miked, dry, compact, no music, no melody, no voices, one-shot.",
+        "title": "Sci-Fi Terminal Power-On SFX"
+      }
+    ],
+    "result_status": "SUCCESS"
+  },
+  "puzzle/pu_terminal_exit.wav": {
+    "task": "task_9DuEy0psFkL6g81KhUXm392XZcoB9SwQ",
+    "id": "PU-01",
+    "status": "done",
+    "mode": "10",
+    "title": "PU-01 pu_terminal_exit",
+    "submitted_at": 1794050519.3916442,
+    "clips": [
+      {
+        "audio_url": "https://file.lloongai.com/temp/suno/dl/d5/2026/11/07/20261107192206A378.m4a",
+        "duration": 3.2,
+        "id": "ad7bacb7-71e5-4783-8dca-df0e8652ab6f",
+        "image_url": "https://cdn2.suno.ai/image_ad7bacb7-71e5-4783-8dca-df0e8652ab6f.jpeg",
+        "instrumental": true,
+        "progress": 100,
+        "prompt": "Single dry sound effect, no music, no melody: sci-fi terminal screen power-off, descending whine and click. Isolated one-shot, close-mic game SFX.",
+        "status": "SUCCESS",
+        "tags": "Single isolated sci-fi terminal screen power-off sound effect: brief descending electronic whine that powers down into one crisp mechanical click. Close-mic, dry, clean, game interface one-shot. No music, no melody, no ambience, no extra sounds.",
+        "title": "Terminal Power-Off"
+      },
+      {
+        "audio_url": "https://file.lloongai.com/temp/suno/dl/d5/2026/11/07/20261107192222A900.m4a",
+        "duration": 2,
+        "id": "e84664aa-38b3-47bc-a139-260300a3d3df",
+        "image_url": "https://cdn2.suno.ai/image_e84664aa-38b3-47bc-a139-260300a3d3df.jpeg",
+        "instrumental": true,
+        "progress": 100,
+        "prompt": "Single dry sound effect, no music, no melody: sci-fi terminal screen power-off, descending whine and click. Isolated one-shot, close-mic game SFX.",
+        "status": "SUCCESS",
+        "tags": "Single isolated sci-fi terminal screen power-off sound effect: close-mic electronic device shutdown, short descending synthesized whine winding down into one crisp mechanical click, dry and intimate, no ambience, no music, no melody, one-shot",
+        "title": "Terminal Power-Off"
+      }
+    ],
+    "result_status": "SUCCESS"
+  },
+  "puzzle/pu_click.wav": {
+    "task": "task_N7bDuIQHLQmEW1uRQiXyQilXhYahl3av",
+    "id": "PU-02",
+    "status": "done",
+    "mode": "10",
+    "title": "PU-02 pu_click",
+    "submitted_at": 1794050521.625588,
+    "clips": [
+      {
+        "audio_url": "https://file.lloongai.com/temp/suno/dl/d5/2026/11/07/20261107192208A379.m4a",
+        "duration": 2,
+        "id": "8050288f-c75b-46a0-a2d2-f3518e9072e8",
+        "image_url": "https://cdn2.suno.ai/image_8050288f-c75b-46a0-a2d2-f3518e9072e8.jpeg",
+        "instrumental": true,
+        "progress": 100,
+        "prompt": "Single dry sound effect, no music, no melody: short crisp sci-fi UI button click. Isolated one-shot, close-mic game SFX.",
+        "status": "SUCCESS",
+        "tags": "Single short crisp sci-fi UI button click, isolated close-mic game sound effect, dry, no music, no melody, no ambience, one-shot",
+        "title": "Sci-Fi UI Click"
+      },
+      {
+        "audio_url": "https://file.lloongai.com/temp/suno/dl/d5/2026/11/07/20261107192212A383.m4a",
+        "duration": 2,
+        "id": "49289184-e37d-474a-b391-8154bcf8b694",
+        "image_url": "https://cdn2.suno.ai/image_49289184-e37d-474a-b391-8154bcf8b694.jpeg",
+        "instrumental": true,
+        "progress": 100,
+        "prompt": "Single dry sound effect, no music, no melody: short crisp sci-fi UI button click. Isolated one-shot, close-mic game SFX.",
+        "status": "SUCCESS",
+        "tags": "Single dry sound effect: short crisp sci-fi UI button click, isolated one-shot, close-mic game interface SFX, a tight tactile click with a tiny clean electronic confirmation tick, no ambience, no music, no melody",
+        "title": "Sci-Fi UI Button Click"
+      }
+    ],
+    "result_status": "SUCCESS"
+  },
+  "puzzle/pu_rotate_01.wav": {
+    "task": "task_RhRCuo4JQpk7bhqPtf8816E9WTBq9fgp",
+    "id": "PU-03",
+    "status": "done",
+    "mode": "10",
+    "title": "PU-03 pu_rotate_01",
+    "submitted_at": 1794050523.7511833,
+    "clips": [
+      {
+        "audio_url": "https://file.lloongai.com/temp/suno/dl/d5/2026/11/07/20261107192210A381.m4a",
+        "duration": 2.56,
+        "id": "7165e676-099c-4d7d-ab16-f99f0352c285",
+        "image_url": "https://cdn2.suno.ai/image_7165e676-099c-4d7d-ab16-f99f0352c285.jpeg",
+        "instrumental": true,
+        "progress": 100,
+        "prompt": "Single dry sound effect, no music, no melody: mechanical puzzle dial tick, short click and electronic beat. Isolated one-shot, close-mic game SFX.",
+        "status": "SUCCESS",
+        "tags": "Single dry close-mic mechanical puzzle dial tick: one short, crisp plastic-and-metal click with a tiny electronic beat, isolated one-shot, no ambience, no music, no melody",
+        "title": "Puzzle Dial Tick"
+      },
+      {
+        "audio_url": "https://file.lloongai.com/temp/suno/dl/d5/2026/11/07/20261107192229A905.m4a",
+        "duration": 8.52,
+        "id": "256b4ea9-d75b-4751-9fa0-fd64bb9cdf43",
+        "image_url": "https://cdn2.suno.ai/image_256b4ea9-d75b-4751-9fa0-fd64bb9cdf43.jpeg",
+        "instrumental": true,
+        "progress": 100,
+        "prompt": "Single dry sound effect, no music, no melody: mechanical puzzle dial tick, short click and electronic beat. Isolated one-shot, close-mic game SFX.",
+        "status": "SUCCESS",
+        "tags": "Single dry mechanical puzzle-dial tick: a close-mic tactile rotary detent click with a very brief electronic beat-like blip immediately after, crisp and isolated, one-shot game interface sound effect, no music, no melody, no ambience, no tail",
+        "title": "Puzzle Dial Tick"
+      }
+    ],
+    "result_status": "SUCCESS"
+  },
+  "puzzle/pu_rotate_02.wav": {
+    "task": "task_s2o5klYgGGLL9xSfvpsKTaLmyTlbmTmN",
+    "id": "PU-03",
+    "status": "done",
+    "mode": "10",
+    "title": "PU-03 pu_rotate_02",
+    "submitted_at": 1794050525.8889093,
+    "clips": [
+      {
+        "audio_url": "https://file.lloongai.com/temp/suno/dl/d5/2026/11/07/20261107192213A384.m4a",
+        "duration": 2.8,
+        "id": "69c74abd-267c-435c-8769-6bf9b7b92b5c",
+        "image_url": "https://cdn2.suno.ai/image_69c74abd-267c-435c-8769-6bf9b7b92b5c.jpeg",
+        "instrumental": true,
+        "progress": 100,
+        "prompt": "[Instrumental]",
+        "status": "SUCCESS",
+        "tags": "Single close-mic mechanical puzzle dial tick, dry isolated game sound effect, one crisp low tactile click immediately followed by a slightly higher light click, short natural decay, clean silence around the sound.",
+        "title": "机械咔哒声"
+      },
+      {
+        "audio_url": "https://file.lloongai.com/temp/suno/dl/d5/2026/11/07/20261107192219A390.m4a",
+        "duration": 2.8,
+        "id": "a3683b9c-1490-41b8-ae54-97aba5275e96",
+        "image_url": "https://cdn2.suno.ai/image_a3683b9c-1490-41b8-ae54-97aba5275e96.jpeg",
+        "instrumental": true,
+        "progress": 100,
+        "prompt": "[Instrumental]",
+        "status": "SUCCESS",
+        "tags": "Single close-mic mechanical puzzle dial tick, dry isolated game sound effect, one crisp low tactile click immediately followed by a slightly higher light click, short natural decay, clean silence around the sound.",
+        "title": "机械咔哒声"
+      }
+    ],
+    "result_status": "SUCCESS"
+  },
+  "puzzle/pu_step_correct.wav": {
+    "task": "task_H01eiGK91KGj4V52UH7SAQ57VXG6oabb",
+    "id": "PU-04",
+    "status": "done",
+    "mode": "10",
+    "title": "PU-04 pu_step_correct",
+    "submitted_at": 1794050528.0029836,
+    "clips": [
+      {
+        "audio_url": "https://file.lloongai.com/temp/suno/dl/d5/2026/11/07/20261107192214A386.m4a",
+        "duration": 3.6,
+        "id": "99c2c310-8660-478c-8a0d-b75545337771",
+        "image_url": "https://cdn2.suno.ai/image_99c2c310-8660-478c-8a0d-b75545337771.jpeg",
+        "instrumental": true,
+        "progress": 100,
+        "prompt": "[Instrumental]",
+        "status": "SUCCESS",
+        "tags": "Single isolated one-shot game sound effect, two soft rounded chime tones ascending in a quick clean interval, close-mic, dry, gentle attack with a short natural decay, precise and satisfying correct-answer cue.",
+        "title": "Correct Answer Chime"
+      },
+      {
+        "audio_url": "https://file.lloongai.com/temp/suno/dl/d5/2026/11/07/20261107192220A391.m4a",
+        "duration": 6.4,
+        "id": "84e81d0b-ef24-4366-960b-e785c72b9cfa",
+        "image_url": "https://cdn2.suno.ai/image_84e81d0b-ef24-4366-960b-e785c72b9cfa.jpeg",
+        "instrumental": true,
+        "progress": 100,
+        "prompt": "[Instrumental]",
+        "status": "SUCCESS",
+        "tags": "Single isolated one-shot game sound effect, two soft rounded chime tones ascending in a quick clean interval, close-mic, dry, gentle attack with a short natural decay, precise and satisfying correct-answer cue.",
+        "title": "Correct Answer Chime"
+      }
+    ],
+    "result_status": "SUCCESS"
+  },
+  "puzzle/pu_error.wav": {
+    "task": "task_KuioPxMzuQ29DEbPqeg23w8ovV6UWqYp",
+    "id": "PU-05",
+    "status": "done",
+    "mode": "10",
+    "title": "PU-05 pu_error",
+    "submitted_at": 1794050530.1599333,
+    "clips": [
+      {
+        "audio_url": "https://file.lloongai.com/temp/suno/dl/d5/2026/11/07/20261107192217A557.m4a",
+        "duration": 2,
+        "id": "84a3f266-0e47-48aa-8da6-72819ad47937",
+        "image_url": "https://cdn2.suno.ai/image_84a3f266-0e47-48aa-8da6-72819ad47937.jpeg",
+        "instrumental": true,
+        "progress": 100,
+        "prompt": "Single dry sound effect, no music, no melody: puzzle input error, short descending buzz. Isolated one-shot, close-mic game SFX.",
+        "status": "SUCCESS",
+        "tags": "Single isolated puzzle input error sound effect: short descending electronic buzz, close-mic, dry, compact arcade game interface SFX. One-shot only, no music, no melody, no ambience, no additional clicks or layers.",
+        "title": "Puzzle Input Error"
+      },
+      {
+        "audio_url": "https://file.lloongai.com/temp/suno/dl/d5/2026/11/07/20261107192223A562.m4a",
+        "duration": 2,
+        "id": "a10d263b-ba79-4e41-a0d9-3a16fed78bae",
+        "image_url": "https://cdn2.suno.ai/image_a10d263b-ba79-4e41-a0d9-3a16fed78bae.jpeg",
+        "instrumental": true,
+        "progress": 100,
+        "prompt": "Single dry sound effect, no music, no melody: puzzle input error, short descending buzz. Isolated one-shot, close-mic game SFX.",
+        "status": "SUCCESS",
+        "tags": "single dry puzzle input error sound effect, short descending electronic buzz, close-mic, isolated one-shot, no music, no melody",
+        "title": "Puzzle Input Error"
+      }
+    ],
+    "result_status": "SUCCESS"
+  },
+  "puzzle/pu_puzzle_complete.wav": {
+    "task": "task_a2KxUZYjpz3223EONrbXGA3FAOLdydOH",
+    "id": "PU-06",
+    "status": "partial",
+    "mode": "10",
+    "title": "PU-06 pu_puzzle_complete",
+    "submitted_at": 1794050532.4084413,
+    "clips": [
+      {
+        "audio_url": "https://file.lloongai.com/temp/suno/dl/d5/2026/11/07/20261107192219A559.m4a",
+        "duration": 2,
+        "id": "7f4bc01e-e515-44ba-a9ff-34fe43081255",
+        "image_url": "https://cdn2.suno.ai/image_7f4bc01e-e515-44ba-a9ff-34fe43081255.jpeg",
+        "instrumental": true,
+        "progress": 100,
+        "prompt": "Single dry sound effect, no music, no melody: puzzle complete, three-note rising confirmation chime and relay. Isolated one-shot, close-mic game SFX.",
+        "status": "SUCCESS",
+        "tags": "Single isolated close-mic game SFX: puzzle complete confirmation, exactly three clean rising electronic chime notes followed immediately by a small mechanical relay click. Dry, short, crisp, no music, no melody beyond the three-note chime, no ambience, no tail reverb.",
+        "title": "Puzzle Complete Chime"
+      }
+    ],
+    "result_status": "IN_PROGRESS"
+  },
+  "puzzle/pu_clue_get.wav": {
+    "task": "task_aF2SMtrSploPyR4d11kV15e9u4CYbcW2",
+    "id": "PU-07",
+    "status": "done",
+    "mode": "10",
+    "title": "PU-07 pu_clue_get",
+    "submitted_at": 1794050534.5832756,
+    "clips": [
+      {
+        "audio_url": "https://file.lloongai.com/temp/suno/dl/d5/2026/11/07/20261107192221A392.m4a",
+        "duration": 5.2,
+        "id": "849ac9f2-5a30-4b64-9524-f0912469eac7",
+        "image_url": "https://cdn2.suno.ai/image_849ac9f2-5a30-4b64-9524-f0912469eac7.jpeg",
+        "instrumental": true,
+        "progress": 100,
+        "prompt": "Single dry sound effect, no music, no melody: clue acquired, short data download chirps and soft shimmer. Isolated one-shot, close-mic game SFX.",
+        "status": "SUCCESS",
+        "tags": "",
+        "title": ""
+      },
+      {
+        "audio_url": "https://file.lloongai.com/temp/suno/dl/d5/2026/11/07/20261107192226A395.m4a",
+        "duration": 8.8,
+        "id": "32fbb259-bfb5-4079-ab70-d8c78dbe7842",
+        "image_url": "https://cdn2.suno.ai/image_32fbb259-bfb5-4079-ab70-d8c78dbe7842.jpeg",
+        "instrumental": true,
+        "progress": 100,
+        "prompt": "[Instrumental]",
+        "status": "SUCCESS",
+        "tags": "Close-mic isolated one-shot game interface sound effect, short sequence of crisp digital data-download chirps resolving into a delicate soft shimmer, dry intimate sound, clean transient detail, brief natural tail",
+        "title": "Data Download"
+      }
+    ],
+    "result_status": "SUCCESS"
+  },
+  "puzzle/pu_signal_tune_loop.wav": {
+    "task": "task_bvWPerc0YvhFsdUO0Ri1R97oIKxrMKkN",
+    "id": "PU-08",
+    "status": "done",
+    "mode": "20",
+    "title": "PU-08 pu_signal_tune_loop",
+    "submitted_at": 1794050536.7967877,
+    "clips": [
+      {
+        "audio_url": "https://file.lloongai.com/temp/suno/dl/d5/2026/11/07/20261107192225A564.m4a",
+        "duration": 5.96,
+        "id": "26b3131d-4e23-40ba-ab60-6a57e52440c7",
+        "image_url": "https://cdn2.suno.ai/image_26b3131d-4e23-40ba-ab60-6a57e52440c7.jpeg",
+        "instrumental": true,
+        "progress": 100,
+        "prompt": "",
+        "status": "SUCCESS",
+        "tags": "seamless ambient loop, no music, no melody, no drums, sound design: radio signal tuning loop, static narrowing into a clear tone. continuous background texture, loopable",
+        "title": "PU-08 pu_signal_tune_loop"
+      },
+      {
+        "audio_url": "https://file.lloongai.com/temp/suno/dl/d5/2026/11/07/20261107192229A570.m4a",
+        "duration": 7.12,
+        "id": "680fd8bd-b3f6-4e5c-a736-55314aa4310a",
+        "image_url": "https://cdn2.suno.ai/image_680fd8bd-b3f6-4e5c-a736-55314aa4310a.jpeg",
+        "instrumental": true,
+        "progress": 100,
+        "prompt": "",
+        "status": "SUCCESS",
+        "tags": "seamless ambient loop, no music, no melody, no drums, sound design: radio signal tuning loop, static narrowing into a clear tone. continuous background texture, loopable",
+        "title": "PU-08 pu_signal_tune_loop"
+      }
+    ],
+    "result_status": "SUCCESS"
+  },
+  "puzzle/pu_broadcast_start.wav": {
+    "task": "task_d2Yrb5RWOph0lRBx9NtxE5BQSEVlgyYW",
+    "id": "PU-09",
+    "status": "done",
+    "mode": "10",
+    "title": "PU-09 pu_broadcast_start",
+    "submitted_at": 1794050538.9874713,
+    "clips": [
+      {
+        "audio_url": "https://file.lloongai.com/temp/suno/dl/d5/2026/11/07/20261107192225A394.m4a",
+        "duration": 6.4,
+        "id": "ca96e843-c318-4d90-bdaa-9fd6d070356d",
+        "image_url": "https://cdn2.suno.ai/image_ca96e843-c318-4d90-bdaa-9fd6d070356d.jpeg",
+        "instrumental": true,
+        "progress": 100,
+        "prompt": "[Instrumental]",
+        "status": "SUCCESS",
+        "tags": "Single isolated radio broadcast start game sound effect, close-mic dry chime followed immediately by a short burst of radio static, compact one-shot timing, clean controlled transient, no musical arrangement",
+        "title": "Radio Static Chime"
+      },
+      {
+        "audio_url": "https://file.lloongai.com/temp/suno/dl/d5/2026/11/07/20261107192233A398.m4a",
+        "duration": 4.8,
+        "id": "b56b5e00-7aea-40c0-a860-52e14f817593",
+        "image_url": "https://cdn2.suno.ai/image_b56b5e00-7aea-40c0-a860-52e14f817593.jpeg",
+        "instrumental": true,
+        "progress": 100,
+        "prompt": "[Instrumental]",
+        "status": "SUCCESS",
+        "tags": "Single isolated radio broadcast start game sound effect, close-mic dry chime followed immediately by a short burst of radio static, compact one-shot timing, clean controlled transient, no musical arrangement",
+        "title": "Radio Static Chime"
+      }
+    ],
+    "result_status": "SUCCESS"
+  },
+  "puzzle/pu_broadcast_end.wav": {
+    "task": "task_oAadZHJgaCI9P1jxU1vhXErtjEIu8yuH",
+    "id": "PU-09",
+    "status": "done",
+    "mode": "10",
+    "title": "PU-09 pu_broadcast_end",
+    "submitted_at": 1794050541.763123,
+    "clips": [
+      {
+        "audio_url": "https://file.lloongai.com/temp/suno/dl/d5/2026/11/07/20261107192230A906.m4a",
+        "duration": 6.8,
+        "id": "29ebd8ef-8770-485b-9ce9-0af79b500b4c",
+        "image_url": "https://cdn2.suno.ai/image_29ebd8ef-8770-485b-9ce9-0af79b500b4c.jpeg",
+        "instrumental": true,
+        "progress": 100,
+        "prompt": "[Instrumental]",
+        "status": "SUCCESS",
+        "tags": "Single isolated close-mic game sound effect, dry radio broadcast ending: a tactile receiver click, a tiny clipped transmission tail, then a short soft static fade to silence; one-shot sound design, no musical arrangement.",
+        "title": "Receiver Click"
+      },
+      {
+        "audio_url": "https://file.lloongai.com/temp/suno/dl/d5/2026/11/07/20261107192237A909.m4a",
+        "duration": 6,
+        "id": "23ced2ae-2da8-4a99-b5b2-0bde81a2dae7",
+        "image_url": "https://cdn2.suno.ai/image_23ced2ae-2da8-4a99-b5b2-0bde81a2dae7.jpeg",
+        "instrumental": true,
+        "progress": 100,
+        "prompt": "[Instrumental]",
+        "status": "SUCCESS",
+        "tags": "Single isolated close-mic game sound effect, dry radio broadcast ending: a tactile receiver click, a tiny clipped transmission tail, then a short soft static fade to silence; one-shot sound design, no musical arrangement.",
+        "title": "Receiver Click"
+      }
+    ],
+    "result_status": "SUCCESS"
+  },
+  "ambience/amb_ship_vent_loop.wav": {
+    "task": "task_IvJbSTF3iwdxam0fUktfC9y0lJmY8ZvA",
+    "id": "AMB-00",
+    "status": "done",
+    "mode": "20",
+    "title": "AMB-00 amb_ship_vent_loop",
+    "submitted_at": 1794050543.985749,
+    "clips": [
+      {
+        "audio_url": "https://file.lloongai.com/temp/suno/dl/d5/2026/11/07/20261107192254A919.m4a",
+        "duration": 83.6,
+        "id": "cf3d78ed-4874-4010-b053-2e1908f87fb1",
+        "image_url": "https://cdn2.suno.ai/image_cf3d78ed-4874-4010-b053-2e1908f87fb1.jpeg",
+        "instrumental": true,
+        "progress": 100,
+        "prompt": "",
+        "status": "SUCCESS",
+        "tags": "seamless ambient loop, no music, no melody, no drums, sound design: spaceship ventilation and air circulation background, low hum and airy noise. continuous background texture, loopable",
+        "title": "AMB-00 amb_ship_vent_loop"
+      },
+      {
+        "audio_url": "https://file.lloongai.com/temp/suno/dl/d5/2026/11/07/20261107192304A925.m4a",
+        "duration": 88.4,
+        "id": "4e1b51c7-5214-4422-b09d-2b481b757bb2",
+        "image_url": "https://cdn2.suno.ai/image_4e1b51c7-5214-4422-b09d-2b481b757bb2.jpeg",
+        "instrumental": true,
+        "progress": 100,
+        "prompt": "",
+        "status": "SUCCESS",
+        "tags": "seamless ambient loop, no music, no melody, no drums, sound design: spaceship ventilation and air circulation background, low hum and airy noise. continuous background texture, loopable",
+        "title": "AMB-00 amb_ship_vent_loop"
+      }
+    ],
+    "result_status": "SUCCESS"
+  },
+  "ambience/amb_cockpit_living_loop.wav": {
+    "task": "task_PrAi98Cy5Xtwwhf0w5gF5IQ79dDj7g9U",
+    "id": "AMB-01",
+    "status": "partial",
+    "mode": "20",
+    "title": "AMB-01 amb_cockpit_living_loop",
+    "submitted_at": 1794050546.2455046,
+    "clips": [
+      {
+        "audio_url": "https://file.lloongai.com/temp/suno/dl/d5/2026/11/07/20261107192233A397.m4a",
+        "duration": 67.6,
+        "id": "c6fb1002-f0b4-406e-bc6a-388a2928b722",
+        "image_url": "https://cdn2.suno.ai/image_c6fb1002-f0b4-406e-bc6a-388a2928b722.jpeg",
+        "instrumental": true,
+        "progress": 100,
+        "prompt": "",
+        "status": "SUCCESS",
+        "tags": "seamless ambient loop, no music, no melody, no drums, sound design: cockpit and living quarters ambience, instrument hum, ventilation, sparse navigation blips. continuous background texture.",
+        "title": "AMB-01 amb_cockpit_living_loop"
+      }
+    ],
+    "result_status": "IN_PROGRESS"
+  },
+  "ambience/amb_storage_loop.wav": {
+    "task": "task_eOuNBeLqkzQILfpxD2K52AGKDDxKdc7p",
+    "id": "AMB-02",
+    "status": "done",
+    "mode": "20",
+    "title": "AMB-02 amb_storage_loop",
+    "submitted_at": 1794050548.3871694,
+    "clips": [
+      {
+        "audio_url": "https://file.lloongai.com/temp/suno/dl/d5/2026/11/07/20261107192235A577.m4a",
+        "duration": 79.96,
+        "id": "3bb65e82-2975-4e17-ae6d-ace5992aee76",
+        "image_url": "https://cdn2.suno.ai/image_3bb65e82-2975-4e17-ae6d-ace5992aee76.jpeg",
+        "instrumental": true,
+        "progress": 100,
+        "prompt": "",
+        "status": "SUCCESS",
+        "tags": "seamless ambient loop, no music, no melody, no drums, sound design: storage bay ambience, servo devices, metal shelves rattle and low machinery. continuous background texture, loopable",
+        "title": "AMB-02 amb_storage_loop"
+      },
+      {
+        "audio_url": "https://file.lloongai.com/temp/suno/dl/d5/2026/11/07/20261107192254A918.m4a",
+        "duration": 73.6,
+        "id": "a45a55b5-de03-42f0-ab8f-0bb692d2e8a9",
+        "image_url": "https://cdn2.suno.ai/image_a45a55b5-de03-42f0-ab8f-0bb692d2e8a9.jpeg",
+        "instrumental": true,
+        "progress": 100,
+        "prompt": "",
+        "status": "SUCCESS",
+        "tags": "seamless ambient loop, no music, no melody, no drums, sound design: storage bay ambience, servo devices, metal shelves rattle and low machinery. continuous background texture, loopable",
+        "title": "AMB-02 amb_storage_loop"
+      }
+    ],
+    "result_status": "SUCCESS"
+  },
+  "ambience/amb_sanitation_loop.wav": {
+    "task": "task_OeLihf0ejHeSMUei2HD42uUezKxYOUbx",
+    "id": "AMB-03",
+    "status": "done",
+    "mode": "20",
+    "title": "AMB-03 amb_sanitation_loop",
+    "submitted_at": 1794050551.4756324,
+    "clips": [
+      {
+        "audio_url": "https://file.lloongai.com/temp/suno/dl/d5/2026/11/07/20261107192251A413.m4a",
+        "duration": 129.08,
+        "id": "db14decf-3aab-4f4c-8bb5-7c7cbc70de96",
+        "image_url": "https://cdn2.suno.ai/image_db14decf-3aab-4f4c-8bb5-7c7cbc70de96.jpeg",
+        "instrumental": true,
+        "progress": 100,
+        "prompt": "",
+        "status": "SUCCESS",
+        "tags": "seamless ambient loop, no music, no melody, no drums, sound design: sanitation and waste bay ambience, pipe liquid flow, water drips and exhaust valve. continuous background texture, loopable",
+        "title": "AMB-03 amb_sanitation_loop"
+      },
+      {
+        "audio_url": "https://file.lloongai.com/temp/suno/dl/d5/2026/11/07/20261107192256A419.m4a",
+        "duration": 172.8,
+        "id": "f9e135a5-7146-4044-9261-b1b8bb3d0321",
+        "image_url": "https://cdn2.suno.ai/image_f9e135a5-7146-4044-9261-b1b8bb3d0321.jpeg",
+        "instrumental": true,
+        "progress": 100,
+        "prompt": "",
+        "status": "SUCCESS",
+        "tags": "seamless ambient loop, no music, no melody, no drums, sound design: sanitation and waste bay ambience, pipe liquid flow, water drips and exhaust valve. continuous background texture, loopable",
+        "title": "AMB-03 amb_sanitation_loop"
+      }
+    ],
+    "result_status": "SUCCESS"
+  },
+  "ambience/amb_comms_loop.wav": {
+    "task": "task_P6CRqK6LHk27l3rnX4ES2bGtmU17ovtc",
+    "id": "AMB-04",
+    "status": "done",
+    "mode": "20",
+    "title": "AMB-04 amb_comms_loop",
+    "submitted_at": 1794050553.7268558,
+    "clips": [
+      {
+        "audio_url": "https://file.lloongai.com/temp/suno/dl/d5/2026/11/07/20261107192240A404.m4a",
+        "duration": 39.04,
+        "id": "504aa953-2e9f-436c-9f1d-a0c5b8b275ca",
+        "image_url": "https://cdn2.suno.ai/image_504aa953-2e9f-436c-9f1d-a0c5b8b275ca.jpeg",
+        "instrumental": true,
+        "progress": 100,
+        "prompt": "",
+        "status": "SUCCESS",
+        "tags": "seamless ambient loop, no music, no melody, no drums, sound design: communications room ambience, receiver static, data pulses and radio crackle. continuous background texture, loopable",
+        "title": "AMB-04 amb_comms_loop"
+      },
+      {
+        "audio_url": "https://file.lloongai.com/temp/suno/dl/d5/2026/11/07/20261107192246A409.m4a",
+        "duration": 57.76,
+        "id": "3fded467-22d5-4392-8cf2-5c1586f93cfd",
+        "image_url": "https://cdn2.suno.ai/image_3fded467-22d5-4392-8cf2-5c1586f93cfd.jpeg",
+        "instrumental": true,
+        "progress": 100,
+        "prompt": "",
+        "status": "SUCCESS",
+        "tags": "seamless ambient loop, no music, no melody, no drums, sound design: communications room ambience, receiver static, data pulses and radio crackle. continuous background texture, loopable",
+        "title": "AMB-04 amb_comms_loop"
+      }
+    ],
+    "result_status": "SUCCESS"
+  },
+  "ambience/amb_medical_loop.wav": {
+    "task": "task_PelVkTaqhHVUzONJBBlC89ysPw6vMZDf",
+    "id": "AMB-05",
+    "status": "done",
+    "mode": "20",
+    "title": "AMB-05 amb_medical_loop",
+    "submitted_at": 1794050555.9500449,
+    "clips": [
+      {
+        "audio_url": "https://file.lloongai.com/temp/suno/dl/d5/2026/11/07/20261107192301A424.m4a",
+        "duration": 113.2,
+        "id": "866a5b90-f5b8-4c35-89b9-a247720e7166",
+        "image_url": "https://cdn2.suno.ai/image_866a5b90-f5b8-4c35-89b9-a247720e7166.jpeg",
+        "instrumental": true,
+        "progress": 100,
+        "prompt": "",
+        "status": "SUCCESS",
+        "tags": "seamless ambient loop, no music, no melody, no drums, sound design: medical and hibernation bay ambience, device hum, slow monitor beeps and pod circulation. continuous background texture.",
+        "title": "AMB-05 amb_medical_loop"
+      },
+      {
+        "audio_url": "https://file.lloongai.com/temp/suno/dl/d5/2026/11/07/20261107192242A912.m4a",
+        "duration": 82.8,
+        "id": "2b12b566-2730-4624-823c-60ba766879ff",
+        "image_url": "https://cdn2.suno.ai/image_2b12b566-2730-4624-823c-60ba766879ff.jpeg",
+        "instrumental": true,
+        "progress": 100,
+        "prompt": "",
+        "status": "SUCCESS",
+        "tags": "seamless ambient loop, no music, no melody, no drums, sound design: medical and hibernation bay ambience, device hum, slow monitor beeps and pod circulation. continuous background texture.",
+        "title": "AMB-05 amb_medical_loop"
+      }
+    ],
+    "result_status": "SUCCESS"
+  },
+  "ambience/amb_life_energy_loop.wav": {
+    "task": "task_gKs8XmmHToLksrEHje0dDbtJlXvFVe7Y",
+    "id": "AMB-06",
+    "status": "done",
+    "mode": "20",
+    "title": "AMB-06 amb_life_energy_loop",
+    "submitted_at": 1794050558.1318562,
+    "clips": [
+      {
+        "audio_url": "https://file.lloongai.com/temp/suno/dl/d5/2026/11/07/20261107192245A913.m4a",
+        "duration": 69.92,
+        "id": "8968feb9-0b2c-4b30-8a4a-5d5a8383d9e5",
+        "image_url": "https://cdn2.suno.ai/image_8968feb9-0b2c-4b30-8a4a-5d5a8383d9e5.jpeg",
+        "instrumental": true,
+        "progress": 100,
+        "prompt": "",
+        "status": "SUCCESS",
+        "tags": "seamless ambient loop, no music, no melody, no drums, sound design: life energy bay ambience, low energy hum, container bubbles and circulation pump. continuous background texture, loopable",
+        "title": "AMB-06 amb_life_energy_loop"
+      },
+      {
+        "audio_url": "https://file.lloongai.com/temp/suno/dl/d5/2026/11/07/20261107192251A916.m4a",
+        "duration": 68.6,
+        "id": "2841b6d1-15ff-433b-8a9e-cf1faba558fd",
+        "image_url": "https://cdn2.suno.ai/image_2841b6d1-15ff-433b-8a9e-cf1faba558fd.jpeg",
+        "instrumental": true,
+        "progress": 100,
+        "prompt": "",
+        "status": "SUCCESS",
+        "tags": "seamless ambient loop, no music, no melody, no drums, sound design: life energy bay ambience, low energy hum, container bubbles and circulation pump. continuous background texture, loopable",
+        "title": "AMB-06 amb_life_energy_loop"
+      }
+    ],
+    "result_status": "SUCCESS"
+  },
+  "ambience/amb_fuel_loop.wav": {
+    "task": "task_OwnmXy0TW9FIKwO2un4hUADlnYo2YHk9",
+    "id": "AMB-07",
+    "status": "done",
+    "mode": "20",
+    "title": "AMB-07 amb_fuel_loop",
+    "submitted_at": 1794050560.2058375,
+    "clips": [
+      {
+        "audio_url": "https://file.lloongai.com/temp/suno/dl/d5/2026/11/07/20261107192247A410.m4a",
+        "duration": 68,
+        "id": "d1bc9e26-322b-415a-8534-5c90ee7b1193",
+        "image_url": "https://cdn2.suno.ai/image_d1bc9e26-322b-415a-8534-5c90ee7b1193.jpeg",
+        "instrumental": true,
+        "progress": 100,
+        "prompt": "",
+        "status": "SUCCESS",
+        "tags": "seamless ambient loop, no music, no melody, no drums, sound design: fuel bay ambience, pipe pressure hum and valve clicks. continuous background texture, loopable",
+        "title": "AMB-07 amb_fuel_loop"
+      },
+      {
+        "audio_url": "https://file.lloongai.com/temp/suno/dl/d5/2026/11/07/20261107192254A416.m4a",
+        "duration": 72.8,
+        "id": "98f7dc33-c27a-40ec-8ca6-bd3f9923fd22",
+        "image_url": "https://cdn2.suno.ai/image_98f7dc33-c27a-40ec-8ca6-bd3f9923fd22.jpeg",
+        "instrumental": true,
+        "progress": 100,
+        "prompt": "",
+        "status": "SUCCESS",
+        "tags": "seamless ambient loop, no music, no melody, no drums, sound design: fuel bay ambience, pipe pressure hum and valve clicks. continuous background texture, loopable",
+        "title": "AMB-07 amb_fuel_loop"
+      }
+    ],
+    "result_status": "SUCCESS"
+  },
+  "ambience/amb_anomaly_hull_resonance_loop.wav": {
+    "task": "task_a6Lgve0zHYmXrkfrnsdcbOXTWGXgKJQs",
+    "id": "AMB-08",
+    "status": "done",
+    "mode": "20",
+    "title": "AMB-08 amb_anomaly_hull_resonance_loop",
+    "submitted_at": 1794050562.8464496,
+    "clips": [
+      {
+        "audio_url": "https://file.lloongai.com/temp/suno/dl/d5/2026/11/07/20261107192311A427.m4a",
+        "duration": 72.8,
+        "id": "30ab60ec-dfcd-494c-bf6e-a494c6519acc",
+        "image_url": "https://cdn2.suno.ai/image_30ab60ec-dfcd-494c-bf6e-a494c6519acc.jpeg",
+        "instrumental": true,
+        "progress": 100,
+        "prompt": "",
+        "status": "SUCCESS",
+        "tags": "seamless ambient loop, no music, no melody, no drums, sound design: ship hull low resonance, deep groaning metal. continuous background texture, loopable",
+        "title": "AMB-08 amb_anomaly_hull_resonance_loop"
+      },
+      {
+        "audio_url": "https://file.lloongai.com/temp/suno/dl/d5/2026/11/07/20261107192249A586.m4a",
+        "duration": 69.6,
+        "id": "6fe2e61c-adfe-4464-a2d9-cc81c261c06e",
+        "image_url": "https://cdn2.suno.ai/image_6fe2e61c-adfe-4464-a2d9-cc81c261c06e.jpeg",
+        "instrumental": true,
+        "progress": 100,
+        "prompt": "",
+        "status": "SUCCESS",
+        "tags": "seamless ambient loop, no music, no melody, no drums, sound design: ship hull low resonance, deep groaning metal. continuous background texture, loopable",
+        "title": "AMB-08 amb_anomaly_hull_resonance_loop"
+      }
+    ],
+    "result_status": "SUCCESS"
+  },
+  "ambience/amb_anomaly_lighting_fault_loop.wav": {
+    "task": "task_5cAEZufMoNMlOt8mliYfU422PkTfVvEZ",
+    "id": "AMB-09",
+    "status": "done",
+    "mode": "20",
+    "title": "AMB-09 amb_anomaly_lighting_fault_loop",
+    "submitted_at": 1794050564.9975765,
+    "clips": [
+      {
+        "audio_url": "https://file.lloongai.com/temp/suno/dl/d5/2026/11/07/20261107192251A588.m4a",
+        "duration": 83.68,
+        "id": "9f4f92ae-163d-44a5-b81d-69f8fe7d376c",
+        "image_url": "https://cdn2.suno.ai/image_9f4f92ae-163d-44a5-b81d-69f8fe7d376c.jpeg",
+        "instrumental": true,
+        "progress": 100,
+        "prompt": "",
+        "status": "SUCCESS",
+        "tags": "seamless ambient loop, no music, no melody, no drums, sound design: failing lighting electric buzz and crackle. continuous background texture, loopable",
+        "title": "AMB-09 amb_anomaly_lighting_fault_loop"
+      },
+      {
+        "audio_url": "https://file.lloongai.com/temp/suno/dl/d5/2026/11/07/20261107192258A590.m4a",
+        "duration": 78.4,
+        "id": "8e90acb4-9225-4836-96d4-d84afc600b74",
+        "image_url": "https://cdn2.suno.ai/image_8e90acb4-9225-4836-96d4-d84afc600b74.jpeg",
+        "instrumental": true,
+        "progress": 100,
+        "prompt": "",
+        "status": "SUCCESS",
+        "tags": "seamless ambient loop, no music, no melody, no drums, sound design: failing lighting electric buzz and crackle. continuous background texture, loopable",
+        "title": "AMB-09 amb_anomaly_lighting_fault_loop"
+      }
+    ],
+    "result_status": "SUCCESS"
+  },
+  "ambience/amb_anomaly_damaged_alarm_loop.wav": {
+    "task": "task_ihMikkAB5qq5PrpPE3jM6IhFNxp7282D",
+    "id": "AMB-10",
+    "status": "done",
+    "mode": "20",
+    "title": "AMB-10 amb_anomaly_damaged_alarm_loop",
+    "submitted_at": 1794050567.1406431,
+    "clips": [
+      {
+        "audio_url": "https://file.lloongai.com/temp/suno/dl/d5/2026/11/07/20261107192253A415.m4a",
+        "duration": 3.96,
+        "id": "74783e08-459c-4d00-8b28-69242f895ab3",
+        "image_url": "https://cdn2.suno.ai/image_74783e08-459c-4d00-8b28-69242f895ab3.jpeg",
+        "instrumental": true,
+        "progress": 100,
+        "prompt": "",
+        "status": "SUCCESS",
+        "tags": "seamless ambient loop, no music, no melody, no drums, sound design: damaged equipment intermittent alarm beeps in a dark room. continuous background texture, loopable",
+        "title": "AMB-10 amb_anomaly_damaged_alarm_loop"
+      },
+      {
+        "audio_url": "https://file.lloongai.com/temp/suno/dl/d5/2026/11/07/20261107192300A423.m4a",
+        "duration": 8.16,
+        "id": "7cf80777-91e0-4337-839a-41433c768486",
+        "image_url": "https://cdn2.suno.ai/image_7cf80777-91e0-4337-839a-41433c768486.jpeg",
+        "instrumental": true,
+        "progress": 100,
+        "prompt": "",
+        "status": "SUCCESS",
+        "tags": "seamless ambient loop, no music, no melody, no drums, sound design: damaged equipment intermittent alarm beeps in a dark room. continuous background texture, loopable",
+        "title": "AMB-10 amb_anomaly_damaged_alarm_loop"
+      }
+    ],
+    "result_status": "SUCCESS"
+  },
+  "state/st_death_rewind.wav": {
+    "task": "task_Rrh44CtKVMxgsgyO3thaH7Vx1RVnhp0W",
+    "id": "ST-01",
+    "status": "partial",
+    "mode": "10",
+    "title": "ST-01 st_death_rewind",
+    "submitted_at": 1794050569.344022,
+    "clips": [
+      {
+        "audio_url": "https://file.lloongai.com/temp/suno/dl/d5/2026/11/07/20261107192256A418.m4a",
+        "duration": 6.8,
+        "id": "973886a9-317a-46a9-bb74-e44c53308238",
+        "image_url": "https://cdn2.suno.ai/image_973886a9-317a-46a9-bb74-e44c53308238.jpeg",
+        "instrumental": true,
+        "progress": 100,
+        "prompt": "Single dry sound effect, no music, no melody: death rewind transition, reversed electronic swoop and tape stop. Isolated one-shot, close-mic game SFX.",
+        "status": "SUCCESS",
+        "tags": "Single isolated death-rewind transition game sound effect: reversed electronic swoop that quickly sucks backward, then a sharp tape-stop pitch plunge and abrupt dry cutoff. Close-mic, compact, punchy, synthetic, one-shot; no music, no melody, no voice, no ambience.",
+        "title": "Death Rewind Transition"
+      }
+    ],
+    "result_status": "IN_PROGRESS"
+  },
+  "state/st_respawn.wav": {
+    "task": "task_dMmoC7edclPl0vd7wdmAcVy4B1zpftaa",
+    "id": "ST-02",
+    "status": "done",
+    "mode": "10",
+    "title": "ST-02 st_respawn",
+    "submitted_at": 1794050571.481954,
+    "clips": [
+      {
+        "audio_url": "https://file.lloongai.com/temp/suno/dl/d5/2026/11/07/20261107192258A420.m4a",
+        "duration": 2.76,
+        "id": "8d3af9da-c47b-4ec3-9e35-6bab67c6c734",
+        "image_url": "https://cdn2.suno.ai/image_8d3af9da-c47b-4ec3-9e35-6bab67c6c734.jpeg",
+        "instrumental": true,
+        "progress": 100,
+        "prompt": "[Instrumental]",
+        "status": "SUCCESS",
+        "tags": "Single isolated close-mic video game sound effect, one concise low-frequency impact followed immediately by a short rising airy whoosh, dry and controlled, clean transient, compact tail, no musical development.",
+        "title": "Impact Whoosh"
+      },
+      {
+        "audio_url": "https://file.lloongai.com/temp/suno/dl/d5/2026/11/07/20261107192302A425.m4a",
+        "duration": 2.8,
+        "id": "629a351c-7a50-4e8b-9e04-fef82572b803",
+        "image_url": "https://cdn2.suno.ai/image_629a351c-7a50-4e8b-9e04-fef82572b803.jpeg",
+        "instrumental": true,
+        "progress": 100,
+        "prompt": "[Instrumental]",
+        "status": "SUCCESS",
+        "tags": "Single isolated close-mic video game sound effect, one concise low-frequency impact followed immediately by a short rising airy whoosh, dry and controlled, clean transient, compact tail, no musical development.",
+        "title": "Impact Whoosh"
+      }
+    ],
+    "result_status": "SUCCESS"
+  },
+  "state/st_cycle_start.wav": {
+    "task": "task_rSffcMJgKIHmPZWROCVyJcmqAj2Uq4Ob",
+    "id": "ST-03",
+    "status": "done",
+    "mode": "10",
+    "title": "ST-03 st_cycle_start",
+    "submitted_at": 1794050683.237191,
+    "clips": [
+      {
+        "audio_url": "https://file.lloongai.com/temp/suno/dl/d5/2026/11/07/20261107192506A493.m4a",
+        "duration": 3.6,
+        "id": "f610f8a9-9af1-4b43-a41a-134ea43b6e13",
+        "image_url": "https://cdn2.suno.ai/image_f610f8a9-9af1-4b43-a41a-134ea43b6e13.jpeg",
+        "instrumental": true,
+        "progress": 100,
+        "prompt": "Single dry sound effect, no music, no melody: new cycle start marker, deep sub hit and reversed shimmer. Isolated one-shot, close-mic game SFX.",
+        "status": "SUCCESS",
+        "tags": "Single isolated game sound effect: a deep sub-bass impact followed by a brief reversed metallic shimmer swell that resolves tightly into the hit. Close-mic, dry, clean transient, no ambience, no music, no melody, no rhythm, one-shot only.",
+        "title": "Cycle Start Marker"
+      },
+      {
+        "audio_url": "https://file.lloongai.com/temp/suno/dl/d5/2026/11/07/20261107192450A480.m4a",
+        "duration": 3.2,
+        "id": "59ff7724-7d0d-4ca5-9418-1065663de8a4",
+        "image_url": "https://cdn2.suno.ai/image_59ff7724-7d0d-4ca5-9418-1065663de8a4.jpeg",
+        "instrumental": true,
+        "progress": 100,
+        "prompt": "Single dry sound effect, no music, no melody: new cycle start marker, deep sub hit and reversed shimmer. Isolated one-shot, close-mic game SFX.",
+        "status": "SUCCESS",
+        "tags": "Single isolated one-shot game sound effect: new cycle start marker, deep tight sub-bass hit with a brief reversed crystalline shimmer swelling into the impact, close-mic, dry and punchy, no music, no melody, no ambience, clean decay",
+        "title": "Cycle Start Marker"
+      }
+    ],
+    "result_status": "SUCCESS"
+  },
+  "state/st_cycle_distortion_loop.wav": {
+    "task": "task_KYLMKGmXcdNGxLHTJkP8MQL4Pa0xTpOV",
+    "id": "ST-04",
+    "status": "done",
+    "mode": "20",
+    "title": "ST-04 st_cycle_distortion_loop",
+    "submitted_at": 1794050685.326717,
+    "clips": [
+      {
+        "audio_url": "https://file.lloongai.com/temp/suno/dl/d5/2026/11/07/20261107192504A490.m4a",
+        "duration": 60,
+        "id": "e053b5fe-e075-4b74-b796-63c40c18912a",
+        "image_url": "https://cdn2.suno.ai/image_e053b5fe-e075-4b74-b796-63c40c18912a.jpeg",
+        "instrumental": true,
+        "progress": 100,
+        "prompt": "",
+        "status": "SUCCESS",
+        "tags": "seamless ambient loop, no music, no melody, no drums, sound design: degraded broadcast and room tone loop, tape wobble and glitches. continuous background texture, loopable",
+        "title": "ST-04 st_cycle_distortion_loop"
+      },
+      {
+        "audio_url": "https://file.lloongai.com/temp/suno/dl/d5/2026/11/07/20261107192518A504.m4a",
+        "duration": 85,
+        "id": "905ff127-3bf2-41c1-a2ad-a06ac5bd7d7f",
+        "image_url": "https://cdn2.suno.ai/image_905ff127-3bf2-41c1-a2ad-a06ac5bd7d7f.jpeg",
+        "instrumental": true,
+        "progress": 100,
+        "prompt": "",
+        "status": "SUCCESS",
+        "tags": "seamless ambient loop, no music, no melody, no drums, sound design: degraded broadcast and room tone loop, tape wobble and glitches. continuous background texture, loopable",
+        "title": "ST-04 st_cycle_distortion_loop"
+      }
+    ],
+    "result_status": "SUCCESS"
+  },
+  "state/st_story_anomaly.wav": {
+    "task": "task_MiLEMFRhEQQa0UeNEpQJU6yZH2HyOSp0",
+    "id": "ST-05",
+    "status": "done",
+    "mode": "10",
+    "title": "ST-05 st_story_anomaly",
+    "submitted_at": 1794050687.5814774,
+    "clips": [
+      {
+        "audio_url": "https://file.lloongai.com/temp/suno/dl/d5/2026/11/07/20261107192454A483.m4a",
+        "duration": 2.36,
+        "id": "81e4ed75-ee45-41c4-a2b7-c30f3bc61e07",
+        "image_url": "https://cdn2.suno.ai/image_81e4ed75-ee45-41c4-a2b7-c30f3bc61e07.jpeg",
+        "instrumental": true,
+        "progress": 100,
+        "prompt": "Single dry sound effect, no music, no melody: story anomaly reveal, low ominous hit and reversed tail. Isolated one-shot, close-mic game SFX.",
+        "status": "SUCCESS",
+        "tags": "Single isolated close-mic game sound effect for a story anomaly reveal: one low ominous impact, tight and dry, with a short reversed-suction tail that pulls inward and cuts cleanly. No music, no melody, no ambience, no additional hits.",
+        "title": "Anomaly Reveal Impact"
+      },
+      {
+        "audio_url": "https://file.lloongai.com/temp/suno/dl/d5/2026/11/07/20261107192459A487.m4a",
+        "duration": 2.8,
+        "id": "ada8b2ce-fad2-45cd-bd18-5feb46741f5d",
+        "image_url": "https://cdn2.suno.ai/image_ada8b2ce-fad2-45cd-bd18-5feb46741f5d.jpeg",
+        "instrumental": true,
+        "progress": 100,
+        "prompt": "Single dry sound effect, no music, no melody: story anomaly reveal, low ominous hit and reversed tail. Isolated one-shot, close-mic game SFX.",
+        "status": "SUCCESS",
+        "tags": "Single isolated game sound effect: story anomaly reveal, one low ominous impact hit with a short reversed tail swelling into it, close-mic, dry, tightly controlled, no music, no melody, no rhythm, no voice; one-shot only",
+        "title": "Anomaly Reveal — Low Hit"
+      }
+    ],
+    "result_status": "SUCCESS"
+  },
+  "state/st_ending_clear.wav": {
+    "task": "task_sMrhKjVDbdBGa85IYzuQJ8ucCJazOKdX",
+    "id": "ST-06",
+    "status": "done",
+    "mode": "10",
+    "title": "ST-06 st_ending_clear",
+    "submitted_at": 1794050689.6969142,
+    "clips": [
+      {
+        "audio_url": "https://file.lloongai.com/temp/suno/dl/d5/2026/11/07/20261107192456A484.m4a",
+        "duration": 5,
+        "id": "6d5625e4-019d-4725-a284-610ff2318154",
+        "image_url": "https://cdn2.suno.ai/image_6d5625e4-019d-4725-a284-610ff2318154.jpeg",
+        "instrumental": true,
+        "progress": 100,
+        "prompt": "Single dry sound effect, no music, no melody: ending clear, warm unresolved synth chord, starfield shimmer and tape stop. Isolated one-shot, close-mic game SFX.",
+        "status": "SUCCESS",
+        "tags": "Single isolated close-mic game sound effect: a warm unresolved synth chord blooms, tiny starfield-like sparkling particles shimmer around it, then a distinct tape-stop pitch-down and abrupt clean ending. One-shot, dry and intimate, no music bed, no rhythm, no melody, no voice.",
+        "title": "Warm Starfield Tape Stop"
+      },
+      {
+        "audio_url": "https://file.lloongai.com/temp/suno/dl/d5/2026/11/07/20261107192501A489.m4a",
+        "duration": 4.76,
+        "id": "d96523fb-9089-4ec7-871c-f978fa58ed06",
+        "image_url": "https://cdn2.suno.ai/image_d96523fb-9089-4ec7-871c-f978fa58ed06.jpeg",
+        "instrumental": true,
+        "progress": 100,
+        "prompt": "Single dry sound effect, no music, no melody: ending clear, warm unresolved synth chord, starfield shimmer and tape stop. Isolated one-shot, close-mic game SFX.",
+        "status": "SUCCESS",
+        "tags": "Single isolated one-shot game sound effect, no music and no melody: a clear warm unresolved synth chord blooming briefly, fine starfield-like high shimmer around it, then a distinct tape-stop pitch-drop and abrupt clean ending. Close, dry, intimate, polished, compact SFX; no rhythm, no extra ambience.",
+        "title": "Warm Starfield Tape Stop"
+      }
+    ],
+    "result_status": "SUCCESS"
+  },
+  "state/st_ending_failure.wav": {
+    "task": "task_UF42dveoUB5vaetwi4dGHn7b4Okj0Jbt",
+    "id": "ST-06",
+    "status": "done",
+    "mode": "10",
+    "title": "ST-06 st_ending_failure",
+    "submitted_at": 1794050692.403705,
+    "clips": [
+      {
+        "audio_url": "https://file.lloongai.com/temp/suno/dl/d5/2026/11/07/20261107192459A983.m4a",
+        "duration": 4.92,
+        "id": "7d116394-7ea9-4ee1-979f-8626a0eadcbc",
+        "image_url": "https://cdn2.suno.ai/image_7d116394-7ea9-4ee1-979f-8626a0eadcbc.jpeg",
+        "instrumental": true,
+        "progress": 100,
+        "prompt": "[Instrumental]",
+        "status": "SUCCESS",
+        "tags": "Single close-mic video game failure sound effect, short low electronic power-down sweep descending into a steady flatline tone, ending with a brief burst of dry radio static; isolated one-shot, stark and abrupt, no musical arrangement.",
+        "title": "Game Over"
+      },
+      {
+        "audio_url": "https://file.lloongai.com/temp/suno/dl/d5/2026/11/07/20261107192503A988.m4a",
+        "duration": 4.76,
+        "id": "449ffa5d-8a9f-45a7-8ef7-c7345d5b9890",
+        "image_url": "https://cdn2.suno.ai/image_449ffa5d-8a9f-45a7-8ef7-c7345d5b9890.jpeg",
+        "instrumental": true,
+        "progress": 100,
+        "prompt": "[Instrumental]",
+        "status": "SUCCESS",
+        "tags": "Single close-mic video game failure sound effect, short low electronic power-down sweep descending into a steady flatline tone, ending with a brief burst of dry radio static; isolated one-shot, stark and abrupt, no musical arrangement.",
+        "title": "Game Over"
+      }
+    ],
+    "result_status": "SUCCESS"
+  },
+  "ui/ui_menu_select.wav": {
+    "task": "task_epJ7V5Alq5Ojvp0VDGSOgEVJzxj4YXlJ",
+    "id": "UI-01",
+    "status": "done",
+    "mode": "10",
+    "title": "UI-01 ui_menu_select",
+    "submitted_at": 1794050694.5914648,
+    "clips": [
+      {
+        "audio_url": "https://file.lloongai.com/temp/suno/dl/d5/2026/11/07/20261107192501A654.m4a",
+        "duration": 2,
+        "id": "576a7617-8e45-4d26-a6aa-e0bcc8ca2736",
+        "image_url": "https://cdn2.suno.ai/image_576a7617-8e45-4d26-a6aa-e0bcc8ca2736.jpeg",
+        "instrumental": true,
+        "progress": 100,
+        "prompt": "Single dry sound effect, no music, no melody: short high sci-fi UI select tick. Isolated one-shot, close-mic game SFX.",
+        "status": "SUCCESS",
+        "tags": "single short high sci-fi user-interface select tick, isolated one-shot, close-mic, crisp bright digital transient with a tiny clean tail, no music, no melody",
+        "title": "Sci-Fi UI Select Tick"
+      },
+      {
+        "audio_url": "https://file.lloongai.com/temp/suno/dl/d5/2026/11/07/20261107192506A658.m4a",
+        "duration": 1.96,
+        "id": "dc068f1b-38a0-4b7f-88fa-ee5559e47daa",
+        "image_url": "https://cdn2.suno.ai/image_dc068f1b-38a0-4b7f-88fa-ee5559e47daa.jpeg",
+        "instrumental": true,
+        "progress": 100,
+        "prompt": "Single dry sound effect, no music, no melody: short high sci-fi UI select tick. Isolated one-shot, close-mic game SFX.",
+        "status": "SUCCESS",
+        "tags": "single dry high-pitched sci-fi UI select tick, short isolated close-mic game interface sound effect, clean precise digital blip with a tiny sharp transient and brief tonal tail, one-shot, no music, no melody",
+        "title": "Sci-Fi UI Select Tick"
+      }
+    ],
+    "result_status": "SUCCESS"
+  },
+  "ui/ui_menu_confirm.wav": {
+    "task": "task_q7Wim7X0bNSx2caDU0yku8tmFcEUWvIE",
+    "id": "UI-01",
+    "status": "done",
+    "mode": "10",
+    "title": "UI-01 ui_menu_confirm",
+    "submitted_at": 1794050696.7567434,
+    "clips": [
+      {
+        "audio_url": "https://file.lloongai.com/temp/suno/dl/d5/2026/11/07/20261107192503A655.m4a",
+        "duration": 3.2,
+        "id": "c8704570-56af-4edb-83fd-0708a4bde2b3",
+        "image_url": "https://cdn2.suno.ai/image_c8704570-56af-4edb-83fd-0708a4bde2b3.jpeg",
+        "instrumental": true,
+        "progress": 100,
+        "prompt": "[Instrumental]",
+        "status": "SUCCESS",
+        "tags": "Single isolated sci-fi game UI confirmation sound effect, close-mic dry electronic chime, two clean rising pitched tones with a crisp attack and short controlled decay, one-shot only, silence around the sound",
+        "title": "System Confirmation"
+      },
+      {
+        "audio_url": "https://file.lloongai.com/temp/suno/dl/d5/2026/11/07/20261107192508A660.m4a",
+        "duration": 2.72,
+        "id": "73de5512-a84d-4a20-8be2-b9437e1dd116",
+        "image_url": "https://cdn2.suno.ai/image_73de5512-a84d-4a20-8be2-b9437e1dd116.jpeg",
+        "instrumental": true,
+        "progress": 100,
+        "prompt": "[Instrumental]",
+        "status": "SUCCESS",
+        "tags": "Single isolated sci-fi game UI confirmation sound effect, close-mic dry electronic chime, two clean rising pitched tones with a crisp attack and short controlled decay, one-shot only, silence around the sound",
+        "title": "System Confirmation"
+      }
+    ],
+    "result_status": "SUCCESS"
+  },
+  "ui/ui_menu_back.wav": {
+    "task": "task_5WNVm6CyotF4cHz3dGxy1EbG63pKaglO",
+    "id": "UI-01",
+    "status": "done",
+    "mode": "10",
+    "title": "UI-01 ui_menu_back",
+    "submitted_at": 1794050698.940216,
+    "clips": [
+      {
+        "audio_url": "https://file.lloongai.com/temp/suno/dl/d5/2026/11/07/20261107192505A491.m4a",
+        "duration": 2.72,
+        "id": "cc4c0514-07d4-4957-a05f-eba3bf713b3d",
+        "image_url": "https://cdn2.suno.ai/image_cc4c0514-07d4-4957-a05f-eba3bf713b3d.jpeg",
+        "instrumental": true,
+        "progress": 100,
+        "prompt": "[Instrumental]",
+        "status": "SUCCESS",
+        "tags": "Single isolated one-shot sci-fi game UI back sound effect, two descending pitched chime tones, close and dry, crisp transient with a short clean decay, minimal digital glass-like timbre, no ambience",
+        "title": "Glass Descend"
+      },
+      {
+        "audio_url": "https://file.lloongai.com/temp/suno/dl/d5/2026/11/07/20261107192511A497.m4a",
+        "duration": 2.8,
+        "id": "95e528dc-5dd2-4183-b596-87a201a8140a",
+        "image_url": "https://cdn2.suno.ai/image_95e528dc-5dd2-4183-b596-87a201a8140a.jpeg",
+        "instrumental": true,
+        "progress": 100,
+        "prompt": "[Instrumental]",
+        "status": "SUCCESS",
+        "tags": "Single isolated one-shot sci-fi game UI back sound effect, two descending pitched chime tones, close and dry, crisp transient with a short clean decay, minimal digital glass-like timbre, no ambience",
+        "title": "Glass Descend"
+      }
+    ],
+    "result_status": "SUCCESS"
+  },
+  "ui/ui_pause.wav": {
+    "task": "task_sOhCjXqTsKkFBuRIGquzjopeCIPaao4h",
+    "id": "UI-02",
+    "status": "done",
+    "mode": "10",
+    "title": "UI-02 ui_pause",
+    "submitted_at": 1794050701.1037877,
+    "clips": [
+      {
+        "audio_url": "https://file.lloongai.com/temp/suno/dl/d5/2026/11/07/20261107192507A495.m4a",
+        "duration": 2,
+        "id": "283148ac-a2cc-4eb9-af15-66b684c05bba",
+        "image_url": "https://cdn2.suno.ai/image_283148ac-a2cc-4eb9-af15-66b684c05bba.jpeg",
+        "instrumental": true,
+        "progress": 100,
+        "prompt": "Single dry sound effect, no music, no melody: pause sound, tape stop and low thump. Isolated one-shot, close-mic game SFX.",
+        "status": "SUCCESS",
+        "tags": "Single isolated one-shot game sound effect: abrupt pause cue, a short tape-stop pitch-down / slowing flutter that cuts to silence, followed by one muted low thump. Dry, close-miked, compact transient, no music, no melody, no ambience, no tail.",
+        "title": "Tape Stop Pause Thump"
+      },
+      {
+        "audio_url": "https://file.lloongai.com/temp/suno/dl/d5/2026/11/07/20261107192512A498.m4a",
+        "duration": 2,
+        "id": "01555e0c-0f8f-49df-9fab-54c2f68b7b6f",
+        "image_url": "https://cdn2.suno.ai/image_01555e0c-0f8f-49df-9fab-54c2f68b7b6f.jpeg",
+        "instrumental": true,
+        "progress": 100,
+        "prompt": "Single dry sound effect, no music, no melody: pause sound, tape stop and low thump. Isolated one-shot, close-mic game SFX.",
+        "status": "SUCCESS",
+        "tags": "single isolated close-mic game sound effect: abrupt pause cue, short descending tape-stop pitch deceleration, ending in one muted low-frequency thump; dry, tight transient, no music, no melody, no ambience, one-shot",
+        "title": "Pause — Tape Stop & Thump"
+      }
+    ],
+    "result_status": "SUCCESS"
+  },
+  "ui/ui_resume.wav": {
+    "task": "task_Fazpq6gGzdjQ6KlmJ8IRRnlfo5L9WZpF",
+    "id": "UI-02",
+    "status": "done",
+    "mode": "10",
+    "title": "UI-02 ui_resume",
+    "submitted_at": 1794050703.3782144,
+    "clips": [
+      {
+        "audio_url": "https://file.lloongai.com/temp/suno/dl/d5/2026/11/07/20261107192510A496.m4a",
+        "duration": 2,
+        "id": "65662317-0204-4b8b-bfe2-74efe0316bbd",
+        "image_url": "https://cdn2.suno.ai/image_65662317-0204-4b8b-bfe2-74efe0316bbd.jpeg",
+        "instrumental": true,
+        "progress": 100,
+        "prompt": "Single dry sound effect, no music, no melody: resume sound, rising servo and click. Isolated one-shot, close-mic game SFX.",
+        "status": "SUCCESS",
+        "tags": "Single isolated close-mic game interface resume sound effect: a rising mechanical servo whirr that quickly ramps in pitch, then ends with one crisp tactile click. Dry, clean, short one-shot, no music, no melody, no ambience, no extra sounds.",
+        "title": "Resume Servo Click"
+      },
+      {
+        "audio_url": "https://file.lloongai.com/temp/suno/dl/d5/2026/11/07/20261107192513A502.m4a",
+        "duration": 2,
+        "id": "e4607fb5-6405-4485-9836-d97c7d231568",
+        "image_url": "https://cdn2.suno.ai/image_e4607fb5-6405-4485-9836-d97c7d231568.jpeg",
+        "instrumental": true,
+        "progress": 100,
+        "prompt": "Single dry sound effect, no music, no melody: resume sound, rising servo and click. Isolated one-shot, close-mic game SFX.",
+        "status": "SUCCESS",
+        "tags": "Single dry close-mic game sound effect: a short rising servo whine that accelerates and pitches upward, ending in one crisp mechanical click. Isolated one-shot, no music, no melody, no ambience, no tail beyond the click.",
+        "title": "Resume Servo Click"
+      }
+    ],
+    "result_status": "SUCCESS"
+  },
+  "ui/ui_objective_update.wav": {
+    "task": "task_wobZL4HjHXJSZRFfpifSp1j4d2RMzxR5",
+    "id": "UI-03",
+    "status": "done",
+    "mode": "10",
+    "title": "UI-03 ui_objective_update",
+    "submitted_at": 1794050705.5528438,
+    "clips": [
+      {
+        "audio_url": "https://file.lloongai.com/temp/suno/dl/d5/2026/11/07/20261107192513A662.m4a",
+        "duration": 9.6,
+        "id": "8336bdf8-c0ed-45d5-994e-b7c108c9ee9f",
+        "image_url": "https://cdn2.suno.ai/image_8336bdf8-c0ed-45d5-994e-b7c108c9ee9f.jpeg",
+        "instrumental": true,
+        "progress": 100,
+        "prompt": "[Instrumental]",
+        "status": "SUCCESS",
+        "tags": "A single isolated close-mic game interface confirmation sound effect: brief soft two-tone ascending chime, dry and clean, crisp transient, gentle rounded digital pluck, short natural decay, centered mono feel, one-shot only.",
+        "title": "Confirmação do Jogo"
+      },
+      {
+        "audio_url": "https://file.lloongai.com/temp/suno/dl/d5/2026/11/07/20261107192522A667.m4a",
+        "duration": 32.6,
+        "id": "3f66670e-7b5a-4cb2-b32e-0a4f52196bdf",
+        "image_url": "https://cdn2.suno.ai/image_3f66670e-7b5a-4cb2-b32e-0a4f52196bdf.jpeg",
+        "instrumental": true,
+        "progress": 100,
+        "prompt": "[Instrumental]",
+        "status": "SUCCESS",
+        "tags": "A single isolated close-mic game interface confirmation sound effect: brief soft two-tone ascending chime, dry and clean, crisp transient, gentle rounded digital pluck, short natural decay, centered mono feel, one-shot only.",
+        "title": "Confirmação do Jogo"
+      }
+    ],
+    "result_status": "SUCCESS"
+  }
+}

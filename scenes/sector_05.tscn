@@ -1,0 +1,174 @@
+[gd_scene load_steps=9 format=3]
+
+[ext_resource type="Script" path="res://scripts/sector_05.gd" id="1_main"]
+[ext_resource type="PackedScene" path="res://scenes/player.tscn" id="2_player"]
+[ext_resource type="Script" path="res://scripts/sector_03_art.gd" id="3_world"]
+[ext_resource type="Script" path="res://scripts/camera_director.gd" id="4_camera"]
+[ext_resource type="PackedScene" path="res://scenes/enemy.tscn" id="5_enemy"]
+[ext_resource type="PackedScene" path="res://scenes/objective_target.tscn" id="6_objective"]
+[ext_resource type="PackedScene" path="res://scenes/task_panel.tscn" id="7_tasks"]
+[ext_resource type="PackedScene" path="res://scenes/hud_vitals.tscn" id="8_vitals"]
+
+[node name="Sector05" type="Node2D"]
+process_mode = 3
+script = ExtResource("1_main")
+
+[node name="Projection" type="Node2D" parent="."]
+process_mode = 1
+scale = Vector2(1, 0.72)
+
+[node name="World" type="Node2D" parent="Projection"]
+script = ExtResource("3_world")
+room_label = "REACTOR DECK"
+build_exit_corridor = false
+build_extraction_pad = true
+prop_layout = 2
+
+[node name="ExtractionPoint" type="Marker2D" parent="Projection/World"]
+position = Vector2(768, 1060)
+
+[node name="Objectives" type="Node2D" parent="Projection/World"]
+
+[node name="DataNodeA" parent="Projection/World/Objectives" instance=ExtResource("6_objective")]
+position = Vector2(250, 750)
+
+[node name="DataNodeB" parent="Projection/World/Objectives" instance=ExtResource("6_objective")]
+position = Vector2(480, 500)
+
+[node name="DataNodeC" parent="Projection/World/Objectives" instance=ExtResource("6_objective")]
+position = Vector2(1400, 500)
+
+[node name="DataNodeD" parent="Projection/World/Objectives" instance=ExtResource("6_objective")]
+position = Vector2(1350, 1450)
+
+[node name="Enemies" type="Node2D" parent="Projection"]
+z_index = 6
+
+[node name="PatrolA" parent="Projection/Enemies" instance=ExtResource("5_enemy")]
+position = Vector2(560, 820)
+patrol_radius = 130.0
+detection_radius = 250.0
+leash_radius = 320.0
+
+[node name="PatrolB" parent="Projection/Enemies" instance=ExtResource("5_enemy")]
+position = Vector2(1000, 1150)
+kind = 1
+max_hp = 3
+move_speed = 100.0
+patrol_radius = 120.0
+detection_radius = 240.0
+leash_radius = 300.0
+
+[node name="PatrolC" parent="Projection/Enemies" instance=ExtResource("5_enemy")]
+position = Vector2(1150, 650)
+patrol_radius = 130.0
+detection_radius = 250.0
+leash_radius = 320.0
+
+[node name="PatrolD" parent="Projection/Enemies" instance=ExtResource("5_enemy")]
+position = Vector2(900, 1400)
+kind = 1
+max_hp = 3
+move_speed = 100.0
+patrol_radius = 120.0
+detection_radius = 240.0
+leash_radius = 300.0
+
+[node name="Player" parent="Projection" instance=ExtResource("2_player")]
+process_mode = 1
+z_index = 10
+position = Vector2(520, 1350)
+
+[node name="CameraRig" type="Camera2D" parent="."]
+process_mode = 1
+zoom = Vector2(1.35, 1.35)
+limit_left = 0
+limit_top = 300
+limit_right = 1536
+limit_bottom = 1130
+script = ExtResource("4_camera")
+target_path = NodePath("../Projection/Player")
+base_zoom = 1.35
+
+[node name="HUD" type="CanvasLayer" parent="."]
+
+[node name="Vitals" parent="HUD" instance=ExtResource("8_vitals")]
+location_text = "REACTOR DECK / SECTOR 05"
+
+[node name="TaskPanel" parent="HUD" instance=ExtResource("7_tasks")]
+
+[node name="Banner" type="Label" parent="HUD"]
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -620.0
+offset_top = -140.0
+offset_right = 620.0
+offset_bottom = -40.0
+grow_horizontal = 2
+grow_vertical = 2
+theme_override_colors/font_color = Color(0.55, 1, 0.85, 1)
+theme_override_font_sizes/font_size = 58
+text = "SECTOR 05 CLEARED"
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="BannerSub" type="Label" parent="HUD"]
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -620.0
+offset_top = -30.0
+offset_right = 620.0
+offset_bottom = 20.0
+grow_horizontal = 2
+grow_vertical = 2
+theme_override_colors/font_color = Color(0.66, 0.84, 0.9, 1)
+theme_override_font_sizes/font_size = 20
+text = "MISSION COMPLETE"
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="PauseOverlay" type="CanvasLayer" parent="."]
+layer = 10
+
+[node name="Panel" type="Control" parent="PauseOverlay"]
+visible = false
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+mouse_filter = 2
+
+[node name="Dim" type="ColorRect" parent="PauseOverlay/Panel"]
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+mouse_filter = 2
+color = Color(0, 0, 0, 0.6)
+
+[node name="Label" type="Label" parent="PauseOverlay/Panel"]
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -240.0
+offset_top = -80.0
+offset_right = 240.0
+offset_bottom = 80.0
+grow_horizontal = 2
+grow_vertical = 2
+theme_override_colors/font_color = Color(1, 1, 1, 1)
+theme_override_font_sizes/font_size = 48
+text = "PAUSED
+Esc to resume"
+horizontal_alignment = 1
+vertical_alignment = 1

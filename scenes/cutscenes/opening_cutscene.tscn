@@ -1,0 +1,101 @@
+[gd_scene format=3 uid="uid://d2plpctbpxtp6"]
+
+[ext_resource type="Script" uid="uid://cvgmsfsu5nr0n" path="res://scripts/cutscenes/opening_cutscene.gd" id="1_script"]
+[ext_resource type="Shader" uid="uid://dp7s28xua06f0" path="res://ui/shaders/cutscene_film.gdshader" id="2_film"]
+[ext_resource type="SystemFont" uid="uid://dph6m7oaih3bw" path="res://ui/fonts/f_ui.tres" id="3_ui"]
+[ext_resource type="SystemFont" uid="uid://deg7ctjn5eixx" path="res://ui/fonts/f_mono.tres" id="4_mono"]
+
+[sub_resource type="ShaderMaterial" id="mat_film"]
+shader = ExtResource("2_film")
+shader_parameter/base_color = Color(0.006, 0.01, 0.013, 1)
+shader_parameter/intensity = 0.0
+shader_parameter/grain_amount = 0.02
+shader_parameter/scanline_amount = 0.012
+shader_parameter/vignette_strength = 0.55
+shader_parameter/band_strength = 0.012
+
+[sub_resource type="FontVariation" id="font_quote"]
+base_font = ExtResource("3_ui")
+spacing_glyph = 5
+
+[node name="OpeningCutscene" type="Control" unique_id=1600821450]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+mouse_filter = 2
+script = ExtResource("1_script")
+
+[node name="Film" type="ColorRect" parent="." unique_id=1502545152]
+material = SubResource("mat_film")
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+mouse_filter = 2
+
+[node name="Content" type="Control" parent="." unique_id=1502251717]
+layout_mode = 1
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -640.0
+offset_top = -80.0
+offset_right = 640.0
+offset_bottom = 80.0
+grow_horizontal = 2
+grow_vertical = 2
+mouse_filter = 2
+
+[node name="Kicker" type="Label" parent="Content" unique_id=53569168]
+layout_mode = 0
+offset_right = 1280.0
+offset_bottom = 20.0
+theme_override_colors/font_color = Color(0.36, 0.87, 0.95, 0.34)
+theme_override_fonts/font = ExtResource("4_mono")
+theme_override_font_sizes/font_size = 12
+text = "TAPE ARCHIVE  /  001"
+horizontal_alignment = 1
+
+[node name="Quote" type="Label" parent="Content" unique_id=253614908]
+layout_mode = 0
+offset_top = 42.0
+offset_right = 1280.0
+offset_bottom = 112.0
+theme_override_colors/font_color = Color(0.89, 0.94, 0.95, 1)
+theme_override_colors/font_shadow_color = Color(0, 0, 0, 0.6)
+theme_override_colors/font_outline_color = Color(0.4, 0.8, 0.85, 0.1)
+theme_override_constants/shadow_offset_x = 0
+theme_override_constants/shadow_offset_y = 2
+theme_override_constants/outline_size = 6
+theme_override_fonts/font = SubResource("font_quote")
+theme_override_font_sizes/font_size = 40
+text = "过去从未逝去，它甚至从未过去"
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="Rule" type="ColorRect" parent="Content" unique_id=1385293077]
+layout_mode = 0
+offset_left = 430.0
+offset_top = 140.0
+offset_right = 850.0
+offset_bottom = 141.0
+pivot_offset = Vector2(210, 0.5)
+mouse_filter = 2
+color = Color(0.36, 0.87, 0.95, 0.3)
+
+[node name="Curtain" type="ColorRect" parent="." unique_id=756159099]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+mouse_filter = 2
+color = Color(0, 0, 0, 1)

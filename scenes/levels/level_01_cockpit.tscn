@@ -1,0 +1,128 @@
+[gd_scene load_steps=13 format=3]
+
+[ext_resource type="Script" path="res://scripts/levels/level_controller.gd" id="1_main"]
+[ext_resource type="PackedScene" path="res://scenes/player.tscn" id="2_player"]
+[ext_resource type="Script" path="res://scripts/levels/whitebox_level.gd" id="3_world"]
+[ext_resource type="Script" path="res://scripts/camera_director.gd" id="4_camera"]
+[ext_resource type="PackedScene" path="res://scenes/task_panel.tscn" id="5_tasks"]
+[ext_resource type="PackedScene" path="res://scenes/hud_vitals.tscn" id="6_vitals"]
+[ext_resource type="PackedScene" path="res://scenes/door.tscn" id="7_door"]
+[ext_resource type="Script" path="res://scripts/story/level_01_story.gd" id="8_story"]
+[ext_resource type="Script" path="res://scripts/clue_ui.gd" id="9_clue"]
+[ext_resource type="Script" path="res://scripts/side_door.gd" id="10_side_door"]
+[ext_resource type="Texture2D" path="res://art/levels/level_01_side_door_left.png" id="11_side_door_left"]
+[ext_resource type="Texture2D" path="res://art/levels/level_01_side_door_right.png" id="12_side_door_right"]
+
+[node name="Level01Cockpit" type="Node2D"]
+process_mode = 3
+script = ExtResource("1_main")
+
+[node name="Story" type="Node" parent="."]
+script = ExtResource("8_story")
+
+[node name="ClueUI" type="CanvasLayer" parent="."]
+layer = 20
+script = ExtResource("9_clue")
+
+[node name="Projection" type="Node2D" parent="."]
+process_mode = 1
+scale = Vector2(1, 0.72)
+
+[node name="World" type="Node2D" parent="Projection" groups=["layout_world"]]
+script = ExtResource("3_world")
+room_size = Vector2(6400, 3600)
+tile = 128.0
+title = "LEVEL 01 / COCKPIT"
+subtitle = "WHITEBOX / COLLISION PASS"
+spawn_marker = Vector2(600, 1800)
+show_exit_marker = false
+show_return_marker = false
+exit_marker_y = 1800.0
+exit_label = "EXIT → LEVEL 02"
+return_label = "RETURN → LEVEL 01"
+
+[node name="SideDoorLeft" type="Node2D" parent="Projection/World"]
+position = Vector2(4722.61, 1631.35)
+script = ExtResource("10_side_door")
+door_texture = ExtResource("11_side_door_left")
+door_size = Vector2(186.47, 511.09)
+interactive = false
+
+[node name="SideDoorRight" type="Node2D" parent="Projection/World"]
+position = Vector2(6202.31, 1680.23)
+script = ExtResource("10_side_door")
+door_texture = ExtResource("12_side_door_right")
+door_size = Vector2(249.02, 620.45)
+
+[node name="Player" parent="Projection" instance=ExtResource("2_player")]
+process_mode = 1
+z_index = 10
+position = Vector2(600, 1800)
+
+[node name="ExitDoor" parent="Projection/World" instance=ExtResource("7_door")]
+position = Vector2(6400, 1940)
+z_index = 4
+door_role = "exit"
+exit_scene_path = "res://scenes/levels/level_02_placeholder.tscn"
+locked_hint = "LEVEL 02 SEALED"
+start_locked = false
+
+[node name="CameraRig" type="Camera2D" parent="."]
+process_mode = 1
+zoom = Vector2(1.3, 1.3)
+limit_left = 0
+limit_top = 0
+limit_right = 6400
+limit_bottom = 2592
+script = ExtResource("4_camera")
+target_path = NodePath("../Projection/Player")
+base_zoom = 1.3
+framing_offset = Vector2(0, -40)
+
+[node name="HUD" type="CanvasLayer" parent="."]
+
+[node name="Vitals" parent="HUD" instance=ExtResource("6_vitals")]
+location_text = "LEVEL 01 / COCKPIT"
+
+[node name="TaskPanel" parent="HUD" instance=ExtResource("5_tasks")]
+auto_open = false
+
+[node name="PauseOverlay" type="CanvasLayer" parent="."]
+layer = 10
+
+[node name="Panel" type="Control" parent="PauseOverlay"]
+visible = false
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+mouse_filter = 2
+
+[node name="Dim" type="ColorRect" parent="PauseOverlay/Panel"]
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+mouse_filter = 2
+color = Color(0, 0, 0, 0.6)
+
+[node name="Label" type="Label" parent="PauseOverlay/Panel"]
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -240.0
+offset_top = -80.0
+offset_right = 240.0
+offset_bottom = 80.0
+grow_horizontal = 2
+grow_vertical = 2
+theme_override_colors/font_color = Color(1, 1, 1, 1)
+theme_override_font_sizes/font_size = 48
+text = "PAUSED
+Esc to resume"
+horizontal_alignment = 1
+vertical_alignment = 1

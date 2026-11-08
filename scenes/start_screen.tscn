@@ -1,0 +1,343 @@
+[gd_scene load_steps=19 format=3]
+
+[ext_resource type="Script" path="res://scripts/start_screen.gd" id="1_start"]
+[ext_resource type="Theme" path="res://ui/theme/jam_theme.tres" id="2_theme"]
+[ext_resource type="Shader" path="res://ui/shaders/backdrop.gdshader" id="3_backdrop"]
+[ext_resource type="Texture2D" path="res://art_placeholder/scifi_ui/ui_hero_menu_blank.png" id="4_hero"]
+[ext_resource type="Script" path="res://ui/components/menu_button.gd" id="5_menu_button"]
+[ext_resource type="Script" path="res://ui/components/reel_rings.gd" id="6_rings"]
+[ext_resource type="Script" path="res://ui/components/dust_field.gd" id="7_dust"]
+[ext_resource type="FontVariation" path="res://ui/fonts/f_display_tight.tres" id="8_display"]
+[ext_resource type="FontVariation" path="res://ui/fonts/f_label_wide.tres" id="9_wide"]
+[ext_resource type="FontVariation" path="res://ui/fonts/f_label_tracked.tres" id="10_tracked"]
+[ext_resource type="FontVariation" path="res://ui/fonts/f_mono.tres" id="11_mono"]
+[ext_resource type="PackedScene" path="res://scenes/settings_panel.tscn" id="12_settings"]
+[ext_resource type="Script" path="res://ui/components/screen_frame.gd" id="13_frame"]
+[ext_resource type="Shader" path="res://ui/shaders/hero_fade.gdshader" id="14_hero_fade"]
+
+[sub_resource type="ShaderMaterial" id="mat_backdrop"]
+shader = ExtResource("3_backdrop")
+shader_parameter/color_top = Color(0.058, 0.082, 0.098, 1)
+shader_parameter/color_bottom = Color(0.018, 0.029, 0.036, 1)
+shader_parameter/warm_glow = Color(1, 0.56, 0.24, 1)
+shader_parameter/cool_glow = Color(0.2, 0.78, 0.88, 1)
+shader_parameter/vignette_strength = 0.78
+shader_parameter/grain_amount = 0.026
+shader_parameter/scanline_amount = 0.016
+shader_parameter/glow_strength = 0.11
+
+[sub_resource type="Gradient" id="grad_aura"]
+offsets = PackedFloat32Array(0, 0.45, 1)
+colors = PackedColorArray(0.35, 0.85, 0.92, 0.4, 0.22, 0.6, 0.68, 0.14, 0.1, 0.3, 0.35, 0)
+
+[sub_resource type="GradientTexture2D" id="tex_aura"]
+gradient = SubResource("grad_aura")
+width = 512
+height = 512
+fill = 1
+fill_from = Vector2(0.5, 0.5)
+fill_to = Vector2(1, 0.5)
+
+[sub_resource type="ShaderMaterial" id="mat_hero_fade"]
+shader = ExtResource("14_hero_fade")
+shader_parameter/fade_start = 0.84
+shader_parameter/fade_softness = 0.14
+
+[node name="StartScreen" type="Control"]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+theme = ExtResource("2_theme")
+script = ExtResource("1_start")
+
+[node name="Backdrop" type="ColorRect" parent="."]
+material = SubResource("mat_backdrop")
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+mouse_filter = 2
+color = Color(1, 1, 1, 1)
+
+[node name="Dust" type="Control" parent="."]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+mouse_filter = 2
+script = ExtResource("7_dust")
+
+[node name="Rings" type="Control" parent="."]
+layout_mode = 0
+offset_left = 600.0
+offset_top = -150.0
+offset_right = 1500.0
+offset_bottom = 750.0
+mouse_filter = 2
+script = ExtResource("6_rings")
+base_radius = 300.0
+
+[node name="HeroRig" type="Control" parent="."]
+layout_mode = 0
+offset_left = 560.0
+offset_top = 70.0
+offset_right = 2096.0
+offset_bottom = 1094.0
+scale = Vector2(0.92, 0.92)
+mouse_filter = 2
+
+[node name="Aura" type="TextureRect" parent="HeroRig"]
+modulate = Color(0.55, 0.9, 1, 0.62)
+layout_mode = 0
+offset_left = 430.0
+offset_top = -150.0
+offset_right = 1670.0
+offset_bottom = 850.0
+mouse_filter = 2
+texture = SubResource("tex_aura")
+
+[node name="Hero" type="TextureRect" parent="HeroRig"]
+material = SubResource("mat_hero_fade")
+layout_mode = 0
+offset_right = 1536.0
+offset_bottom = 1024.0
+mouse_filter = 2
+texture = ExtResource("4_hero")
+
+[node name="Menu" type="Control" parent="HeroRig"]
+rotation = 0.0977
+layout_mode = 0
+offset_left = 728.0
+offset_top = 283.0
+offset_right = 1344.0
+offset_bottom = 489.0
+pivot_offset = Vector2(308, 103)
+mouse_filter = 1
+
+[node name="BtnStart" type="Button" parent="HeroRig/Menu"]
+layout_mode = 0
+offset_top = 1.0
+offset_right = 616.0
+offset_bottom = 99.0
+focus_mode = 2
+script = ExtResource("5_menu_button")
+index_text = "01"
+label_cn = "开始"
+label_en = "START SESSION"
+
+[node name="BtnSettings" type="Button" parent="HeroRig/Menu"]
+layout_mode = 0
+offset_top = 107.0
+offset_right = 616.0
+offset_bottom = 205.0
+focus_mode = 2
+script = ExtResource("5_menu_button")
+index_text = "02"
+label_cn = "设置"
+label_en = "OPTIONS"
+
+[node name="Title" type="Control" parent="."]
+layout_mode = 0
+offset_right = 1000.0
+offset_bottom = 1080.0
+mouse_filter = 2
+
+[node name="Kicker" type="Label" parent="Title"]
+layout_mode = 0
+offset_left = 124.0
+offset_top = 208.0
+offset_right = 884.0
+offset_bottom = 228.0
+theme_override_colors/font_color = Color(0.95, 0.65, 0.3, 0.9)
+theme_override_fonts/font = ExtResource("10_tracked")
+theme_override_font_sizes/font_size = 13
+text = "TAPE ARCHIVE  //  ENTRY 001"
+
+[node name="TitleJam" type="Label" parent="Title"]
+layout_mode = 0
+offset_left = 106.0
+offset_top = 214.0
+offset_right = 906.0
+offset_bottom = 494.0
+theme_override_colors/font_color = Color(0.92, 0.96, 0.97, 1)
+theme_override_fonts/font = ExtResource("8_display")
+theme_override_font_sizes/font_size = 200
+text = "JAM"
+
+[node name="TitleStation" type="Label" parent="Title"]
+layout_mode = 0
+offset_left = 124.0
+offset_top = 470.0
+offset_right = 924.0
+offset_bottom = 560.0
+theme_override_colors/font_color = Color(0.78, 0.88, 0.91, 1)
+theme_override_fonts/font = ExtResource("9_wide")
+theme_override_font_sizes/font_size = 72
+text = "STATION"
+
+[node name="Rule" type="ColorRect" parent="Title"]
+layout_mode = 0
+offset_left = 126.0
+offset_top = 584.0
+offset_right = 406.0
+offset_bottom = 585.0
+color = Color(0.27, 0.85, 0.92, 0.55)
+
+[node name="Tagline" type="Label" parent="Title"]
+layout_mode = 0
+offset_left = 124.0
+offset_top = 600.0
+offset_right = 884.0
+offset_bottom = 634.0
+theme_override_colors/font_color = Color(0.58, 0.68, 0.73, 1)
+theme_override_font_sizes/font_size = 24
+text = "插入磁带，重新上线。"
+
+[node name="TaglineEn" type="Label" parent="Title"]
+layout_mode = 0
+offset_left = 126.0
+offset_top = 644.0
+offset_right = 886.0
+offset_bottom = 664.0
+theme_override_colors/font_color = Color(0.27, 0.85, 0.92, 0.45)
+theme_override_fonts/font = ExtResource("10_tracked")
+theme_override_font_sizes/font_size = 11
+text = "INSERT TAPE TO CONTINUE"
+
+[node name="MetaRule" type="ColorRect" parent="Title"]
+layout_mode = 0
+offset_left = 126.0
+offset_top = 726.0
+offset_right = 236.0
+offset_bottom = 727.0
+color = Color(0.27, 0.85, 0.92, 0.35)
+
+[node name="Meta" type="Label" parent="Title"]
+layout_mode = 0
+offset_left = 124.0
+offset_top = 740.0
+offset_right = 884.0
+offset_bottom = 762.0
+theme_override_colors/font_color = Color(0.42, 0.55, 0.6, 0.6)
+theme_override_fonts/font = ExtResource("10_tracked")
+theme_override_font_sizes/font_size = 11
+text = "SIDE A   ·   60 MIN   ·   TYPE II"
+
+[node name="Chrome" type="Control" parent="."]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+mouse_filter = 2
+
+[node name="TopMark" type="ColorRect" parent="Chrome"]
+layout_mode = 0
+offset_left = 122.0
+offset_top = 56.0
+offset_right = 125.0
+offset_bottom = 70.0
+color = Color(0.95, 0.65, 0.3, 0.9)
+
+[node name="TopLabel" type="Label" parent="Chrome"]
+layout_mode = 0
+offset_left = 136.0
+offset_top = 50.0
+offset_right = 636.0
+offset_bottom = 70.0
+theme_override_colors/font_color = Color(0.45, 0.56, 0.62, 0.9)
+theme_override_fonts/font = ExtResource("10_tracked")
+theme_override_font_sizes/font_size = 11
+text = "TAPE ARCHIVE SYSTEM"
+
+[node name="Rec" type="Label" parent="Chrome"]
+layout_mode = 0
+offset_left = 1520.0
+offset_top = 50.0
+offset_right = 1670.0
+offset_bottom = 70.0
+theme_override_colors/font_color = Color(0.95, 0.6, 0.25, 0.9)
+theme_override_fonts/font = ExtResource("11_mono")
+theme_override_font_sizes/font_size = 11
+text = "● REC"
+horizontal_alignment = 2
+
+[node name="Timecode" type="Label" parent="Chrome"]
+layout_mode = 0
+offset_left = 1680.0
+offset_top = 50.0
+offset_right = 1800.0
+offset_bottom = 70.0
+theme_override_colors/font_color = Color(0.45, 0.56, 0.62, 0.7)
+theme_override_fonts/font = ExtResource("11_mono")
+theme_override_font_sizes/font_size = 11
+text = "00:00:00"
+horizontal_alignment = 2
+
+[node name="CharacterSelect" type="Button" parent="Chrome"]
+layout_mode = 0
+offset_left = 136.0
+offset_top = 76.0
+offset_right = 736.0
+offset_bottom = 104.0
+focus_mode = 0
+theme_override_colors/font_color = Color(0.45, 0.8, 0.85, 0.9)
+theme_override_colors/font_hover_color = Color(0.95, 0.65, 0.3, 1)
+theme_override_fonts/font = ExtResource("11_mono")
+theme_override_font_sizes/font_size = 12
+flat = true
+text = "PILOT // NOVA    [C] SWITCH"
+alignment = 0
+
+[node name="BottomLeft" type="Label" parent="Chrome"]
+layout_mode = 0
+offset_left = 122.0
+offset_top = 1010.0
+offset_right = 822.0
+offset_bottom = 1030.0
+theme_override_colors/font_color = Color(0.4, 0.5, 0.56, 0.55)
+theme_override_fonts/font = ExtResource("10_tracked")
+theme_override_font_sizes/font_size = 10
+text = "JAM STATION   //   BUILD 0.1.0"
+
+[node name="BottomRight" type="Label" parent="Chrome"]
+layout_mode = 0
+offset_left = 1080.0
+offset_top = 1006.0
+offset_right = 1800.0
+offset_bottom = 1032.0
+theme_override_colors/font_color = Color(0.5, 0.62, 0.68, 0.6)
+theme_override_font_sizes/font_size = 12
+text = "↑ ↓  选择      ENTER  确认      ESC  设置"
+horizontal_alignment = 2
+
+[node name="ScreenFrame" type="Control" parent="."]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+mouse_filter = 2
+script = ExtResource("13_frame")
+
+[node name="SettingsPanel" parent="." instance=ExtResource("12_settings")]
+visible = false
+
+[node name="Fade" type="ColorRect" parent="."]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+mouse_filter = 2
+color = Color(0, 0, 0, 1)

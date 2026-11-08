@@ -1,0 +1,119 @@
+[gd_scene load_steps=6 format=3]
+
+[ext_resource type="Script" path="res://scripts/main.gd" id="1_main"]
+[ext_resource type="PackedScene" path="res://scenes/player.tscn" id="2_player"]
+[ext_resource type="PackedScene" path="res://scenes/target.tscn" id="3_target"]
+[ext_resource type="Script" path="res://scripts/world.gd" id="4_world"]
+[ext_resource type="Script" path="res://scripts/camera_director.gd" id="5_camera"]
+
+[node name="Main" type="Node2D"]
+process_mode = 3
+script = ExtResource("1_main")
+
+[node name="Projection" type="Node2D" parent="."]
+process_mode = 1
+scale = Vector2(1, 0.72)
+
+[node name="World" type="Node2D" parent="Projection"]
+script = ExtResource("4_world")
+
+[node name="Targets" type="Node2D" parent="Projection/World"]
+
+[node name="Target1" parent="Projection/World/Targets" instance=ExtResource("3_target")]
+position = Vector2(1000, 700)
+
+[node name="Target2" parent="Projection/World/Targets" instance=ExtResource("3_target")]
+position = Vector2(1450, 950)
+
+[node name="Target3" parent="Projection/World/Targets" instance=ExtResource("3_target")]
+position = Vector2(620, 980)
+
+[node name="Player" parent="Projection" instance=ExtResource("2_player")]
+process_mode = 1
+position = Vector2(1260, 980)
+
+[node name="CameraRig" type="Camera2D" parent="."]
+process_mode = 1
+zoom = Vector2(1.4, 1.4)
+limit_left = 240
+limit_top = 130
+limit_right = 2320
+limit_bottom = 1051
+script = ExtResource("5_camera")
+target_path = NodePath("../Projection/Player")
+
+[node name="HUD" type="CanvasLayer" parent="."]
+
+[node name="Panel" type="ColorRect" parent="HUD"]
+offset_left = 16.0
+offset_top = 16.0
+offset_right = 566.0
+offset_bottom = 104.0
+color = Color(0.06, 0.08, 0.11, 0.78)
+
+[node name="TitleLabel" type="Label" parent="HUD"]
+offset_left = 32.0
+offset_top = 24.0
+offset_right = 546.0
+offset_bottom = 54.0
+theme_override_colors/font_color = Color(0.94, 0.97, 1, 1)
+theme_override_font_sizes/font_size = 20
+text = "JAM STATION / PROTOTYPE"
+
+[node name="HintLabel" type="Label" parent="HUD"]
+offset_left = 32.0
+offset_top = 56.0
+offset_right = 546.0
+offset_bottom = 90.0
+theme_override_colors/font_color = Color(0.68, 0.76, 0.82, 1)
+theme_override_font_sizes/font_size = 16
+text = "WASD move    Shift run    RMB aim    LMB shoot    Esc pause"
+
+[node name="HitsLabel" type="Label" parent="HUD"]
+offset_left = 16.0
+offset_top = 116.0
+offset_right = 300.0
+offset_bottom = 152.0
+theme_override_colors/font_color = Color(1, 0.85, 0.4, 1)
+theme_override_font_sizes/font_size = 22
+text = "Hits: 0"
+
+[node name="PauseOverlay" type="CanvasLayer" parent="."]
+layer = 10
+
+[node name="Panel" type="Control" parent="PauseOverlay"]
+visible = false
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+mouse_filter = 2
+
+[node name="Dim" type="ColorRect" parent="PauseOverlay/Panel"]
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+mouse_filter = 2
+color = Color(0, 0, 0, 0.6)
+
+[node name="Label" type="Label" parent="PauseOverlay/Panel"]
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -240.0
+offset_top = -80.0
+offset_right = 240.0
+offset_bottom = 80.0
+grow_horizontal = 2
+grow_vertical = 2
+theme_override_colors/font_color = Color(1, 1, 1, 1)
+theme_override_font_sizes/font_size = 48
+text = "PAUSED
+Esc to resume"
+horizontal_alignment = 1
+vertical_alignment = 1

@@ -1,0 +1,1017 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>SPACE LOOP // SFX LIBRARY</title>
+<style>
+  :root {
+    --bg: #080d13;
+    --panel: rgba(16, 26, 36, 0.82);
+    --line: rgba(57, 214, 232, 0.22);
+    --cyan: #39d6e8;
+    --amber: #f2a63b;
+    --text: #dce8ef;
+    --dim: #7f96a6;
+  }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0; padding: 40px 32px 80px;
+    background:
+      radial-gradient(circle at 20% 0%, rgba(57,214,232,.08), transparent 42%),
+      repeating-linear-gradient(0deg, rgba(255,255,255,.025) 0 1px, transparent 1px 4px),
+      var(--bg);
+    color: var(--text);
+    font-family: "Bahnschrift", "Microsoft YaHei", "Segoe UI", sans-serif;
+  }
+  header { max-width: 1180px; margin: 0 auto 28px; border-bottom: 1px solid var(--line); padding-bottom: 18px; }
+  .kicker { color: var(--cyan); letter-spacing: .28em; font-size: 12px; }
+  h1 { margin: 8px 0 6px; font-size: 40px; letter-spacing: .08em; font-weight: 600; }
+  .sub { color: var(--dim); font-size: 13px; letter-spacing: .08em; }
+  .stats { margin-top: 14px; color: var(--amber); font-size: 13px; letter-spacing: .1em; }
+  section { max-width: 1180px; margin: 34px auto 0; }
+  h2 {
+    display: flex; align-items: center; gap: 12px;
+    font-size: 16px; letter-spacing: .18em; color: var(--cyan);
+    border-left: 3px solid var(--cyan); padding-left: 12px; margin-bottom: 14px;
+  }
+  h2 .count { color: var(--dim); font-size: 12px; }
+  .grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(520px, 1fr)); gap: 10px; }
+  .card {
+    display: flex; align-items: center; gap: 14px;
+    background: var(--panel); border: 1px solid var(--line);
+    padding: 10px 14px; border-radius: 2px;
+  }
+  .meta { flex: 1; min-width: 0; }
+  .line1 { display: flex; align-items: center; gap: 8px; flex-wrap: wrap; }
+  .id { color: var(--amber); font-size: 11px; letter-spacing: .12em; }
+  .name { font-size: 13px; color: var(--text); white-space: nowrap; overflow: hidden; text-overflow: ellipsis; max-width: 300px; }
+  .badge { font-size: 9px; letter-spacing: .14em; padding: 2px 5px; border: 1px solid var(--line); color: var(--dim); }
+  .badge.loop { color: var(--cyan); border-color: rgba(57,214,232,.5); }
+  .desc { color: var(--dim); font-size: 12px; margin-top: 3px; }
+  .tech { color: rgba(127,150,166,.7); font-size: 10px; margin-top: 3px; letter-spacing: .04em; }
+  audio { width: 220px; height: 32px; filter: invert(.86) hue-rotate(160deg); flex: none; }
+  @media (max-width: 640px) {
+    body { padding: 24px 14px 60px; }
+    h1 { font-size: 28px; }
+    .grid { grid-template-columns: 1fr; }
+    .card { flex-direction: column; align-items: stretch; }
+    audio { width: 100%; }
+  }
+</style>
+</head>
+<body>
+<header>
+  <div class="kicker">SPACE LOOP // TAPE ARCHIVE // AUDIO LIBRARY</div>
+  <h1>舱室音效库 v1</h1>
+  <div class="sub">48 kHz / 24-bit WAV · 单发音效为单声道 · 环境循环为立体声 · 循环点已写入 manifest.csv</div>
+  <div class="stats">101 FILES · 20 LOOPS · 322.2s TOTAL</div>
+</header>
+
+        <section>
+          <h2>玩家<span class="count">9</span></h2>
+          <div class="grid">
+            <article class="card">
+              <div class="meta">
+                <div class="line1"><span class="id">PL-01</span>
+                  <span class="name">pl_footstep_metal_01.wav</span></div>
+                <div class="desc">金属地板脚步，轻量变体</div>
+                <div class="tech">0.230s · 1ch · peak -8.00 dBFS</div>
+              </div>
+              <audio controls preload="none" src="player/pl_footstep_metal_01.wav"></audio>
+            </article>
+            <article class="card">
+              <div class="meta">
+                <div class="line1"><span class="id">PL-01</span>
+                  <span class="name">pl_footstep_metal_02.wav</span></div>
+                <div class="desc">金属地板脚步，轻量变体</div>
+                <div class="tech">0.230s · 1ch · peak -8.00 dBFS</div>
+              </div>
+              <audio controls preload="none" src="player/pl_footstep_metal_02.wav"></audio>
+            </article>
+            <article class="card">
+              <div class="meta">
+                <div class="line1"><span class="id">PL-01</span>
+                  <span class="name">pl_footstep_metal_03.wav</span></div>
+                <div class="desc">金属地板脚步，轻量变体</div>
+                <div class="tech">0.230s · 1ch · peak -8.00 dBFS</div>
+              </div>
+              <audio controls preload="none" src="player/pl_footstep_metal_03.wav"></audio>
+            </article>
+            <article class="card">
+              <div class="meta">
+                <div class="line1"><span class="id">PL-01</span>
+                  <span class="name">pl_footstep_metal_heavy.wav</span></div>
+                <div class="desc">金属地板脚步，沉重变体</div>
+                <div class="tech">0.260s · 1ch · peak -7.00 dBFS</div>
+              </div>
+              <audio controls preload="none" src="player/pl_footstep_metal_heavy.wav"></audio>
+            </article>
+            <article class="card">
+              <div class="meta">
+                <div class="line1"><span class="id">PL-02</span>
+                  <span class="name">pl_hurt.wav</span></div>
+                <div class="desc">玩家受伤，短促清晰</div>
+                <div class="tech">0.380s · 1ch · peak -3.00 dBFS</div>
+              </div>
+              <audio controls preload="none" src="player/pl_hurt.wav"></audio>
+            </article>
+            <article class="card">
+              <div class="meta">
+                <div class="line1"><span class="id">PL-03</span>
+                  <span class="name">pl_death.wav</span></div>
+                <div class="desc">玩家死亡失能音</div>
+                <div class="tech">1.500s · 1ch · peak -3.00 dBFS</div>
+              </div>
+              <audio controls preload="none" src="player/pl_death.wav"></audio>
+            </article>
+            <article class="card">
+              <div class="meta">
+                <div class="line1"><span class="id">PL-04</span>
+                  <span class="name">pl_pickup_heal.wav</span></div>
+                <div class="desc">生命恢复/补给拾取</div>
+                <div class="tech">0.720s · 1ch · peak -6.00 dBFS</div>
+              </div>
+              <audio controls preload="none" src="player/pl_pickup_heal.wav"></audio>
+            </article>
+            <article class="card">
+              <div class="meta">
+                <div class="line1"><span class="id">PL-05</span>
+                  <span class="name">pl_low_health.wav</span></div>
+                <div class="desc">低生命提示短脉冲</div>
+                <div class="tech">0.720s · 1ch · peak -9.00 dBFS</div>
+              </div>
+              <audio controls preload="none" src="player/pl_low_health.wav"></audio>
+            </article>
+            <article class="card">
+              <div class="meta">
+                <div class="line1"><span class="id">PL-06</span>
+                  <span class="name">pl_dash.wav</span></div>
+                <div class="desc">闪避/冲刺气流与衣料声</div>
+                <div class="tech">0.340s · 1ch · peak -7.00 dBFS</div>
+              </div>
+              <audio controls preload="none" src="player/pl_dash.wav"></audio>
+            </article></div>
+        </section>
+        <section>
+          <h2>武器与射击<span class="count">12</span></h2>
+          <div class="grid">
+            <article class="card">
+              <div class="meta">
+                <div class="line1"><span class="id">WP-01</span>
+                  <span class="name">wp_shoot_01.wav</span></div>
+                <div class="desc">能量步枪开火变体</div>
+                <div class="tech">0.300s · 1ch · peak -2.00 dBFS</div>
+              </div>
+              <audio controls preload="none" src="weapons/wp_shoot_01.wav"></audio>
+            </article>
+            <article class="card">
+              <div class="meta">
+                <div class="line1"><span class="id">WP-01</span>
+                  <span class="name">wp_shoot_02.wav</span></div>
+                <div class="desc">能量步枪开火变体</div>
+                <div class="tech">0.300s · 1ch · peak -2.00 dBFS</div>
+              </div>
+              <audio controls preload="none" src="weapons/wp_shoot_02.wav"></audio>
+            </article>
+            <article class="card">
+              <div class="meta">
+                <div class="line1"><span class="id">WP-01</span>
+                  <span class="name">wp_shoot_03.wav</span></div>
+                <div class="desc">能量步枪开火变体</div>
+                <div class="tech">0.300s · 1ch · peak -2.00 dBFS</div>
+              </div>
+              <audio controls preload="none" src="weapons/wp_shoot_03.wav"></audio>
+            </article>
+            <article class="card">
+              <div class="meta">
+                <div class="line1"><span class="id">WP-02</span>
+                  <span class="name">wp_hit_organic.wav</span></div>
+                <div class="desc">子弹命中有机体</div>
+                <div class="tech">0.220s · 1ch · peak -3.00 dBFS</div>
+              </div>
+              <audio controls preload="none" src="weapons/wp_hit_organic.wav"></audio>
+            </article>
+            <article class="card">
+              <div class="meta">
+                <div class="line1"><span class="id">WP-03</span>
+                  <span class="name">wp_hit_metal.wav</span></div>
+                <div class="desc">子弹命中金属</div>
+                <div class="tech">0.280s · 1ch · peak -3.00 dBFS</div>
+              </div>
+              <audio controls preload="none" src="weapons/wp_hit_metal.wav"></audio>
+            </article>
+            <article class="card">
+              <div class="meta">
+                <div class="line1"><span class="id">WP-04</span>
+                  <span class="name">wp_hit_glass.wav</span></div>
+                <div class="desc">子弹命中玻璃</div>
+                <div class="tech">0.200s · 1ch · peak -3.00 dBFS</div>
+              </div>
+              <audio controls preload="none" src="weapons/wp_hit_glass.wav"></audio>
+            </article>
+            <article class="card">
+              <div class="meta">
+                <div class="line1"><span class="id">WP-05</span>
+                  <span class="name">wp_reload.wav</span></div>
+                <div class="desc">换弹机械流程</div>
+                <div class="tech">0.620s · 1ch · peak -5.00 dBFS</div>
+              </div>
+              <audio controls preload="none" src="weapons/wp_reload.wav"></audio>
+            </article>
+            <article class="card">
+              <div class="meta">
+                <div class="line1"><span class="id">WP-06</span>
+                  <span class="name">wp_empty.wav</span></div>
+                <div class="desc">空弹/不能开火</div>
+                <div class="tech">0.240s · 1ch · peak -6.00 dBFS</div>
+              </div>
+              <audio controls preload="none" src="weapons/wp_empty.wav"></audio>
+            </article>
+            <article class="card">
+              <div class="meta">
+                <div class="line1"><span class="id">WP-07</span>
+                  <span class="name">wp_charge_loop.wav</span><span class="badge loop">LOOP</span></div>
+                <div class="desc">武器充能升调循环</div>
+                <div class="tech">1.600s · 1ch · peak -8.00 dBFS</div>
+              </div>
+              <audio controls preload="none" src="weapons/wp_charge_loop.wav"></audio>
+            </article>
+            <article class="card">
+              <div class="meta">
+                <div class="line1"><span class="id">WP-07</span>
+                  <span class="name">wp_overheat_warning.wav</span></div>
+                <div class="desc">武器过热警告</div>
+                <div class="tech">1.150s · 1ch · peak -5.00 dBFS</div>
+              </div>
+              <audio controls preload="none" src="weapons/wp_overheat_warning.wav"></audio>
+            </article>
+            <article class="card">
+              <div class="meta">
+                <div class="line1"><span class="id">WP-07</span>
+                  <span class="name">wp_cooldown_complete.wav</span></div>
+                <div class="desc">冷却完成提示</div>
+                <div class="tech">0.650s · 1ch · peak -7.00 dBFS</div>
+              </div>
+              <audio controls preload="none" src="weapons/wp_cooldown_complete.wav"></audio>
+            </article>
+            <article class="card">
+              <div class="meta">
+                <div class="line1"><span class="id">WP-08</span>
+                  <span class="name">wp_switch.wav</span></div>
+                <div class="desc">切换/获得武器</div>
+                <div class="tech">0.460s · 1ch · peak -6.00 dBFS</div>
+              </div>
+              <audio controls preload="none" src="weapons/wp_switch.wav"></audio>
+            </article></div>
+        </section>
+        <section>
+          <h2>怪物<span class="count">21</span></h2>
+          <div class="grid">
+            <article class="card">
+              <div class="meta">
+                <div class="line1"><span class="id">EN-01</span>
+                  <span class="name">en_alert_01.wav</span></div>
+                <div class="desc">怪物发现玩家，类人变体</div>
+                <div class="tech">0.660s · 1ch · peak -5.00 dBFS</div>
+              </div>
+              <audio controls preload="none" src="enemies/en_alert_01.wav"></audio>
+            </article>
+            <article class="card">
+              <div class="meta">
+                <div class="line1"><span class="id">EN-01</span>
+                  <span class="name">en_alert_02.wav</span></div>
+                <div class="desc">怪物发现玩家，虫形变体</div>
+                <div class="tech">0.660s · 1ch · peak -6.00 dBFS</div>
+              </div>
+              <audio controls preload="none" src="enemies/en_alert_02.wav"></audio>
+            </article>
+            <article class="card">
+              <div class="meta">
+                <div class="line1"><span class="id">EN-02</span>
+                  <span class="name">en_melee_warning.wav</span></div>
+                <div class="desc">近战怪攻击预警，伤害判定前</div>
+                <div class="tech">0.750s · 1ch · peak -4.00 dBFS</div>
+              </div>
+              <audio controls preload="none" src="enemies/en_melee_warning.wav"></audio>
+            </article>
+            <article class="card">
+              <div class="meta">
+                <div class="line1"><span class="id">EN-03</span>
+                  <span class="name">en_broom_whoosh.wav</span></div>
+                <div class="desc">扫帚挥击空气声</div>
+                <div class="tech">0.420s · 1ch · peak -5.00 dBFS</div>
+              </div>
+              <audio controls preload="none" src="enemies/en_broom_whoosh.wav"></audio>
+            </article>
+            <article class="card">
+              <div class="meta">
+                <div class="line1"><span class="id">EN-04</span>
+                  <span class="name">en_broom_hit.wav</span></div>
+                <div class="desc">扫帚命中闷击</div>
+                <div class="tech">0.340s · 1ch · peak -3.00 dBFS</div>
+              </div>
+              <audio controls preload="none" src="enemies/en_broom_hit.wav"></audio>
+            </article>
+            <article class="card">
+              <div class="meta">
+                <div class="line1"><span class="id">EN-05</span>
+                  <span class="name">en_hurt_01.wav</span></div>
+                <div class="desc">怪物受伤，有机体变体 A</div>
+                <div class="tech">0.300s · 1ch · peak -5.00 dBFS</div>
+              </div>
+              <audio controls preload="none" src="enemies/en_hurt_01.wav"></audio>
+            </article>
+            <article class="card">
+              <div class="meta">
+                <div class="line1"><span class="id">EN-05</span>
+                  <span class="name">en_hurt_02.wav</span></div>
+                <div class="desc">怪物受伤，有机体变体 B</div>
+                <div class="tech">0.300s · 1ch · peak -5.00 dBFS</div>
+              </div>
+              <audio controls preload="none" src="enemies/en_hurt_02.wav"></audio>
+            </article>
+            <article class="card">
+              <div class="meta">
+                <div class="line1"><span class="id">EN-05</span>
+                  <span class="name">en_hurt_glass.wav</span></div>
+                <div class="desc">玻璃罐怪受伤</div>
+                <div class="tech">0.300s · 1ch · peak -6.00 dBFS</div>
+              </div>
+              <audio controls preload="none" src="enemies/en_hurt_glass.wav"></audio>
+            </article>
+            <article class="card">
+              <div class="meta">
+                <div class="line1"><span class="id">EN-06</span>
+                  <span class="name">en_death.wav</span></div>
+                <div class="desc">怪物死亡通用</div>
+                <div class="tech">0.950s · 1ch · peak -4.00 dBFS</div>
+              </div>
+              <audio controls preload="none" src="enemies/en_death.wav"></audio>
+            </article>
+            <article class="card">
+              <div class="meta">
+                <div class="line1"><span class="id">EN-06</span>
+                  <span class="name">en_death_glass.wav</span></div>
+                <div class="desc">玻璃罐怪死亡破裂</div>
+                <div class="tech">1.100s · 1ch · peak -4.00 dBFS</div>
+              </div>
+              <audio controls preload="none" src="enemies/en_death_glass.wav"></audio>
+            </article>
+            <article class="card">
+              <div class="meta">
+                <div class="line1"><span class="id">EN-07</span>
+                  <span class="name">en_idle_humanoid_loop.wav</span><span class="badge loop">LOOP</span></div>
+                <div class="desc">类人怪待机拖步循环</div>
+                <div class="tech">4.000s · 1ch · peak -12.00 dBFS</div>
+              </div>
+              <audio controls preload="none" src="enemies/en_idle_humanoid_loop.wav"></audio>
+            </article>
+            <article class="card">
+              <div class="meta">
+                <div class="line1"><span class="id">EN-07</span>
+                  <span class="name">en_idle_bug_loop.wav</span><span class="badge loop">LOOP</span></div>
+                <div class="desc">虫形怪爬行循环</div>
+                <div class="tech">4.000s · 1ch · peak -12.00 dBFS</div>
+              </div>
+              <audio controls preload="none" src="enemies/en_idle_bug_loop.wav"></audio>
+            </article>
+            <article class="card">
+              <div class="meta">
+                <div class="line1"><span class="id">EN-08</span>
+                  <span class="name">en_ranged_charge.wav</span></div>
+                <div class="desc">远程怪蓄力</div>
+                <div class="tech">0.800s · 1ch · peak -5.00 dBFS</div>
+              </div>
+              <audio controls preload="none" src="enemies/en_ranged_charge.wav"></audio>
+            </article>
+            <article class="card">
+              <div class="meta">
+                <div class="line1"><span class="id">EN-08</span>
+                  <span class="name">en_ranged_spray.wav</span></div>
+                <div class="desc">远程怪喷出</div>
+                <div class="tech">0.850s · 1ch · peak -4.00 dBFS</div>
+              </div>
+              <audio controls preload="none" src="enemies/en_ranged_spray.wav"></audio>
+            </article>
+            <article class="card">
+              <div class="meta">
+                <div class="line1"><span class="id">EN-08</span>
+                  <span class="name">en_ranged_land.wav</span></div>
+                <div class="desc">远程液团落地</div>
+                <div class="tech">0.500s · 1ch · peak -5.00 dBFS</div>
+              </div>
+              <audio controls preload="none" src="enemies/en_ranged_land.wav"></audio>
+            </article>
+            <article class="card">
+              <div class="meta">
+                <div class="line1"><span class="id">EN-09</span>
+                  <span class="name">en_heal_start.wav</span></div>
+                <div class="desc">医疗怪回血开始</div>
+                <div class="tech">0.950s · 1ch · peak -7.00 dBFS</div>
+              </div>
+              <audio controls preload="none" src="enemies/en_heal_start.wav"></audio>
+            </article>
+            <article class="card">
+              <div class="meta">
+                <div class="line1"><span class="id">EN-09</span>
+                  <span class="name">en_heal_loop.wav</span><span class="badge loop">LOOP</span></div>
+                <div class="desc">医疗怪回血持续循环</div>
+                <div class="tech">2.500s · 1ch · peak -14.00 dBFS</div>
+              </div>
+              <audio controls preload="none" src="enemies/en_heal_loop.wav"></audio>
+            </article>
+            <article class="card">
+              <div class="meta">
+                <div class="line1"><span class="id">EN-09</span>
+                  <span class="name">en_heal_end.wav</span></div>
+                <div class="desc">医疗怪回血结束/打断</div>
+                <div class="tech">0.550s · 1ch · peak -7.00 dBFS</div>
+              </div>
+              <audio controls preload="none" src="enemies/en_heal_end.wav"></audio>
+            </article>
+            <article class="card">
+              <div class="meta">
+                <div class="line1"><span class="id">EN-10</span>
+                  <span class="name">en_energy_charge.wav</span></div>
+                <div class="desc">能源怪充能</div>
+                <div class="tech">0.950s · 1ch · peak -5.00 dBFS</div>
+              </div>
+              <audio controls preload="none" src="enemies/en_energy_charge.wav"></audio>
+            </article>
+            <article class="card">
+              <div class="meta">
+                <div class="line1"><span class="id">EN-10</span>
+                  <span class="name">en_energy_shield_hit.wav</span></div>
+                <div class="desc">能源怪护盾命中</div>
+                <div class="tech">0.450s · 1ch · peak -4.00 dBFS</div>
+              </div>
+              <audio controls preload="none" src="enemies/en_energy_shield_hit.wav"></audio>
+            </article>
+            <article class="card">
+              <div class="meta">
+                <div class="line1"><span class="id">EN-10</span>
+                  <span class="name">en_energy_disconnect.wav</span></div>
+                <div class="desc">能源连接断开</div>
+                <div class="tech">0.650s · 1ch · peak -4.00 dBFS</div>
+              </div>
+              <audio controls preload="none" src="enemies/en_energy_disconnect.wav"></audio>
+            </article></div>
+        </section>
+        <section>
+          <h2>机械臂 BOSS<span class="count">6</span></h2>
+          <div class="grid">
+            <article class="card">
+              <div class="meta">
+                <div class="line1"><span class="id">BO-01</span>
+                  <span class="name">bo_arm_idle_loop.wav</span><span class="badge loop">LOOP</span></div>
+                <div class="desc">机械臂待机伺服循环</div>
+                <div class="tech">3.000s · 1ch · peak -13.00 dBFS</div>
+              </div>
+              <audio controls preload="none" src="boss/bo_arm_idle_loop.wav"></audio>
+            </article>
+            <article class="card">
+              <div class="meta">
+                <div class="line1"><span class="id">BO-02</span>
+                  <span class="name">bo_sweep_warning.wav</span></div>
+                <div class="desc">机械臂横扫预警</div>
+                <div class="tech">0.950s · 1ch · peak -4.00 dBFS</div>
+              </div>
+              <audio controls preload="none" src="boss/bo_sweep_warning.wav"></audio>
+            </article>
+            <article class="card">
+              <div class="meta">
+                <div class="line1"><span class="id">BO-03</span>
+                  <span class="name">bo_sweep.wav</span></div>
+                <div class="desc">机械臂横扫</div>
+                <div class="tech">0.800s · 1ch · peak -3.00 dBFS</div>
+              </div>
+              <audio controls preload="none" src="boss/bo_sweep.wav"></audio>
+            </article>
+            <article class="card">
+              <div class="meta">
+                <div class="line1"><span class="id">BO-04</span>
+                  <span class="name">bo_slam_charge.wav</span></div>
+                <div class="desc">机械臂砸击蓄力</div>
+                <div class="tech">1.100s · 1ch · peak -4.00 dBFS</div>
+              </div>
+              <audio controls preload="none" src="boss/bo_slam_charge.wav"></audio>
+            </article>
+            <article class="card">
+              <div class="meta">
+                <div class="line1"><span class="id">BO-05</span>
+                  <span class="name">bo_slam_impact.wav</span></div>
+                <div class="desc">机械臂砸地</div>
+                <div class="tech">0.950s · 1ch · peak -2.00 dBFS</div>
+              </div>
+              <audio controls preload="none" src="boss/bo_slam_impact.wav"></audio>
+            </article>
+            <article class="card">
+              <div class="meta">
+                <div class="line1"><span class="id">BO-06</span>
+                  <span class="name">bo_damage_shutdown.wav</span></div>
+                <div class="desc">机械臂损坏/停机</div>
+                <div class="tech">1.700s · 1ch · peak -4.00 dBFS</div>
+              </div>
+              <audio controls preload="none" src="boss/bo_damage_shutdown.wav"></audio>
+            </article></div>
+        </section>
+        <section>
+          <h2>机关 / 破坏 / 房门<span class="count">17</span></h2>
+          <div class="grid">
+            <article class="card">
+              <div class="meta">
+                <div class="line1"><span class="id">OB-01</span>
+                  <span class="name">ob_mechanism_start.wav</span></div>
+                <div class="desc">通用机关启动</div>
+                <div class="tech">1.150s · 1ch · peak -4.00 dBFS</div>
+              </div>
+              <audio controls preload="none" src="objects/ob_mechanism_start.wav"></audio>
+            </article>
+            <article class="card">
+              <div class="meta">
+                <div class="line1"><span class="id">OB-01</span>
+                  <span class="name">ob_mechanism_stop.wav</span></div>
+                <div class="desc">通用机关停止</div>
+                <div class="tech">0.950s · 1ch · peak -4.00 dBFS</div>
+              </div>
+              <audio controls preload="none" src="objects/ob_mechanism_stop.wav"></audio>
+            </article>
+            <article class="card">
+              <div class="meta">
+                <div class="line1"><span class="id">OB-02</span>
+                  <span class="name">ob_facility_hit_01.wav</span></div>
+                <div class="desc">设施受击变体 A</div>
+                <div class="tech">0.380s · 1ch · peak -3.00 dBFS</div>
+              </div>
+              <audio controls preload="none" src="objects/ob_facility_hit_01.wav"></audio>
+            </article>
+            <article class="card">
+              <div class="meta">
+                <div class="line1"><span class="id">OB-02</span>
+                  <span class="name">ob_facility_hit_02.wav</span></div>
+                <div class="desc">设施受击变体 B</div>
+                <div class="tech">0.380s · 1ch · peak -3.00 dBFS</div>
+              </div>
+              <audio controls preload="none" src="objects/ob_facility_hit_02.wav"></audio>
+            </article>
+            <article class="card">
+              <div class="meta">
+                <div class="line1"><span class="id">OB-03</span>
+                  <span class="name">ob_facility_destroy.wav</span></div>
+                <div class="desc">设施彻底破坏</div>
+                <div class="tech">1.400s · 1ch · peak -2.00 dBFS</div>
+              </div>
+              <audio controls preload="none" src="objects/ob_facility_destroy.wav"></audio>
+            </article>
+            <article class="card">
+              <div class="meta">
+                <div class="line1"><span class="id">OB-04</span>
+                  <span class="name">ob_glass_break.wav</span></div>
+                <div class="desc">玻璃容器破裂</div>
+                <div class="tech">1.000s · 1ch · peak -3.00 dBFS</div>
+              </div>
+              <audio controls preload="none" src="objects/ob_glass_break.wav"></audio>
+            </article>
+            <article class="card">
+              <div class="meta">
+                <div class="line1"><span class="id">OB-05</span>
+                  <span class="name">ob_container_release.wav</span></div>
+                <div class="desc">容器释放怪物</div>
+                <div class="tech">1.350s · 1ch · peak -3.00 dBFS</div>
+              </div>
+              <audio controls preload="none" src="objects/ob_container_release.wav"></audio>
+            </article>
+            <article class="card">
+              <div class="meta">
+                <div class="line1"><span class="id">OB-06</span>
+                  <span class="name">ob_fuel_explosion.wav</span></div>
+                <div class="desc">燃料容器爆炸</div>
+                <div class="tech">1.700s · 1ch · peak -2.00 dBFS</div>
+              </div>
+              <audio controls preload="none" src="objects/ob_fuel_explosion.wav"></audio>
+            </article>
+            <article class="card">
+              <div class="meta">
+                <div class="line1"><span class="id">OB-07</span>
+                  <span class="name">ob_explosion_warning.wav</span></div>
+                <div class="desc">爆炸前预警</div>
+                <div class="tech">0.950s · 1ch · peak -4.00 dBFS</div>
+              </div>
+              <audio controls preload="none" src="objects/ob_explosion_warning.wav"></audio>
+            </article>
+            <article class="card">
+              <div class="meta">
+                <div class="line1"><span class="id">OB-08</span>
+                  <span class="name">ob_leak_spark_loop.wav</span><span class="badge loop">LOOP</span></div>
+                <div class="desc">泄漏/电火花循环</div>
+                <div class="tech">3.000s · 1ch · peak -12.00 dBFS</div>
+              </div>
+              <audio controls preload="none" src="objects/ob_leak_spark_loop.wav"></audio>
+            </article>
+            <article class="card">
+              <div class="meta">
+                <div class="line1"><span class="id">OB-09</span>
+                  <span class="name">ob_vacuum_start.wav</span></div>
+                <div class="desc">真空抽取机启动</div>
+                <div class="tech">0.950s · 1ch · peak -4.00 dBFS</div>
+              </div>
+              <audio controls preload="none" src="objects/ob_vacuum_start.wav"></audio>
+            </article>
+            <article class="card">
+              <div class="meta">
+                <div class="line1"><span class="id">OB-09</span>
+                  <span class="name">ob_vacuum_loop.wav</span><span class="badge loop">LOOP</span></div>
+                <div class="desc">真空抽取机吸力循环</div>
+                <div class="tech">3.000s · 1ch · peak -9.00 dBFS</div>
+              </div>
+              <audio controls preload="none" src="objects/ob_vacuum_loop.wav"></audio>
+            </article>
+            <article class="card">
+              <div class="meta">
+                <div class="line1"><span class="id">OB-09</span>
+                  <span class="name">ob_vacuum_stop.wav</span></div>
+                <div class="desc">真空抽取机停机</div>
+                <div class="tech">0.800s · 1ch · peak -4.00 dBFS</div>
+              </div>
+              <audio controls preload="none" src="objects/ob_vacuum_stop.wav"></audio>
+            </article>
+            <article class="card">
+              <div class="meta">
+                <div class="line1"><span class="id">OB-10</span>
+                  <span class="name">ob_door_open.wav</span></div>
+                <div class="desc">舱门打开</div>
+                <div class="tech">1.150s · 1ch · peak -4.00 dBFS</div>
+              </div>
+              <audio controls preload="none" src="objects/ob_door_open.wav"></audio>
+            </article>
+            <article class="card">
+              <div class="meta">
+                <div class="line1"><span class="id">OB-10</span>
+                  <span class="name">ob_door_close.wav</span></div>
+                <div class="desc">舱门关闭</div>
+                <div class="tech">1.150s · 1ch · peak -4.00 dBFS</div>
+              </div>
+              <audio controls preload="none" src="objects/ob_door_close.wav"></audio>
+            </article>
+            <article class="card">
+              <div class="meta">
+                <div class="line1"><span class="id">OB-11</span>
+                  <span class="name">ob_lock_denied.wav</span></div>
+                <div class="desc">锁门/无法通行</div>
+                <div class="tech">0.480s · 1ch · peak -6.00 dBFS</div>
+              </div>
+              <audio controls preload="none" src="objects/ob_lock_denied.wav"></audio>
+            </article>
+            <article class="card">
+              <div class="meta">
+                <div class="line1"><span class="id">OB-11</span>
+                  <span class="name">ob_unlock.wav</span></div>
+                <div class="desc">解锁确认</div>
+                <div class="tech">0.600s · 1ch · peak -6.00 dBFS</div>
+              </div>
+              <audio controls preload="none" src="objects/ob_unlock.wav"></audio>
+            </article></div>
+        </section>
+        <section>
+          <h2>解谜与交互<span class="count">12</span></h2>
+          <div class="grid">
+            <article class="card">
+              <div class="meta">
+                <div class="line1"><span class="id">PU-01</span>
+                  <span class="name">pu_terminal_enter.wav</span></div>
+                <div class="desc">进入终端</div>
+                <div class="tech">0.750s · 1ch · peak -5.00 dBFS</div>
+              </div>
+              <audio controls preload="none" src="puzzle/pu_terminal_enter.wav"></audio>
+            </article>
+            <article class="card">
+              <div class="meta">
+                <div class="line1"><span class="id">PU-01</span>
+                  <span class="name">pu_terminal_exit.wav</span></div>
+                <div class="desc">退出终端</div>
+                <div class="tech">0.550s · 1ch · peak -6.00 dBFS</div>
+              </div>
+              <audio controls preload="none" src="puzzle/pu_terminal_exit.wav"></audio>
+            </article>
+            <article class="card">
+              <div class="meta">
+                <div class="line1"><span class="id">PU-02</span>
+                  <span class="name">pu_click.wav</span></div>
+                <div class="desc">按钮/选项点击</div>
+                <div class="tech">0.140s · 1ch · peak -8.00 dBFS</div>
+              </div>
+              <audio controls preload="none" src="puzzle/pu_click.wav"></audio>
+            </article>
+            <article class="card">
+              <div class="meta">
+                <div class="line1"><span class="id">PU-03</span>
+                  <span class="name">pu_rotate_01.wav</span></div>
+                <div class="desc">拨动/旋转刻度 A</div>
+                <div class="tech">0.200s · 1ch · peak -7.00 dBFS</div>
+              </div>
+              <audio controls preload="none" src="puzzle/pu_rotate_01.wav"></audio>
+            </article>
+            <article class="card">
+              <div class="meta">
+                <div class="line1"><span class="id">PU-03</span>
+                  <span class="name">pu_rotate_02.wav</span></div>
+                <div class="desc">拨动/旋转刻度 B</div>
+                <div class="tech">0.200s · 1ch · peak -7.00 dBFS</div>
+              </div>
+              <audio controls preload="none" src="puzzle/pu_rotate_02.wav"></audio>
+            </article>
+            <article class="card">
+              <div class="meta">
+                <div class="line1"><span class="id">PU-04</span>
+                  <span class="name">pu_step_correct.wav</span></div>
+                <div class="desc">局部步骤正确</div>
+                <div class="tech">0.340s · 1ch · peak -7.00 dBFS</div>
+              </div>
+              <audio controls preload="none" src="puzzle/pu_step_correct.wav"></audio>
+            </article>
+            <article class="card">
+              <div class="meta">
+                <div class="line1"><span class="id">PU-05</span>
+                  <span class="name">pu_error.wav</span></div>
+                <div class="desc">输入错误/操作无效</div>
+                <div class="tech">0.420s · 1ch · peak -5.00 dBFS</div>
+              </div>
+              <audio controls preload="none" src="puzzle/pu_error.wav"></audio>
+            </article>
+            <article class="card">
+              <div class="meta">
+                <div class="line1"><span class="id">PU-06</span>
+                  <span class="name">pu_puzzle_complete.wav</span></div>
+                <div class="desc">谜题完成</div>
+                <div class="tech">1.000s · 1ch · peak -4.00 dBFS</div>
+              </div>
+              <audio controls preload="none" src="puzzle/pu_puzzle_complete.wav"></audio>
+            </article>
+            <article class="card">
+              <div class="meta">
+                <div class="line1"><span class="id">PU-07</span>
+                  <span class="name">pu_clue_get.wav</span></div>
+                <div class="desc">线索/记录获得</div>
+                <div class="tech">0.750s · 1ch · peak -7.00 dBFS</div>
+              </div>
+              <audio controls preload="none" src="puzzle/pu_clue_get.wav"></audio>
+            </article>
+            <article class="card">
+              <div class="meta">
+                <div class="line1"><span class="id">PU-08</span>
+                  <span class="name">pu_signal_tune_loop.wav</span><span class="badge loop">LOOP</span></div>
+                <div class="desc">信号调谐循环</div>
+                <div class="tech">6.000s · 1ch · peak -12.00 dBFS</div>
+              </div>
+              <audio controls preload="none" src="puzzle/pu_signal_tune_loop.wav"></audio>
+            </article>
+            <article class="card">
+              <div class="meta">
+                <div class="line1"><span class="id">PU-09</span>
+                  <span class="name">pu_broadcast_start.wav</span></div>
+                <div class="desc">广播开始</div>
+                <div class="tech">0.950s · 1ch · peak -6.00 dBFS</div>
+              </div>
+              <audio controls preload="none" src="puzzle/pu_broadcast_start.wav"></audio>
+            </article>
+            <article class="card">
+              <div class="meta">
+                <div class="line1"><span class="id">PU-09</span>
+                  <span class="name">pu_broadcast_end.wav</span></div>
+                <div class="desc">广播结束</div>
+                <div class="tech">0.650s · 1ch · peak -7.00 dBFS</div>
+              </div>
+              <audio controls preload="none" src="puzzle/pu_broadcast_end.wav"></audio>
+            </article></div>
+        </section>
+        <section>
+          <h2>七舱环境循环<span class="count">11</span></h2>
+          <div class="grid">
+            <article class="card">
+              <div class="meta">
+                <div class="line1"><span class="id">AMB-00</span>
+                  <span class="name">amb_ship_vent_loop.wav</span><span class="badge loop">LOOP</span></div>
+                <div class="desc">全船空气循环/通风底噪</div>
+                <div class="tech">24.000s · 2ch · peak -10.98 dBFS</div>
+              </div>
+              <audio controls preload="none" src="ambience/amb_ship_vent_loop.wav"></audio>
+            </article>
+            <article class="card">
+              <div class="meta">
+                <div class="line1"><span class="id">AMB-01</span>
+                  <span class="name">amb_cockpit_living_loop.wav</span><span class="badge loop">LOOP</span></div>
+                <div class="desc">驾驶舱/生活舱环境层</div>
+                <div class="tech">24.000s · 2ch · peak -10.98 dBFS</div>
+              </div>
+              <audio controls preload="none" src="ambience/amb_cockpit_living_loop.wav"></audio>
+            </article>
+            <article class="card">
+              <div class="meta">
+                <div class="line1"><span class="id">AMB-02</span>
+                  <span class="name">amb_storage_loop.wav</span><span class="badge loop">LOOP</span></div>
+                <div class="desc">储物补给舱环境层</div>
+                <div class="tech">24.000s · 2ch · peak -10.98 dBFS</div>
+              </div>
+              <audio controls preload="none" src="ambience/amb_storage_loop.wav"></audio>
+            </article>
+            <article class="card">
+              <div class="meta">
+                <div class="line1"><span class="id">AMB-03</span>
+                  <span class="name">amb_sanitation_loop.wav</span><span class="badge loop">LOOP</span></div>
+                <div class="desc">卫生与废物处理舱环境层</div>
+                <div class="tech">24.000s · 2ch · peak -10.98 dBFS</div>
+              </div>
+              <audio controls preload="none" src="ambience/amb_sanitation_loop.wav"></audio>
+            </article>
+            <article class="card">
+              <div class="meta">
+                <div class="line1"><span class="id">AMB-04</span>
+                  <span class="name">amb_comms_loop.wav</span><span class="badge loop">LOOP</span></div>
+                <div class="desc">通信舱环境层</div>
+                <div class="tech">24.000s · 2ch · peak -10.98 dBFS</div>
+              </div>
+              <audio controls preload="none" src="ambience/amb_comms_loop.wav"></audio>
+            </article>
+            <article class="card">
+              <div class="meta">
+                <div class="line1"><span class="id">AMB-05</span>
+                  <span class="name">amb_medical_loop.wav</span><span class="badge loop">LOOP</span></div>
+                <div class="desc">医疗与休眠舱环境层</div>
+                <div class="tech">24.000s · 2ch · peak -10.98 dBFS</div>
+              </div>
+              <audio controls preload="none" src="ambience/amb_medical_loop.wav"></audio>
+            </article>
+            <article class="card">
+              <div class="meta">
+                <div class="line1"><span class="id">AMB-06</span>
+                  <span class="name">amb_life_energy_loop.wav</span><span class="badge loop">LOOP</span></div>
+                <div class="desc">生命能源舱环境层</div>
+                <div class="tech">24.000s · 2ch · peak -10.98 dBFS</div>
+              </div>
+              <audio controls preload="none" src="ambience/amb_life_energy_loop.wav"></audio>
+            </article>
+            <article class="card">
+              <div class="meta">
+                <div class="line1"><span class="id">AMB-07</span>
+                  <span class="name">amb_fuel_loop.wav</span><span class="badge loop">LOOP</span></div>
+                <div class="desc">燃料舱环境层</div>
+                <div class="tech">24.000s · 2ch · peak -10.98 dBFS</div>
+              </div>
+              <audio controls preload="none" src="ambience/amb_fuel_loop.wav"></audio>
+            </article>
+            <article class="card">
+              <div class="meta">
+                <div class="line1"><span class="id">AMB-08</span>
+                  <span class="name">amb_anomaly_hull_resonance_loop.wav</span><span class="badge loop">LOOP</span></div>
+                <div class="desc">环境异常：船体低沉共振</div>
+                <div class="tech">12.000s · 2ch · peak -13.98 dBFS</div>
+              </div>
+              <audio controls preload="none" src="ambience/amb_anomaly_hull_resonance_loop.wav"></audio>
+            </article>
+            <article class="card">
+              <div class="meta">
+                <div class="line1"><span class="id">AMB-09</span>
+                  <span class="name">amb_anomaly_lighting_fault_loop.wav</span><span class="badge loop">LOOP</span></div>
+                <div class="desc">环境异常：照明故障电流</div>
+                <div class="tech">8.000s · 2ch · peak -13.98 dBFS</div>
+              </div>
+              <audio controls preload="none" src="ambience/amb_anomaly_lighting_fault_loop.wav"></audio>
+            </article>
+            <article class="card">
+              <div class="meta">
+                <div class="line1"><span class="id">AMB-10</span>
+                  <span class="name">amb_anomaly_damaged_alarm_loop.wav</span><span class="badge loop">LOOP</span></div>
+                <div class="desc">环境异常：破损设备间歇告警</div>
+                <div class="tech">12.000s · 2ch · peak -12.98 dBFS</div>
+              </div>
+              <audio controls preload="none" src="ambience/amb_anomaly_damaged_alarm_loop.wav"></audio>
+            </article></div>
+        </section>
+        <section>
+          <h2>死亡回退 / 循环 / 剧情<span class="count">7</span></h2>
+          <div class="grid">
+            <article class="card">
+              <div class="meta">
+                <div class="line1"><span class="id">ST-01</span>
+                  <span class="name">st_death_rewind.wav</span></div>
+                <div class="desc">死亡回退过渡</div>
+                <div class="tech">1.500s · 1ch · peak -3.00 dBFS</div>
+              </div>
+              <audio controls preload="none" src="state/st_death_rewind.wav"></audio>
+            </article>
+            <article class="card">
+              <div class="meta">
+                <div class="line1"><span class="id">ST-02</span>
+                  <span class="name">st_respawn.wav</span></div>
+                <div class="desc">回到上一房间/恢复控制</div>
+                <div class="tech">0.750s · 1ch · peak -4.00 dBFS</div>
+              </div>
+              <audio controls preload="none" src="state/st_respawn.wav"></audio>
+            </article>
+            <article class="card">
+              <div class="meta">
+                <div class="line1"><span class="id">ST-03</span>
+                  <span class="name">st_cycle_start.wav</span></div>
+                <div class="desc">新循环开始</div>
+                <div class="tech">1.250s · 1ch · peak -3.00 dBFS</div>
+              </div>
+              <audio controls preload="none" src="state/st_cycle_start.wav"></audio>
+            </article>
+            <article class="card">
+              <div class="meta">
+                <div class="line1"><span class="id">ST-04</span>
+                  <span class="name">st_cycle_distortion_loop.wav</span><span class="badge loop">LOOP</span></div>
+                <div class="desc">循环异化底噪循环</div>
+                <div class="tech">10.000s · 2ch · peak -10.98 dBFS</div>
+              </div>
+              <audio controls preload="none" src="state/st_cycle_distortion_loop.wav"></audio>
+            </article>
+            <article class="card">
+              <div class="meta">
+                <div class="line1"><span class="id">ST-05</span>
+                  <span class="name">st_story_anomaly.wav</span></div>
+                <div class="desc">剧情异常/关键真相</div>
+                <div class="tech">1.900s · 1ch · peak -4.00 dBFS</div>
+              </div>
+              <audio controls preload="none" src="state/st_story_anomaly.wav"></audio>
+            </article>
+            <article class="card">
+              <div class="meta">
+                <div class="line1"><span class="id">ST-06</span>
+                  <span class="name">st_ending_clear.wav</span></div>
+                <div class="desc">结局/通关，温暖未解决和弦</div>
+                <div class="tech">3.800s · 1ch · peak -3.00 dBFS</div>
+              </div>
+              <audio controls preload="none" src="state/st_ending_clear.wav"></audio>
+            </article>
+            <article class="card">
+              <div class="meta">
+                <div class="line1"><span class="id">ST-06</span>
+                  <span class="name">st_ending_failure.wav</span></div>
+                <div class="desc">结局/失效提示</div>
+                <div class="tech">3.000s · 1ch · peak -3.00 dBFS</div>
+              </div>
+              <audio controls preload="none" src="state/st_ending_failure.wav"></audio>
+            </article></div>
+        </section>
+        <section>
+          <h2>界面<span class="count">6</span></h2>
+          <div class="grid">
+            <article class="card">
+              <div class="meta">
+                <div class="line1"><span class="id">UI-01</span>
+                  <span class="name">ui_menu_select.wav</span></div>
+                <div class="desc">菜单选中</div>
+                <div class="tech">0.100s · 1ch · peak -9.00 dBFS</div>
+              </div>
+              <audio controls preload="none" src="ui/ui_menu_select.wav"></audio>
+            </article>
+            <article class="card">
+              <div class="meta">
+                <div class="line1"><span class="id">UI-01</span>
+                  <span class="name">ui_menu_confirm.wav</span></div>
+                <div class="desc">菜单确认</div>
+                <div class="tech">0.260s · 1ch · peak -8.00 dBFS</div>
+              </div>
+              <audio controls preload="none" src="ui/ui_menu_confirm.wav"></audio>
+            </article>
+            <article class="card">
+              <div class="meta">
+                <div class="line1"><span class="id">UI-01</span>
+                  <span class="name">ui_menu_back.wav</span></div>
+                <div class="desc">菜单返回</div>
+                <div class="tech">0.240s · 1ch · peak -8.00 dBFS</div>
+              </div>
+              <audio controls preload="none" src="ui/ui_menu_back.wav"></audio>
+            </article>
+            <article class="card">
+              <div class="meta">
+                <div class="line1"><span class="id">UI-02</span>
+                  <span class="name">ui_pause.wav</span></div>
+                <div class="desc">暂停</div>
+                <div class="tech">0.700s · 1ch · peak -8.00 dBFS</div>
+              </div>
+              <audio controls preload="none" src="ui/ui_pause.wav"></audio>
+            </article>
+            <article class="card">
+              <div class="meta">
+                <div class="line1"><span class="id">UI-02</span>
+                  <span class="name">ui_resume.wav</span></div>
+                <div class="desc">恢复</div>
+                <div class="tech">0.550s · 1ch · peak -8.00 dBFS</div>
+              </div>
+              <audio controls preload="none" src="ui/ui_resume.wav"></audio>
+            </article>
+            <article class="card">
+              <div class="meta">
+                <div class="line1"><span class="id">UI-03</span>
+                  <span class="name">ui_objective_update.wav</span></div>
+                <div class="desc">目标更新/房间完成</div>
+                <div class="tech">0.420s · 1ch · peak -8.00 dBFS</div>
+              </div>
+              <audio controls preload="none" src="ui/ui_objective_update.wav"></audio>
+            </article></div>
+        </section>
+</body>
+</html>

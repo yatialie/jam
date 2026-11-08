@@ -1,0 +1,133 @@
+{
+	"version": 1,
+	"scene": "res://scenes/station_map.tscn",
+	"world_path": "Projection/World",
+	"items": [
+		{
+			"id": "c_1",
+			"type": "collider",
+			"shape": "rect",
+			"name": "Wall",
+			"pos": [
+				6408.0,
+				2902.0
+			],
+			"size": [
+				48.0,
+				588.0
+			],
+			"layer": 1,
+			"mask": 0,
+			"rotation": 0.0,
+			"one_way": false,
+			"group": "",
+			"purpose": "",
+			"meta": {}
+		},
+		{
+			"id": "c_2",
+			"type": "collider",
+			"shape": "rect",
+			"name": "Wall",
+			"pos": [
+				6488.0,
+				3630.0
+			],
+			"size": [
+				752.0,
+				60.0
+			],
+			"layer": 1,
+			"mask": 0,
+			"rotation": 0.0,
+			"one_way": false,
+			"group": "",
+			"purpose": "",
+			"meta": {}
+		},
+		{
+			"id": "c_3",
+			"type": "collider",
+			"shape": "rect",
+			"name": "Wall",
+			"pos": [
+				5640.0,
+				3856.0
+			],
+			"size": [
+				720.0,
+				96.0
+			],
+			"layer": 1,
+			"mask": 0,
+			"rotation": 0.0,
+			"one_way": false,
+			"group": "",
+			"purpose": "",
+			"meta": {}
+		},
+		{
+			"id": "c_5",
+			"type": "collider",
+			"shape": "rect",
+			"name": "Wall",
+			"pos": [
+				4488.0,
+				3832.0
+			],
+			"size": [
+				1040.0,
+				112.0
+			],
+			"layer": 1,
+			"mask": 0,
+			"rotation": 0.0,
+			"one_way": false,
+			"group": "",
+			"purpose": "",
+			"meta": {}
+		},
+		{
+			"id": "c_6",
+			"type": "collider",
+			"shape": "rect",
+			"name": "Wall",
+			"pos": [
+				3984.0,
+				2958.0
+			],
+			"size": [
+				64.0,
+				636.0
+			],
+			"layer": 1,
+			"mask": 0,
+			"rotation": 0.0,
+			"one_way": false,
+			"group": "",
+			"purpose": "",
+			"meta": {}
+		},
+		{
+			"id": "c_7",
+			"type": "collider",
+			"shape": "rect",
+			"name": "Slope",
+			"pos": [
+				6070.482421875,
+				3729.80004882813
+			],
+			"size": [
+				296.0,
+				62.0
+			],
+			"layer": 1,
+			"mask": 0,
+			"rotation": 113.22597718308,
+			"one_way": false,
+			"group": "",
+			"purpose": "",
+			"meta": {}
+		}
+	]
+}
