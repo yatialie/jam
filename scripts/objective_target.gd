@@ -25,10 +25,10 @@ func _process(delta: float) -> void:
 	queue_redraw()
 
 
-func hit(direction: Vector2) -> void:
+func hit(direction: Vector2, amount: int = 1) -> void:
 	if _dead:
 		return
-	hp -= 1
+	hp -= maxi(amount, 1)
 	_flash = 0.12
 	if hp <= 0:
 		_destroy()

@@ -44,6 +44,7 @@ var _suction_active := false
 var _suction_time := 0.0
 var _consumed_ids := {}
 static var _entry_monologue_seen := false
+var _button_trigger_bound := false
 
 var _objective_bg: ColorRect
 var _objective_label: Label
@@ -83,8 +84,24 @@ func _process(delta: float) -> void:
 	super._process(delta)
 	if get_tree().paused:
 		return
+	if not _button_trigger_bound:
+		_bind_button_trigger()
 	if _suction_active:
 		_update_suction_hint()
+
+
+## 按钮受击范围使用 F4 布局里 purpose=2 的触发区。
+func _bind_button_trigger() -> void:
+	if button == null or not is_instance_valid(button):
+		return
+	for node in get_tree().get_nodes_in_group("triggers"):
+		if not node is Area2D or not node.is_inside_tree() or node.is_queued_for_deletion():
+			continue
+		if str(node.get_meta("purpose", "")) != "2":
+			continue
+		if button.use_trigger_area(node):
+			_button_trigger_bound = true
+			return
 
 
 func _physics_process(delta: float) -> void:

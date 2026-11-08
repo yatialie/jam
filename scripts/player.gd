@@ -3,17 +3,18 @@ extends CharacterBody2D
 signal attacked(hit_count: int)
 signal fired
 signal health_changed(current: int, maximum: int)
+signal shield_changed(current: int, maximum: int)
 signal damaged(amount: int)
 signal died
 signal respawned
 
-const FIRE_COOLDOWN := 0.16
 const PROJECTILE_SCENE := preload("res://scenes/projectile.tscn")
 const MUZZLE_TEXTURE := preload("res://art_placeholder/scifi_ship_v2/vfx/muzzle_flash.png")
 const AIM_RETICLE_SCRIPT := preload("res://scripts/aim_reticle.gd")
 const INVULNERABLE_TIME := 1.3
 const RESPAWN_INVULNERABLE_TIME := 2.0
 const AIM_SPEED_RATIO := 0.55
+const CHARGE_SPEED_RATIO := 0.55
 const AIM_TURN_HOLD := 0.25
 const PROJECTION_TILT := 0.72
 const MUZZLE_FORWARD := 36.0
@@ -35,6 +36,19 @@ const WALK_FPS_SCALES := {
 @export var max_health := 3
 @export var respawn_delay := 1.0
 @export var knockback_speed := 420.0
+@export_group("Shield")
+## 护盾上限；拾取小咪后由关卡授予 1 点。
+@export var max_shield := 0
+## 护盾被消耗后，开始恢复的等待时间。
+@export var shield_regen_delay := 4.0
+
+@export_group("Attack")
+## 每次攻击所需的蓄力时长（秒），蓄满后松开左键才会发射。
+@export var charge_time := 0.5
+## 蓄力期间的移动速度倍率。
+@export_range(0.1, 1.0) var charge_speed_ratio := CHARGE_SPEED_RATIO
+## 单发子弹造成的伤害。
+@export var shot_damage := 2
 
 @export_group("Collision")
 ## 单帧最多进行的滑动解算次数，越多越不容易在拐角处停住。
@@ -58,7 +72,9 @@ var facing := Vector2.DOWN
 var aim_direction := Vector2.RIGHT
 var is_sprinting := false
 var is_aiming := false
+var is_charging := false
 var health := 0
+var shield := 0
 var dead := false
 var respawning := false
 var respawn_point := Vector2.ZERO
@@ -66,10 +82,12 @@ var weapon_disabled := false
 ## 关卡施加的外部速度（如第三关抛弃口吸力），每帧由关卡导演写入。
 var external_pull := Vector2.ZERO
 
+var _shield_regen_timer := 0.0
+
 var _reticle
 var _mouse_projection := Vector2.ZERO
 var _aim_turn_hold := 0.0
-var _cooldown := 0.0
+var _charge := 0.0
 var _invulnerable := 0.0
 var _blink := 0.0
 var _move_dir := Vector2.ZERO
@@ -79,6 +97,9 @@ var _last_normal := Vector2.ZERO
 
 func _ready() -> void:
 	health = max_health
+	if MissionLog.mimi_collected:
+		max_shield = 1
+	shield = max_shield
 	respawn_point = global_position
 	visual.walk_fps_scale = WALK_FPS_SCALES.get(UserSettings.character, 1.0)
 	visual.set_character(UserSettings.character)
@@ -91,6 +112,7 @@ func _ready() -> void:
 
 func _notification(what: int) -> void:
 	if what == NOTIFICATION_PAUSED or what == NOTIFICATION_APPLICATION_FOCUS_OUT:
+		_cancel_charge()
 		_set_aiming(false)
 	elif what == NOTIFICATION_EXIT_TREE:
 		Input.set_mouse_mode(Input.MOUSE_MODE_VISIBLE)
@@ -103,8 +125,13 @@ func _input(event: InputEvent) -> void:
 			_set_aiming(false)
 
 
+func _process(_delta: float) -> void:
+	# 谜题、独白等外部流程会暂停物理帧，此处兜底取消未完成的蓄力，避免准星残留。
+	if is_charging and not is_physics_processing():
+		_cancel_charge()
+
+
 func _physics_process(delta: float) -> void:
-	_cooldown = maxf(_cooldown - delta, 0.0)
 	_aim_turn_hold = maxf(_aim_turn_hold - delta, 0.0)
 
 	if dead:
@@ -122,9 +149,11 @@ func _physics_process(delta: float) -> void:
 		modulate.a = 1.0
 		return
 
+	_update_shield(delta)
 	_update_invulnerability(delta)
 	_update_mouse_aim()
 	_set_aiming(_aim_pressed())
+	_update_charge(delta)
 
 	if is_aiming:
 		_aim_turn_hold = AIM_TURN_HOLD
@@ -132,9 +161,9 @@ func _physics_process(delta: float) -> void:
 	var move_dir := _read_move_input()
 	_move_dir = move_dir
 	var has_input := move_dir.length() > 0.1
-	is_sprinting = has_input and not is_aiming and _sprint_pressed()
+	is_sprinting = has_input and not is_aiming and not is_charging and _sprint_pressed()
 
-	if is_aiming or _aim_turn_hold > 0.0:
+	if is_aiming or _aim_turn_hold > 0.0 or is_charging:
 		facing = aim_direction
 	elif has_input:
 		facing = move_dir
@@ -142,16 +171,15 @@ func _physics_process(delta: float) -> void:
 
 	var target_speed := run_speed if is_sprinting else walk_speed
 	if is_aiming:
-		target_speed *= AIM_SPEED_RATIO
+		target_speed = minf(target_speed, walk_speed * AIM_SPEED_RATIO)
+	if is_charging:
+		target_speed = minf(target_speed, walk_speed * charge_speed_ratio)
 	var target_velocity := move_dir * target_speed
 	var rate := acceleration if has_input else deceleration
 	velocity = velocity.move_toward(target_velocity, rate * delta)
 	_move_with_scene(delta, has_input, external_pull)
 
-	if _fire_pressed() and _cooldown <= 0.0 and not weapon_disabled:
-		_fire()
-
-	if is_aiming:
+	if is_aiming or is_charging:
 		_update_reticle()
 
 
@@ -159,8 +187,20 @@ func take_damage(amount: int, from_direction: Vector2 = Vector2.ZERO) -> void:
 	if dead or _invulnerable > 0.0:
 		return
 
-	health = maxi(health - amount, 0)
-	health_changed.emit(health, max_health)
+	if max_shield > 0:
+		_shield_regen_timer = shield_regen_delay
+
+	var remaining := amount
+	if shield > 0:
+		var absorbed := mini(shield, remaining)
+		shield -= absorbed
+		remaining -= absorbed
+		shield_changed.emit(shield, max_shield)
+
+	if remaining > 0:
+		health = maxi(health - remaining, 0)
+		health_changed.emit(health, max_health)
+
 	damaged.emit(amount)
 
 	if from_direction.length() > 0.01:
@@ -174,12 +214,37 @@ func take_damage(amount: int, from_direction: Vector2 = Vector2.ZERO) -> void:
 	_blink = 0.0
 
 
+## 拾取小咪后授予护盾点。
+func grant_shield(amount: int) -> void:
+	if amount <= 0:
+		return
+	max_shield = maxi(max_shield, amount)
+	shield = max_shield
+	_shield_regen_timer = 0.0
+	shield_changed.emit(shield, max_shield)
+
+
+## 护盾被消耗后等待一段时间，再逐点恢复。
+func _update_shield(delta: float) -> void:
+	if max_shield <= 0 or shield >= max_shield:
+		return
+	if _shield_regen_timer > 0.0:
+		_shield_regen_timer = maxf(_shield_regen_timer - delta, 0.0)
+		return
+	shield = mini(shield + 1, max_shield)
+	shield_changed.emit(shield, max_shield)
+	if shield < max_shield:
+		_shield_regen_timer = shield_regen_delay
+
+
 func set_respawn_point(point: Vector2) -> void:
 	respawn_point = point
 
 
 func set_weapon_disabled(value: bool) -> void:
 	weapon_disabled = value
+	if weapon_disabled:
+		_cancel_charge()
 
 
 func scripted_kill() -> void:
@@ -225,16 +290,22 @@ func _build_reticle() -> void:
 func _update_reticle() -> void:
 	if _reticle == null:
 		return
-	_reticle.call("update_aim", _mouse_projection, _muzzle_position())
+	_reticle.call("update_aim", _mouse_projection, _muzzle_position(), _charge_ratio())
 
 
 func _set_aiming(value: bool) -> void:
 	if is_aiming == value:
 		return
 	is_aiming = value
+	_refresh_reticle_state()
+
+
+## 瞄准或蓄力时都显示自定义准星并隐藏系统指针。
+func _refresh_reticle_state() -> void:
+	var active := is_aiming or is_charging
 	if _reticle:
-		_reticle.visible = value
-	Input.set_mouse_mode(Input.MOUSE_MODE_HIDDEN if value else Input.MOUSE_MODE_VISIBLE)
+		_reticle.visible = active
+	Input.set_mouse_mode(Input.MOUSE_MODE_HIDDEN if active else Input.MOUSE_MODE_VISIBLE)
 
 
 func _muzzle_position() -> Vector2:
@@ -261,8 +332,11 @@ func _die() -> void:
 	velocity = Vector2.ZERO
 	hitbox.set_deferred("disabled", true)
 	hurtbox.set_deferred("monitorable", false)
+	_cancel_charge()
 	_set_aiming(false)
 	modulate.a = 1.0
+	shield = 0
+	shield_changed.emit(shield, max_shield)
 	died.emit()
 
 	# 取消可能仍在播放的重生显形，避免其结束回调覆盖死亡动画。
@@ -289,6 +363,9 @@ func _respawn() -> void:
 	velocity = Vector2.ZERO
 	health = max_health
 	health_changed.emit(health, max_health)
+	shield = max_shield
+	_shield_regen_timer = 0.0
+	shield_changed.emit(shield, max_shield)
 	modulate.a = 1.0
 	if visual.has_method("clear_death"):
 		visual.clear_death()
@@ -448,8 +525,49 @@ func _action_pressed(action: StringName) -> bool:
 	return false
 
 
+## 蓄力攻击：按住左键蓄力，蓄满后松开才会发射；未蓄满松开或中断则取消。
+func _update_charge(delta: float) -> void:
+	if weapon_disabled:
+		_cancel_charge()
+		return
+	if not _fire_pressed():
+		if is_charging:
+			_release_charge()
+		return
+	if not is_charging:
+		_start_charge()
+		return
+	_charge = minf(_charge + delta, charge_time)
+
+
+func _start_charge() -> void:
+	is_charging = true
+	_charge = 0.0
+	_refresh_reticle_state()
+
+
+func _release_charge() -> void:
+	var ready_to_fire := _charge_ratio() >= 1.0
+	_cancel_charge()
+	if ready_to_fire:
+		_fire()
+
+
+func _cancel_charge() -> void:
+	if not is_charging:
+		return
+	is_charging = false
+	_charge = 0.0
+	_refresh_reticle_state()
+
+
+func _charge_ratio() -> float:
+	if charge_time <= 0.0:
+		return 1.0
+	return clampf(_charge / charge_time, 0.0, 1.0)
+
+
 func _fire() -> void:
-	_cooldown = FIRE_COOLDOWN
 	_aim_turn_hold = AIM_TURN_HOLD
 	facing = aim_direction
 	_update_visual_facing()
@@ -458,6 +576,7 @@ func _fire() -> void:
 	var projectile := PROJECTILE_SCENE.instantiate()
 	projectile.position = muzzle
 	projectile.direction = aim_direction
+	projectile.damage = shot_damage
 	projectile.hit_target.connect(_on_projectile_hit)
 	get_parent().add_child(projectile)
 

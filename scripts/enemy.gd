@@ -378,10 +378,10 @@ func get_patrol_debug() -> Dictionary:
 	}
 
 
-func hit(direction: Vector2) -> void:
+func hit(direction: Vector2, amount: int = 1) -> void:
 	if _dead:
 		return
-	hp -= 1
+	hp -= maxi(amount, 1)
 	_flash = 0.12
 	if direction.length() > 0.01:
 		velocity += direction.normalized() * 190.0

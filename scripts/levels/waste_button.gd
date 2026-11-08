@@ -11,6 +11,7 @@ signal destroyed
 var hp := 0
 var _broken := false
 var _hurtbox: Area2D
+var _hurt_shape: CollisionShape2D
 
 
 func _ready() -> void:
@@ -32,13 +33,35 @@ func _build_hurtbox() -> void:
 	shape.radius = hurt_radius
 	collider.shape = shape
 	_hurtbox.add_child(collider)
+	_hurt_shape = collider
 	add_child(_hurtbox)
 
 
-func hit(_direction: Vector2) -> void:
+## 用 F4 布局里的触发区替换圆形受击范围；返回是否成功绑定。
+func use_trigger_area(trigger: Area2D) -> bool:
+	if _broken or _hurtbox == null or _hurt_shape == null:
+		return false
+
+	var source: CollisionShape2D = null
+	for child in trigger.get_children():
+		if child is CollisionShape2D and child.shape != null:
+			source = child
+			break
+	if source == null:
+		return false
+
+	var parent := get_parent() as Node2D
+	if parent != null:
+		position = parent.to_local(trigger.global_position)
+	_hurtbox.global_transform = trigger.global_transform
+	_hurt_shape.shape = source.shape.duplicate()
+	return true
+
+
+func hit(_direction: Vector2, amount: int = 1) -> void:
 	if _broken:
 		return
-	hp = maxi(hp - 1, 0)
+	hp = maxi(hp - maxi(amount, 1), 0)
 	if hp <= 0:
 		_break()
 

@@ -4,6 +4,30 @@
 	"world_path": "Projection/World",
 	"items": [
 		{
+			"id": "m_1",
+			"type": "map",
+			"shape": "rect",
+			"name": "Level 04 Map",
+			"pos": [
+				1240.0,
+				1469.0
+			],
+			"size": [
+				2600.0,
+				2680.0
+			],
+			"layer": 0,
+			"mask": 4,
+			"rotation": 0.0,
+			"one_way": false,
+			"group": "triggers",
+			"purpose": "generic",
+			"meta": {},
+			"texture": "res://art/levels/level_04_placeholder_bg.png",
+			"z": 1,
+			"repeat": false
+		},
+		{
 			"id": "a_1",
 			"type": "collider",
 			"shape": "arc",

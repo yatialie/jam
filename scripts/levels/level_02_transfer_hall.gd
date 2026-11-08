@@ -2,7 +2,7 @@ extends "res://scripts/levels/level_controller.gd"
 
 ## 第二关转运仓导演：首次校准到任意两个关节后机械臂失控，玩家必死并回到驾驶舱。
 ## 第二命再次进入时机械臂暴走；玩家可击毁机械臂，或在控制台输入日历密码 925 将其关停。
-## 出口门禁要求机械臂停机且清空剩余敌人。
+## 出口触发区要求机械臂停机且清空剩余敌人，激活后玩家走进即换场。
 
 signal enemy_count_changed(count: int)
 signal room_cleared

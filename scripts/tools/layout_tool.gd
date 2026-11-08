@@ -797,7 +797,7 @@ func _exit_at(screen: Vector2) -> String:
 
 func _draw_exits(c: Control) -> void:
 	for role in _exit_rects.keys():
-		var color := Color(0.35, 1.0, 0.75) if role == "entrance" else Color(1.0, 0.66, 0.32)
+		var color := Color(0.35, 1.0, 0.75) if role == "entrance" else Color(0.78, 0.6, 1.0)
 		var corners := _exit_corners(role)
 		var pts := PackedVector2Array(corners)
 		c.draw_colored_polygon(pts, Color(color, 0.08))
@@ -1296,7 +1296,7 @@ func _build_overlay_text() -> void:
 	_help.offset_top = -44
 	_help.offset_right = 1600
 	_help.offset_bottom = -18
-	_help.text = "左键拖拽创建/移动 · 4 改关卡范围 · 5 选中地图背景改尺寸 · 拖 IN/OUT 门移动（选中后可改宽高/旋转） · 拖紫色 EXIT ZONE 框或手柄改换场触发区 · 贝塞尔拖 4 个控制点 · 多边形拖顶点，Ctrl+点边加点 / Ctrl+点顶点删点 · 黄色虚线为场景自带碰撞体，同样可拖顶点编辑 · 拖 SPAWN 改出生点 · Shift/Ctrl 加选 · 空白框选 · 中键/右键平移 · 滚轮缩放 · Delete 删除 · Ctrl+Z 撤销 · Ctrl+S 保存 · F7 关卡 · F4/Esc 退出"
+	_help.text = "左键拖拽创建/移动 · 4 改关卡范围 · 5 选中地图背景改尺寸 · 第一关：拖 IN/OUT 门移动（选中后可改宽高/旋转），拖紫色 EXIT ZONE 框改门内换场区 · 第二关起：直接拖 IN/OUT 换场触发区移动，8 个手柄改尺寸、顶部圆点旋转 · 贝塞尔拖 4 个控制点 · 多边形拖顶点，Ctrl+点边加点 / Ctrl+点顶点删点 · 黄色虚线为场景自带碰撞体，同样可拖顶点编辑 · 拖 SPAWN 改出生点 · Shift/Ctrl 加选 · 空白框选 · 中键/右键平移 · 滚轮缩放 · Delete 删除 · Ctrl+Z 撤销 · Ctrl+S 保存 · F7 关卡 · F4/Esc 退出"
 	_help.mouse_filter = Control.MOUSE_FILTER_IGNORE
 	_help.add_theme_font_size_override("font_size", 15)
 	_help.add_theme_color_override("font_color", Color(0.55, 0.72, 0.78, 0.85))

@@ -48,7 +48,7 @@ const L2_RESPAWN_ENTRY := [
 	{"text": "又来了！外星怪物！", "emotion": "anger"},
 	{"text": "糟了……机械臂怎么狂暴了，和刚刚不一样……？", "emotion": "question"},
 	{"text": "也许，有办法让它停下来。", "emotion": "question"},
-	{"text": "我记得操作……可以攻击！", "emotion": "exclaim"},
+	{"text": "我记得操作“长按鼠标左键”可以攻击！", "emotion": "exclaim"},
 ]
 
 ## 输入 925 让机械臂停机。

@@ -7,6 +7,7 @@ const LIFETIME := 1.1
 const IMPACT_TEXTURE := preload("res://art_placeholder/scifi_ship_v2/vfx/impact_spark.png")
 
 var direction := Vector2.RIGHT
+var damage := 1
 var _life := 0.0
 var _dead := false
 
@@ -31,7 +32,7 @@ func _on_body_entered(_body: Node2D) -> void:
 func _on_area_entered(area: Area2D) -> void:
 	var target := area.get_parent()
 	if target and target.has_method("hit"):
-		target.hit(direction)
+		target.hit(direction, damage)
 		hit_target.emit()
 	_impact()
 

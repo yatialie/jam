@@ -472,11 +472,11 @@ func play_scripted_sweep(target_global: Vector2, lethal: bool, telegraph_time :=
 	state = State.SCRIPTED
 
 
-func hit(_direction: Vector2) -> void:
+func hit(_direction: Vector2, amount: int = 1) -> void:
 	if state == State.IDLE or state == State.SCRIPTED or state == State.FAULT or state == State.OFFLINE:
 		_spawn_sparks(_to_global(_claw_visual_local))
 		return
-	hp = maxi(hp - 1, 0)
+	hp = maxi(hp - maxi(amount, 1), 0)
 	_hit_flash = 0.1
 	hp_changed.emit(hp, max_hp)
 	_spawn_sparks(_to_global(_claw_visual_local))

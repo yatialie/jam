@@ -19,3 +19,7 @@ audio/sfx_suno/_test/
 
 # 本机专属 MCP 配置（含绝对路径）
 .mcp.json
+
+# 本机一键上传工具（仅本机使用，不入库）
+addons/git_upload/
+tools/git_upload.ps1

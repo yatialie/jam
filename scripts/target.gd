@@ -23,8 +23,8 @@ func _draw() -> void:
 		draw_line(dir * 20.0, dir * 27.0, Color(0.2, 0.09, 0.06), 2.0)
 
 
-func hit(_direction: Vector2) -> void:
-	hp -= 1
+func hit(_direction: Vector2, amount: int = 1) -> void:
+	hp -= maxi(amount, 1)
 	hit_registered.emit()
 	if _tween and _tween.is_valid():
 		_tween.kill()

@@ -26,7 +26,7 @@ const GREEN := Color(0.42, 1.0, 0.78)
 		if is_instance_valid(_location_label):
 			_location_label.text = value
 
-@export var hint_text := "WASD 移动    SHIFT 奔跑    RMB 瞄准    LMB 射击    F 交互    ESC 暂停":
+@export var hint_text := "WASD 移动    SHIFT 奔跑    RMB 瞄准    LMB 蓄力射击    F 交互    ESC 暂停":
 	set(value):
 		hint_text = value
 		if is_instance_valid(_hint_label):
@@ -45,6 +45,8 @@ var _unit_label: Label
 var _player: CharacterBody2D
 var _health := 3
 var _max_health := 3
+var _shield := 0
+var _max_shield := 0
 var _dead := false
 var _critical := false
 
@@ -280,14 +282,19 @@ func _bind_player() -> void:
 	_player = get_tree().get_first_node_in_group("player")
 	if _player == null:
 		_apply_health()
+		_apply_shield()
 		return
 	_max_health = int(_player.max_health)
 	_health = int(_player.health)
+	_max_shield = int(_player.max_shield)
+	_shield = int(_player.shield)
 	_player.health_changed.connect(_on_health_changed)
+	_player.shield_changed.connect(_on_shield_changed)
 	_player.damaged.connect(_on_damaged)
 	_player.died.connect(_on_died)
 	_player.respawned.connect(_on_respawned)
 	_apply_health()
+	_apply_shield()
 
 
 func _on_health_changed(current: int, maximum: int) -> void:
@@ -299,6 +306,17 @@ func _on_health_changed(current: int, maximum: int) -> void:
 	_apply_health()
 
 
+func _on_shield_changed(current: int, maximum: int) -> void:
+	var previous := _shield
+	_shield = current
+	_max_shield = maximum
+	if current != previous:
+		_cells.shield_flash = 1.0
+	if current > previous:
+		_cells.sweep = 1.0
+	_apply_shield()
+
+
 func _on_damaged(_amount: int) -> void:
 	_shake = 1.0
 	_danger = 1.0
@@ -307,7 +325,9 @@ func _on_damaged(_amount: int) -> void:
 
 func _on_died() -> void:
 	_dead = true
+	_shield = 0
 	_apply_health()
+	_apply_shield()
 	_show_death_overlay(true)
 
 
@@ -315,9 +335,12 @@ func _on_respawned() -> void:
 	_dead = false
 	_health = int(_player.max_health)
 	_max_health = int(_player.max_health)
+	_shield = int(_player.shield)
+	_max_shield = int(_player.max_shield)
 	_cells.sweep = 1.0
 	_show_death_overlay(false)
 	_apply_health()
+	_apply_shield()
 
 
 func _apply_health() -> void:
@@ -327,6 +350,11 @@ func _apply_health() -> void:
 	_cells.critical = _critical or _dead
 	_value_label.text = "%d / %d" % [_health, _max_health]
 	_update_status()
+
+
+func _apply_shield() -> void:
+	_cells.shield_max = float(maxi(_max_shield, 0))
+	_cells.shield = float(clampi(_shield, 0, _max_shield))
 
 
 func _update_status() -> void:
@@ -357,6 +385,9 @@ class VitalCells extends Control:
 	var critical := false
 	var flash := 0.0
 	var sweep := 0.0
+	var shield_max := 0.0
+	var shield := 0.0
+	var shield_flash := 0.0
 	var _phase := 0.0
 
 
@@ -372,19 +403,23 @@ class VitalCells extends Control:
 			display = health
 		flash = maxf(flash - delta * 2.4, 0.0)
 		sweep = maxf(sweep - delta * 1.8, 0.0)
+		shield_flash = maxf(shield_flash - delta * 2.4, 0.0)
 		queue_redraw()
 
 
 	func _draw() -> void:
-		var count := int(maximum)
+		var health_count := int(maximum)
+		var shield_count := int(shield_max)
+		var count := health_count + shield_count
 		if count <= 0:
 			return
 		var gap := 8.0
-		var cell_w := (size.x - gap * float(count - 1)) / float(count)
+		var shield_gap := 14.0 if shield_count > 0 else 0.0
+		var cell_w := (size.x - gap * float(count - 1) - shield_gap) / float(count)
 		var col := RED if critical else CYAN
 		var pulse := 0.5 + 0.5 * sin(_phase * 6.0)
 
-		for i in count:
+		for i in health_count:
 			var x := float(i) * (cell_w + gap)
 			var level := clampf(display - float(i), 0.0, 1.0)
 			var pts := _chamfer(x, 0.0, cell_w, size.y, 4.0)
@@ -439,6 +474,37 @@ class VitalCells extends Control:
 
 			if level > 0.001 and critical:
 				draw_rect(Rect2(x + 2.0, size.y - 3.0, (cell_w - 4.0) * level, 2.0), Color(RED, 0.8))
+
+		if shield_count > 0:
+			var sx := float(health_count) * (cell_w + gap) + shield_gap
+			var shield_pts := _chamfer(sx, 0.0, cell_w, size.y, 4.0)
+			draw_colored_polygon(shield_pts, Color(0.014, 0.036, 0.044, 0.94))
+
+			var shield_color := Color(0.55, 0.95, 1.0)
+			var cx := sx + cell_w * 0.5
+			var cy := size.y * 0.5
+			var radius := minf(cell_w, size.y) * (0.26 if shield > 0.001 else 0.2)
+			var diamond := PackedVector2Array([
+				Vector2(cx, cy - radius),
+				Vector2(cx + radius, cy),
+				Vector2(cx, cy + radius),
+				Vector2(cx - radius, cy),
+			])
+			var diamond_closed := diamond.duplicate()
+			diamond_closed.append(diamond[0])
+			if shield > 0.001:
+				draw_colored_polygon(diamond, Color(shield_color, 0.85))
+				draw_polyline(diamond_closed, Color(1, 1, 1, 0.8), 1.5)
+			else:
+				draw_polyline(diamond_closed, Color(shield_color, 0.22), 1.0)
+
+			var shield_closed := shield_pts.duplicate()
+			shield_closed.append(shield_pts[0])
+			var shield_rim := Color(shield_color, 0.55) if shield > 0.001 else Color(shield_color, 0.18)
+			draw_polyline(shield_closed, shield_rim, 1.0, true)
+
+			if shield_flash > 0.001:
+				draw_rect(Rect2(sx, 0.0, cell_w, size.y), Color(shield_color, 0.2 * shield_flash))
 
 		if flash > 0.001:
 			draw_rect(Rect2(Vector2.ZERO, size), Color(1.0, 0.35, 0.3, 0.18 * flash))
