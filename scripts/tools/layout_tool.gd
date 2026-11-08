@@ -3128,6 +3128,7 @@ func _select_single(id: String) -> void:
 	if not id.is_empty():
 		selected_ids.append(id)
 	selected_id = id
+	_selected_exit = ""
 
 
 func _toggle_selection(id: String) -> void:
@@ -3539,7 +3540,7 @@ func _is_editable_scene_collision(node: Node) -> bool:
 		return false
 	if body.has_meta("layout_id"):
 		return false
-	if _ancestor_in_group(node, ["layout_item", "level_door", "player", "enemies"]):
+	if _ancestor_in_group(node, ["layout_item", "level_door", "level_exit", "player", "enemies"]):
 		return false
 	if body is CollisionObject2D and (body as CollisionObject2D).collision_layer == 0:
 		return false

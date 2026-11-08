@@ -35,7 +35,7 @@ enum Phase { INTRO, SUCTION, DONE }
 @onready var chute = $Projection/WasteChute
 @onready var enemies_root: Node2D = $Projection/Enemies
 @onready var respawn_point: Marker2D = $Projection/RespawnPoint
-@onready var exit_door = $Projection/World/ExitDoor
+@onready var exit_trigger = $Projection/World/ExitTrigger
 @onready var hud = $HUD
 
 var _phase := Phase.INTRO
@@ -63,8 +63,7 @@ func _ready() -> void:
 	player.respawned.connect(_on_player_respawned)
 
 	button.destroyed.connect(_on_button_destroyed)
-	exit_door.passed_through.connect(_on_exit_passed)
-	exit_door.locked_hint = "LOCKED — DISPOSAL CYCLE INCOMPLETE"
+	exit_trigger.passed_through.connect(_on_exit_passed)
 
 	_build_overlay()
 	MissionLog.start_chapter("waste")
@@ -215,8 +214,8 @@ func _end_suction() -> void:
 	room_cleared.emit()
 	hud.announce("DECOMPRESSION COMPLETE", "PROCEED TO THE EXIT", 2.4)
 	_say("PA // DECOMPRESSION COMPLETE. DISPOSAL CYCLE SEALED. EXIT UNLOCKED.", 4.0)
-	if exit_door.has_method("unlock"):
-		exit_door.call("unlock")
+	if exit_trigger.has_method("set_active"):
+		exit_trigger.call("set_active", true)
 
 
 func _on_player_died() -> void:

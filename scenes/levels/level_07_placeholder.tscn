@@ -6,7 +6,7 @@
 [ext_resource type="Script" path="res://scripts/camera_director.gd" id="4_camera"]
 [ext_resource type="PackedScene" path="res://scenes/task_panel.tscn" id="5_tasks"]
 [ext_resource type="PackedScene" path="res://scenes/hud_vitals.tscn" id="6_vitals"]
-[ext_resource type="PackedScene" path="res://scenes/door.tscn" id="7_door"]
+[ext_resource type="Script" path="res://scripts/level_exit_trigger.gd" id="7_exit"]
 
 [node name="Level07Placeholder" type="Node2D"]
 process_mode = 3
@@ -34,22 +34,19 @@ process_mode = 1
 z_index = 10
 position = Vector2(500, 1200)
 
-[node name="EntranceDoor" parent="Projection/World" instance=ExtResource("7_door")]
-position = Vector2(32, 1340)
-scale = Vector2(-1, 1)
-z_index = 4
-door_role = "entrance"
+[node name="EntranceTrigger" type="Area2D" parent="Projection/World"]
+position = Vector2(-118, 1200)
+script = ExtResource("7_exit")
+exit_role = "entrance"
 exit_scene_path = "res://scenes/levels/level_06_placeholder.tscn"
-locked_hint = "LEVEL 06 SEALED"
-start_locked = false
+trigger_size = Vector2(200, 280)
 
-[node name="ExitDoor" parent="Projection/World" instance=ExtResource("7_door")]
-position = Vector2(3968, 1340)
-z_index = 4
-door_role = "exit"
+[node name="ExitTrigger" type="Area2D" parent="Projection/World"]
+position = Vector2(4118, 1200)
+script = ExtResource("7_exit")
+exit_role = "exit"
 exit_scene_path = ""
-locked_hint = "TO BE CONTINUED"
-start_locked = false
+trigger_size = Vector2(200, 280)
 
 [node name="CameraRig" type="Camera2D" parent="."]
 process_mode = 1

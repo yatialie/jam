@@ -6,7 +6,7 @@
 [ext_resource type="Script" path="res://scripts/camera_director.gd" id="4_camera"]
 [ext_resource type="PackedScene" path="res://scenes/task_panel.tscn" id="5_tasks"]
 [ext_resource type="PackedScene" path="res://scenes/hud_vitals.tscn" id="6_vitals"]
-[ext_resource type="PackedScene" path="res://scenes/door.tscn" id="7_door"]
+[ext_resource type="Script" path="res://scripts/level_exit_trigger.gd" id="7_exit"]
 [ext_resource type="Script" path="res://scripts/combat_hud.gd" id="8_combat_hud"]
 [ext_resource type="Script" path="res://scripts/align_puzzle_ui.gd" id="9_align"]
 [ext_resource type="Script" path="res://scripts/mech_arm.gd" id="11_arm"]
@@ -58,22 +58,22 @@ position = Vector2(960, 1536)
 [node name="RespawnPoint" type="Marker2D" parent="Projection"]
 position = Vector2(240, 1300)
 
-[node name="ReturnDoor" parent="Projection/World" instance=ExtResource("7_door")]
-position = Vector2(32, 1340)
-scale = Vector2(-1, 1)
-z_index = 4
-door_role = "entrance"
+[node name="EntranceTrigger" type="Area2D" parent="Projection/World"]
+position = Vector2(-605.26, 1028.45)
+rotation = 0.291564
+script = ExtResource("7_exit")
+exit_role = "entrance"
 exit_scene_path = "res://scenes/levels/level_01_cockpit.tscn"
-locked_hint = "LEVEL 01 SEALED"
-start_locked = false
+trigger_size = Vector2(200, 464.61)
 
-[node name="ExitDoor" parent="Projection/World" instance=ExtResource("7_door")]
-position = Vector2(3968, 1340)
-z_index = 4
-door_role = "exit"
+[node name="ExitTrigger" type="Area2D" parent="Projection/World"]
+position = Vector2(2653.05, 1175.2)
+rotation = -0.302603
+script = ExtResource("7_exit")
+exit_role = "exit"
 exit_scene_path = "res://scenes/levels/level_03_placeholder.tscn"
-locked_hint = "LOCKED — CALIBRATION REQUIRED"
-start_locked = true
+trigger_size = Vector2(200, 668.14)
+start_active = false
 
 [node name="Player" parent="Projection" instance=ExtResource("2_player")]
 process_mode = 1

@@ -6,7 +6,7 @@
 [ext_resource type="Script" path="res://scripts/camera_director.gd" id="4_camera"]
 [ext_resource type="PackedScene" path="res://scenes/task_panel.tscn" id="5_tasks"]
 [ext_resource type="PackedScene" path="res://scenes/hud_vitals.tscn" id="6_vitals"]
-[ext_resource type="PackedScene" path="res://scenes/door.tscn" id="7_door"]
+[ext_resource type="Script" path="res://scripts/level_exit_trigger.gd" id="7_exit"]
 [ext_resource type="Script" path="res://scripts/combat_hud.gd" id="8_combat_hud"]
 [ext_resource type="Script" path="res://scripts/levels/waste_button.gd" id="9_button"]
 [ext_resource type="Script" path="res://scripts/levels/waste_chute.gd" id="10_chute"]
@@ -53,25 +53,22 @@ process_mode = 1
 z_index = 10
 position = Vector2(608, 1408)
 
-[node name="EntranceDoor" parent="Projection/World" instance=ExtResource("7_door")]
-position = Vector2(288, 1520)
-scale = Vector2(-1.5534, 0.98743)
+[node name="EntranceTrigger" type="Area2D" parent="Projection/World"]
+position = Vector2(119.09, 1262.12)
 rotation = 0.261799
-z_index = 4
-door_role = "entrance"
+script = ExtResource("7_exit")
+exit_role = "entrance"
 exit_scene_path = "res://scenes/levels/level_02_placeholder.tscn"
-locked_hint = "LEVEL 02 SEALED"
-start_locked = false
+trigger_size = Vector2(310.68, 410.77)
 
-[node name="ExitDoor" parent="Projection/World" instance=ExtResource("7_door")]
-position = Vector2(1920, 1504)
-scale = Vector2(2.4585, 1)
+[node name="ExitTrigger" type="Area2D" parent="Projection/World"]
+position = Vector2(2052, 1236.74)
 rotation = -0.261799
-z_index = 4
-door_role = "exit"
+script = ExtResource("7_exit")
+exit_role = "exit"
 exit_scene_path = "res://scenes/levels/level_04_placeholder.tscn"
-locked_hint = "LOCKED — DISPOSAL CYCLE INCOMPLETE"
-start_locked = true
+trigger_size = Vector2(236.02, 448)
+start_active = false
 
 [node name="CameraRig" type="Camera2D" parent="."]
 process_mode = 1

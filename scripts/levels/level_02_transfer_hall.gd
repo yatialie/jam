@@ -37,7 +37,7 @@ enum Phase { INTRO, ALIGN, TRAP, COMBAT, DONE }
 @onready var props = $Projection/Props
 @onready var console_point: Marker2D = $Projection/ConsolePoint
 @onready var respawn_point: Marker2D = $Projection/RespawnPoint
-@onready var exit_door = $Projection/World/ExitDoor
+@onready var exit_trigger = $Projection/World/ExitTrigger
 @onready var hud = $HUD
 @onready var align_ui = $AlignUI
 @onready var keypad_ui = $KeypadUI
@@ -83,8 +83,6 @@ func _ready() -> void:
 	align_ui.closed.connect(_on_alignment_closed)
 	keypad_ui.solved.connect(_on_password_solved)
 	keypad_ui.closed.connect(_on_keypad_closed)
-
-	exit_door.locked_hint = "LOCKED — CALIBRATION REQUIRED"
 
 	_build_overlay()
 	MissionLog.start_chapter("transfer")
@@ -282,7 +280,6 @@ func _start_combat() -> void:
 	arm.show_sign(true)
 	player.set_weapon_disabled(false)
 	_emit_enemy_count()
-	exit_door.locked_hint = "LOCKED — ARM STILL ACTIVE"
 
 	_update_objective("DESTROY OR OVERRIDE THE ARM")
 	_update_status()
@@ -367,15 +364,13 @@ func _check_gate() -> void:
 	if _cleared:
 		return
 	if not _arm_offline:
-		exit_door.locked_hint = "LOCKED — ARM STILL ACTIVE"
 		return
 	if _enemies_alive > 0:
-		exit_door.locked_hint = "LOCKED — HOSTILES REMAIN"
 		return
 	_cleared = true
 	_phase = Phase.DONE
-	if exit_door.has_method("unlock"):
-		exit_door.call("unlock")
+	if exit_trigger.has_method("set_active"):
+		exit_trigger.call("set_active", true)
 	room_cleared.emit()
 	_update_objective("PROCEED TO THE EXIT")
 	hud.announce("EXIT UNLOCKED", "PROCEED TO LEVEL 03", 2.4)
